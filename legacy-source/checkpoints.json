@@ -1,0 +1,56 @@
+[
+  {
+    "name": "klue",
+    "weight_file": "model.safetensors",
+    "bytes": 440140144,
+    "sha256": "74523acd66c826c32d9d34954b99e41667286dec3f1e027d708266a7591dd782",
+    "architecture": "RobertaForTokenClassification",
+    "labels": {
+      "0": "SUPPORTED",
+      "1": "HALLUCINATED"
+    },
+    "connection_status": "completed",
+    "required_files": [
+      "config.json",
+      "tokenizer.json",
+      "tokenizer_config.json",
+      "model.safetensors"
+    ]
+  },
+  {
+    "name": "xlmr",
+    "weight_file": "model.safetensors",
+    "bytes": 1109842416,
+    "sha256": "62c1cd41d8cbdb0472bea8ee4cc5888db3df80203a3cca9dd3ed1cb7844d0062",
+    "architecture": "XLMRobertaForTokenClassification",
+    "labels": {
+      "0": "SUPPORTED",
+      "1": "HALLUCINATED"
+    },
+    "connection_status": "completed",
+    "required_files": [
+      "config.json",
+      "tokenizer.json",
+      "tokenizer_config.json",
+      "model.safetensors"
+    ]
+  },
+  {
+    "name": "bgem3",
+    "weight_file": "model.safetensors",
+    "bytes": 2266877336,
+    "sha256": "8ac451a22ffbcbc25d121d9f4f3a4caac18f780692cb966fd2860c7d68314217",
+    "architecture": "XLMRobertaForTokenClassification",
+    "labels": {
+      "0": "SUPPORTED",
+      "1": "HALLUCINATED"
+    },
+    "connection_status": "completed",
+    "required_files": [
+      "config.json",
+      "tokenizer.json",
+      "tokenizer_config.json",
+      "model.safetensors"
+    ]
+  }
+]

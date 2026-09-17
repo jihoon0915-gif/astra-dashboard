@@ -1,0 +1,13 @@
+private/
+legacy-source/project-docs/
+runtime/
+downloads/
+__pycache__/
+*.py[cod]
+*.key
+.env
+.env.*
+*.zip
+*.webm
+*.log
+evidence/replay-mapping.json

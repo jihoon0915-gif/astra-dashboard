@@ -1,0 +1,138 @@
+[
+  {
+    "checkpoint": "klue",
+    "elapsed_seconds": 56.58,
+    "answer": "이 사업의 예산은 9억원이며 제출 마감은 7월 30일입니다.",
+    "result": {
+      "status": "completed",
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "quote": "이 사업",
+          "probability": 0.6474548578262329,
+          "label": "MODEL_SUSPECT",
+          "reason": "학습된 탐지기의 근거 불일치 의심 예측 · 확정 판정 아님"
+        },
+        {
+          "start": 6,
+          "end": 13,
+          "quote": "예산은 9억원",
+          "probability": 0.7862515449523926,
+          "label": "MODEL_SUSPECT",
+          "reason": "학습된 탐지기의 근거 불일치 의심 예측 · 확정 판정 아님"
+        },
+        {
+          "start": 23,
+          "end": 28,
+          "quote": "7월 30",
+          "probability": 0.6513025164604187,
+          "label": "MODEL_SUSPECT",
+          "reason": "학습된 탐지기의 근거 불일치 의심 예측 · 확정 판정 아님"
+        }
+      ],
+      "checked_ranges": [
+        [
+          0,
+          33
+        ]
+      ],
+      "unchecked_ranges": [],
+      "window_count": 1,
+      "threshold": 0.5,
+      "aggregation": "min",
+      "threshold_status": "configured_not_calibrated_on_procurement",
+      "offset_unit": "unicode_codepoint_end_exclusive",
+      "timing": "after_generation",
+      "segmentation": "nonoverlapping_answer_192_tokens_with_context_sliding_windows",
+      "model": {
+        "model_type": "roberta",
+        "weights_sha256": "74523acd66c826c32d9d34954b99e41667286dec3f1e027d708266a7591dd782",
+        "labels": {
+          "0": "SUPPORTED",
+          "1": "HALLUCINATED"
+        },
+        "input_format": "CLS + 질문/문서 + SEP + answer + SEP"
+      }
+    },
+    "offset_valid": true,
+    "purpose": "synthetic_connection_fixture_not_accuracy"
+  },
+  {
+    "checkpoint": "xlmr",
+    "elapsed_seconds": 88.58,
+    "answer": "이 사업의 예산은 9억원이며 제출 마감은 7월 30일입니다.",
+    "result": {
+      "status": "completed",
+      "spans": [],
+      "checked_ranges": [
+        [
+          0,
+          33
+        ]
+      ],
+      "unchecked_ranges": [],
+      "window_count": 1,
+      "threshold": 0.5,
+      "aggregation": "min",
+      "threshold_status": "configured_not_calibrated_on_procurement",
+      "offset_unit": "unicode_codepoint_end_exclusive",
+      "timing": "after_generation",
+      "segmentation": "nonoverlapping_answer_192_tokens_with_context_sliding_windows",
+      "model": {
+        "model_type": "xlm-roberta",
+        "weights_sha256": "62c1cd41d8cbdb0472bea8ee4cc5888db3df80203a3cca9dd3ed1cb7844d0062",
+        "labels": {
+          "0": "SUPPORTED",
+          "1": "HALLUCINATED"
+        },
+        "input_format": "CLS + 질문/문서 + SEP + answer + SEP"
+      }
+    },
+    "offset_valid": true,
+    "purpose": "synthetic_connection_fixture_not_accuracy"
+  },
+  {
+    "checkpoint": "bgem3",
+    "elapsed_seconds": 209.88,
+    "answer": "이 사업의 예산은 9억원이며 제출 마감은 7월 30일입니다.",
+    "result": {
+      "status": "completed",
+      "spans": [
+        {
+          "start": 24,
+          "end": 29,
+          "quote": "월 30일",
+          "probability": 0.715608537197113,
+          "label": "MODEL_SUSPECT",
+          "reason": "학습된 탐지기의 근거 불일치 의심 예측 · 확정 판정 아님"
+        }
+      ],
+      "checked_ranges": [
+        [
+          0,
+          33
+        ]
+      ],
+      "unchecked_ranges": [],
+      "window_count": 1,
+      "threshold": 0.5,
+      "aggregation": "min",
+      "threshold_status": "configured_not_calibrated_on_procurement",
+      "offset_unit": "unicode_codepoint_end_exclusive",
+      "timing": "after_generation",
+      "segmentation": "nonoverlapping_answer_192_tokens_with_context_sliding_windows",
+      "model": {
+        "model_type": "xlm-roberta",
+        "weights_sha256": "8ac451a22ffbcbc25d121d9f4f3a4caac18f780692cb966fd2860c7d68314217",
+        "labels": {
+          "0": "SUPPORTED",
+          "1": "HALLUCINATED"
+        },
+        "input_format": "CLS + 질문/문서 + SEP + answer + SEP"
+      }
+    },
+    "offset_valid": true,
+    "purpose": "synthetic_connection_fixture_not_accuracy"
+  }
+]

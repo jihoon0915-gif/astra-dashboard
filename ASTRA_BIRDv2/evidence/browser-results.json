@@ -1,0 +1,111 @@
+{
+  "results": [
+    {
+      "name": "four expressions at 1000ms",
+      "status": "passed",
+      "detail": [
+        {
+          "t": 1173.5999999940395,
+          "v": "1"
+        },
+        {
+          "t": 2190.5,
+          "v": "2"
+        },
+        {
+          "t": 3191.0999999940395,
+          "v": "3"
+        },
+        {
+          "t": 4190.29999999702,
+          "v": "0"
+        },
+        {
+          "t": 5191.39999999851,
+          "v": "1"
+        }
+      ]
+    },
+    {
+      "name": "cursor tracking",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "two desktop widths",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "input pause, IME, keyword zero results",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "map counts and accordion",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "wizard and budget validation",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "graph expansion and zoom",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "public replay, citations, structure at two sizes",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "attachment selection, disclosure, removal",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "unknown company and contact/reset",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "login dive returns to chat",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "L2 company notice example",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "L3 company notice example",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "reduced motion",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "logout clears private views",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "research key and reference separation",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "no runtime errors",
+      "status": "passed",
+      "detail": ""
+    }
+  ],
+  "errors": []
+}

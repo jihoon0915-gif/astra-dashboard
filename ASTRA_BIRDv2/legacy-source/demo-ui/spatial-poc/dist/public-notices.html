@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ASTRA · 실제 공고 탐색</title>
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@6.9.0/dist/maplibre-gl.css"><link rel="stylesheet" href="public-notices.css"></head>
+<body><header><a href="public-notices.html" class="brand">ASTRA <span>실제 공고 탐색</span></a><a href="rag-observatory.html">RAG 연결 구조 ↗</a><a href="index.html">기존 가상 공간 시연 ↗</a></header>
+<main><section class="directory" aria-label="공고 검색과 필터">
+<h1>정보시스템 구축·운영</h1><p class="subtitle">4~6월 표본 51건 · 회사가 아닌 발주 공고를 탐색합니다.</p>
+<form id="filters"><label>조건 언급 <small>필수 여부·충족 판정 아님</small><select id="condition"><option value="">모든 조건</option><option>지역</option><option>직접생산</option><option>공동수급</option><option>하도급</option><option>서비스 인증</option></select></label><label>공고·발주기관 검색<input id="query" type="search" placeholder="공고명, 기관명, 공고번호"></label>
+<fieldset><legend>사업금액 <small>공고정보 예산 · 억 원</small></legend><div class="range"><label>최소 이상<input id="min" type="number" min="0" step="any" placeholder="제한 없음"></label><label>최대 미만<input id="max" type="number" min="0" step="any" placeholder="제한 없음"></label></div>
+<div class="presets"><button type="button" data-range=",0.5">5천만원 미만</button><button type="button" data-range="0.5,1">5천만~1억</button><button type="button" data-range="1,3">1~3억</button><button type="button" data-range="3,">3억 이상</button></div></fieldset>
+<div class="row"><label>분야<select id="sector"><option value="">전체 분야</option></select></label><label>수집 월<select id="month"><option value="">전체 월</option><option>2026-04</option><option>2026-05</option><option>2026-06</option></select></label></div>
+<label>기관명에 표시된 지역<select id="region"><option value="">전체 지역</option><option value="미확인">위치 미확인</option></select></label>
+<div class="row"><label class="check"><input id="review" type="checkbox">요건 시트가 있는 공고만</label><button type="reset">필터 초기화</button></div>
+<p id="filter-error" role="alert"></p></form><p id="count" role="status" aria-live="polite">자료를 읽고 있습니다.</p><div id="bid-list"></div></section>
+<section class="map-panel" aria-label="기관 지역별 공고 지도"><div id="map"></div><div class="map-caption"><strong>지역별로 묶어 표시</strong><p>기관명에서 확인한 지역 대표점입니다.<br>실제 기관 주소·사업장·입찰 기업의 위치가 아닙니다.</p><p id="map-count"></p><div class="map-controls"><button id="overview" type="button">전국 보기</button><button id="map-light" type="button">야간 · NIGHT</button><button id="terrain-toggle" type="button" aria-pressed="true">3D 지형 ON</button></div></div><p id="map-status" role="status">지도를 준비하고 있습니다. 목록과 요건은 지도 없이도 조회할 수 있습니다.</p></section>
+<aside id="detail" aria-label="선택 공고 상세"><p>공고를 선택하면 요건과 검토 메모를 확인할 수 있습니다.</p></aside></main>
+<script src="reality-style.js"></script><script src="public-notices-core.js"></script><script src="public-notices.js"></script></body></html>

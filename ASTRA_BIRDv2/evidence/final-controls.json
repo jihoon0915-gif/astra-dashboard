@@ -1,0 +1,6 @@
+{
+  "copy": true,
+  "cancel": true,
+  "retry": true,
+  "final_orbit_alignment": true
+}

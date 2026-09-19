@@ -1,0 +1,78 @@
+[
+  {
+    "file": "boss-head-neutral.png",
+    "size": [
+      1363,
+      1154
+    ],
+    "mode": "RGBA",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "opaque_bbox": [
+      228,
+      142,
+      1157,
+      1013
+    ],
+    "sha256": "0a0d6e4b19951c2d2cf735fe455e98b3181e01b74bbd65f4f230144288aa3fdb"
+  },
+  {
+    "file": "boss-head-sad.png",
+    "size": [
+      1363,
+      1154
+    ],
+    "mode": "RGBA",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "opaque_bbox": [
+      227,
+      142,
+      1155,
+      1014
+    ],
+    "sha256": "87cf1633421cb88de1d619ccfa0cfcbeeeb26c82833249854a1196dd794ecbf8"
+  },
+  {
+    "file": "boss-head-smile.png",
+    "size": [
+      1363,
+      1154
+    ],
+    "mode": "RGBA",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "opaque_bbox": [
+      222,
+      129,
+      1156,
+      1015
+    ],
+    "sha256": "24e0fc42c2906e372ac629704d087e3cf8f7dc912610a99b4d06a7a174cc25a7"
+  },
+  {
+    "file": "boss-head-surprised.png",
+    "size": [
+      1363,
+      1154
+    ],
+    "mode": "RGBA",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "opaque_bbox": [
+      226,
+      140,
+      1156,
+      1016
+    ],
+    "sha256": "67dea7a7359fe55d9bd8606d885a584d2563d0420522a95058ce288b135b30c4"
+  }
+]

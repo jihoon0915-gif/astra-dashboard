@@ -1,0 +1,1479 @@
+{
+  "mode": "saved_replay",
+  "scope": "공개 L1 문서만; 권한 서버·실시간 추론 아님",
+  "stats": {
+    "documents": 223,
+    "chunks": 3275,
+    "security_documents": {
+      "L1": 167,
+      "L2": 34,
+      "L3": 22
+    },
+    "security_chunks": {
+      "L1": 3002,
+      "L2": 159,
+      "L3": 114
+    },
+    "questions": 300,
+    "generated": 295,
+    "denied": 5
+  },
+  "public_documents": [
+    {
+      "document_id": "L1-R26BK01415425-000-d1e61af4ee0bf2ae",
+      "bid_key": "R26BK01415425-000",
+      "filename": "(재공고서) 국립민속박물관 발간자료 웹서비스 확장 및 기능개선_0403.hwp",
+      "security_level": "L1",
+      "chunks": 9
+    },
+    {
+      "document_id": "L1-R26BK01415425-000-cf1e93396f051938",
+      "bid_key": "R26BK01415425-000",
+      "filename": "사업계획서.hwp",
+      "security_level": "L1",
+      "chunks": 21
+    },
+    {
+      "document_id": "L1-R26BK01415425-000-73cbf96b2bda78e6",
+      "bid_key": "R26BK01415425-000",
+      "filename": "제안요청서.hwp",
+      "security_level": "L1",
+      "chunks": 45
+    },
+    {
+      "document_id": "L1-R26BK01431532-000-13886ffde94cecf1",
+      "bid_key": "R26BK01431532-000",
+      "filename": "(입찰공고문)_2026년도 2분기_한국음악저작권협회_클라우드시스템_모니터링사업_2차 재공고.hwp",
+      "security_level": "L1",
+      "chunks": 1
+    },
+    {
+      "document_id": "L1-R26BK01431532-000-c7e43e3070b259e2",
+      "bid_key": "R26BK01431532-000",
+      "filename": "(제안요청서)_2026년도 2분기_한국음악저작권협회_클라우드시스템_모니터링사업.hwp",
+      "security_level": "L1",
+      "chunks": 13
+    },
+    {
+      "document_id": "L1-R26BK01434357-000-3ebd6d5f8c23c079",
+      "bid_key": "R26BK01434357-000",
+      "filename": "1._(입찰공고)_입학관리시스템 운영 용역_제2025-용역-13(재공고).hwp",
+      "security_level": "L1",
+      "chunks": 3
+    },
+    {
+      "document_id": "L1-R26BK01434357-000-625ad51b41d28cc1",
+      "bid_key": "R26BK01434357-000",
+      "filename": "2. 입시지원시스템제안요청서.hwp",
+      "security_level": "L1",
+      "chunks": 14
+    },
+    {
+      "document_id": "L1-R26BK01435344-000-ce0fd922ed726cf8",
+      "bid_key": "R26BK01435344-000",
+      "filename": "공정청렴특별유의서및협약서.hwp",
+      "security_level": "L1",
+      "chunks": 6
+    },
+    {
+      "document_id": "L1-R26BK01435344-000-d3ff09ab1c21a209",
+      "bid_key": "R26BK01435344-000",
+      "filename": "용역계약일반조건_23.12.29.hwp",
+      "security_level": "L1",
+      "chunks": 25
+    },
+    {
+      "document_id": "L1-R26BK01435344-000-b5b6f0c0b57f28c1",
+      "bid_key": "R26BK01435344-000",
+      "filename": "용역입찰유의서_23.12.29.hwp",
+      "security_level": "L1",
+      "chunks": 6
+    },
+    {
+      "document_id": "L1-R26BK01435344-000-94bad39d4609f3fc",
+      "bid_key": "R26BK01435344-000",
+      "filename": "입찰공고문(재공고).hwp",
+      "security_level": "L1",
+      "chunks": 5
+    },
+    {
+      "document_id": "L1-R26BK01435344-000-94a77a60a98228c8",
+      "bid_key": "R26BK01435344-000",
+      "filename": "제안요청서.hwp",
+      "security_level": "L1",
+      "chunks": 78
+    },
+    {
+      "document_id": "L1-R26BK01437827-000-8aaa073fef28b259",
+      "bid_key": "R26BK01437827-000",
+      "filename": "입찰공고서_국가 사이버 역량평가 도구 고도화.hwp",
+      "security_level": "L1",
+      "chunks": 7
+    },
+    {
+      "document_id": "L1-R26BK01437827-000-b9df58aba5c4601f",
+      "bid_key": "R26BK01437827-000",
+      "filename": "제안요청서_국가 사이버 역량평가 도구 고도화.hwp",
+      "security_level": "L1",
+      "chunks": 25
+    },
+    {
+      "document_id": "L1-R26BK01440737-000-b6281557e17a2b18",
+      "bid_key": "R26BK01440737-000",
+      "filename": "1. [제안요청서] 26년 부동산광고시장감시센터_관리시스템_기능개선_및_유지보수_260318.hwpx",
+      "security_level": "L1",
+      "chunks": 73
+    },
+    {
+      "document_id": "L1-R26BK01440737-000-524396a0663b2bfb",
+      "bid_key": "R26BK01440737-000",
+      "filename": "2. [입찰공고문-재공고] 26년 부동산광고감시센터 관리시스템 기능개선 및 유지보수_260403.hwpx",
+      "security_level": "L1",
+      "chunks": 6
+    },
+    {
+      "document_id": "L1-R26BK01440737-000-f8ed4c44b39a4279",
+      "bid_key": "R26BK01440737-000",
+      "filename": "3. [입찰공고문-재공고] 26년 부동산광고감시센터 관리시스템 기능개선 및 유지보수_260403.pdf",
+      "security_level": "L1",
+      "chunks": 4
+    },
+    {
+      "document_id": "L1-R26BK01440737-000-2fbe775ce2ea2f3a",
+      "bid_key": "R26BK01440737-000",
+      "filename": "4. 긴급입찰사유서_260403.hwp",
+      "security_level": "L1",
+      "chunks": 1
+    },
+    {
+      "document_id": "L1-R26BK01442409-000-00f88c71be789210",
+      "bid_key": "R26BK01442409-000",
+      "filename": "26-HS025 00. 제안요청서.hwp",
+      "security_level": "L1",
+      "chunks": 41
+    },
+    {
+      "document_id": "L1-R26BK01442409-000-90532f503ad66ee5",
+      "bid_key": "R26BK01442409-000",
+      "filename": "26-HS025 03. 입찰공고문(협상(SW)).pdf",
+      "security_level": "L1",
+      "chunks": 8
+    },
+    {
+      "document_id": "L1-R26BK01442409-000-1bba97ba33178149",
+      "bid_key": "R26BK01442409-000",
+      "filename": "4.KISTI 청렴계약특수조건 및 서약서.hwp",
+      "security_level": "L1",
+      "chunks": 3
+    },
+    {
+      "document_id": "L1-R26BK01442409-000-3e2a196837861d6f",
+      "bid_key": "R26BK01442409-000",
+      "filename": "공동수급 관련서류(공동이행방식).hwp",
+      "security_level": "L1",
+      "chunks": 2
+    },
+    {
+      "document_id": "L1-R26BK01442409-000-e425c8e197c93f58",
+      "bid_key": "R26BK01442409-000",
+      "filename": "5.KISTI 보안서약서.hwp",
+      "security_level": "L1",
+      "chunks": 1
+    },
+    {
+      "document_id": "L1-R26BK01442409-000-32681000c4979010",
+      "bid_key": "R26BK01442409-000",
+      "filename": "합의각서(공동수급).hwpx",
+      "security_level": "L1",
+      "chunks": 1
+    },
+    {
+      "document_id": "L1-R26BK01448046-000-2237c480301f0a8e",
+      "bid_key": "R26BK01448046-000",
+      "filename": "1. 입찰공고문_[재공고][2026 대학혁신지원사업] 세종대학교 원스탑지원시스템 유지보수 사업 용역 구매.pdf",
+      "security_level": "L1",
+      "chunks": 3
+    },
+    {
+      "document_id": "L1-R26BK01448046-000-ba9cb16d93402ad7",
+      "bid_key": "R26BK01448046-000",
+      "filename": "2. 입찰등록서식.hwp",
+      "security_level": "L1",
+      "chunks": 4
+    },
+    {
+      "document_id": "L1-R26BK01448046-000-9941e835ad1b0e19",
+      "bid_key": "R26BK01448046-000",
+      "filename": "3. 제안요청서.pdf",
+      "security_level": "L1",
+      "chunks": 12
+    },
+    {
+      "document_id": "L1-R26BK01448046-000-3873b26ef1fd0c84",
+      "bid_key": "R26BK01448046-000",
+      "filename": "4. 용역입찰유의서 및 계약일반조건.pdf",
+      "security_level": "L1",
+      "chunks": 11
+    },
+    {
+      "document_id": "L1-R26BK01465791-000-c71b73387303ff68",
+      "bid_key": "R26BK01465791-000",
+      "filename": "6. 입찰공고문(26.04.15.).hwp",
+      "security_level": "L1",
+      "chunks": 6
+    },
+    {
+      "document_id": "L1-R26BK01465791-000-dff8f6be276805db",
+      "bid_key": "R26BK01465791-000",
+      "filename": "5. 긴급입찰 사유서.hwp",
+      "security_level": "L1",
+      "chunks": 1
+    },
+    {
+      "document_id": "L1-R26BK01465791-000-eb4ff4b6036faf37",
+      "bid_key": "R26BK01465791-000",
+      "filename": "8. 간소화방식 과업내용 확정 심의결과서(2026년).pdf",
+      "security_level": "L1",
+      "chunks": 1
+    },
+    {
+      "document_id": "L1-R26BK01469220-000-a5663756426e7a0b",
+      "bid_key": "R26BK01469220-000",
+      "filename": "[붙임1] (입찰) 공고문.hwp",
+      "security_level": "L1",
+      "chunks": 6
+    },
+    {
+      "document_id": "L1-R26BK01469220-000-158d1add5a61076a",
+      "bid_key": "R26BK01469220-000",
+      "filename": "[붙임2] 과업지시서.hwpx",
+      "security_level": "L1",
+      "chunks": 46
+    },
+    {
+      "document_id": "L1-R26BK01469220-000-2a080caf396c1934",
+      "bid_key": "R26BK01469220-000",
+      "filename": "[붙임3] 제안요청서.hwp",
+      "security_level": "L1",
+      "chunks": 27
+    },
+    {
+      "document_id": "L1-R26BK01474723-000-308e9cc8fff4b12b",
+      "bid_key": "R26BK01474723-000",
+      "filename": "[전자서류 제출 관련 자료 1]★필독★「종이 없는 전자계약  계약」 서류 제출방법 안내.hwpx",
+      "security_level": "L1",
+      "chunks": 1
+    },
+    {
+      "document_id": "L1-R26BK01474723-000-d7d55f008f89e0f9",
+      "bid_key": "R26BK01474723-000",
+      "filename": "공고문(부산광역시 공고 제2026-1385) 스마트시티 통합플랫폼 유지관리용역) (2).hwp",
+      "security_level": "L1",
+      "chunks": 6
+    },
+    {
+      "document_id": "L1-R26BK01474723-000-006fb459fca21c72",
+      "bid_key": "R26BK01474723-000",
+      "filename": "공고문(부산광역시 공고 제2026-1385) 스마트시티 통합플랫폼 유지관리용역).pdf",
+      "security_level": "L1",
+      "chunks": 7
+    },
+    {
+      "document_id": "L1-R26BK01474723-000-7553e5b717a40050",
+      "bid_key": "R26BK01474723-000",
+      "filename": "과업지시서(부산광역시 스마트시티 통합플랫폼 유지관리용역).hwpx",
+      "security_level": "L1",
+      "chunks": 27
+    },
+    {
+      "document_id": "L1-R26BK01474723-000-56ddc6ecbbea4b59",
+      "bid_key": "R26BK01474723-000",
+      "filename": "[전자서류 제출 관련 자료 2]문서24_ 나라장터 가입안내문(계약상대자).hwpx",
+      "security_level": "L1",
+      "chunks": 1
+    },
+    {
+      "document_id": "L1-R26BK01476694-000-6bf0d2546a9ff33c",
+      "bid_key": "R26BK01476694-000",
+      "filename": "1. 전자입찰공고(협상).hwp",
+      "security_level": "L1",
+      "chunks": 5
+    },
+    {
+      "document_id": "L1-R26BK01476694-000-4ac0e4f3a547e712",
+      "bid_key": "R26BK01476694-000",
+      "filename": "2. 과업지시서(데이터연계시스템).hwp",
+      "security_level": "L1",
+      "chunks": 9
+    },
+    {
+      "document_id": "L1-R26BK01476694-000-abd556fa331300ba",
+      "bid_key": "R26BK01476694-000",
+      "filename": "3. 제안요청서(데이터연계시스템).hwp",
+      "security_level": "L1",
+      "chunks": 10
+    },
+    {
+      "document_id": "L1-R26BK01478467-000-dbad4cc0cf10da6f",
+      "bid_key": "R26BK01478467-000",
+      "filename": "공고문.hwp",
+      "security_level": "L1",
+      "chunks": 11
+    },
+    {
+      "document_id": "L1-R26BK01478467-000-1145af80b5212d50",
+      "bid_key": "R26BK01478467-000",
+      "filename": "과업내용서_농산업수출종합지원시스템 유지관리 및 고도화.hwp",
+      "security_level": "L1",
+      "chunks": 7
+    },
+    {
+      "document_id": "L1-R26BK01478467-000-11874311cf57e1ad",
+      "bid_key": "R26BK01478467-000",
+      "filename": "제안요청서(농산업수출종합지원시스템 유지관리 및 고도화)_수정.hwp",
+      "security_level": "L1",
+      "chunks": 44
+    },
+    {
+      "document_id": "L1-R26BK01481037-000-3297cd30a484100e",
+      "bid_key": "R26BK01481037-000",
+      "filename": "[공고문] 섬유소재 정보 제공 서비스 고도화 및 AI 검색 기능 도입.pdf",
+      "security_level": "L1",
+      "chunks": 2
+    },
+    {
+      "document_id": "L1-R26BK01481037-000-f6bce1d46faa354c",
+      "bid_key": "R26BK01481037-000",
+      "filename": "[별첨서류] 섬유소재 정보 제공 서비스 고도화 및 AI 검색 기능 도입.hwp",
+      "security_level": "L1",
+      "chunks": 3
+    },
+    {
+      "document_id": "L1-R26BK01481037-000-d10785fe8d7334b1",
+      "bid_key": "R26BK01481037-000",
+      "filename": "[제안요청서] 섬유소재 정보 제공 서비스 고도화 및 AI 검색 기능 도입.pdf",
+      "security_level": "L1",
+      "chunks": 2
+    },
+    {
+      "document_id": "L1-R26BK01487327-000-4bb8f527b6f4df16",
+      "bid_key": "R26BK01487327-000",
+      "filename": "260422과업지시서(아카이브시스템유지보수).hwp",
+      "security_level": "L1",
+      "chunks": 30
+    },
+    {
+      "document_id": "L1-R26BK01487327-000-2bd65a5562646286",
+      "bid_key": "R26BK01487327-000",
+      "filename": "260422입찰공고서(아카이브시스템유지보수).hwp",
+      "security_level": "L1",
+      "chunks": 4
+    },
+    {
+      "document_id": "L1-R26BK01487327-000-967ceaada41d70b7",
+      "bid_key": "R26BK01487327-000",
+      "filename": "260422제안요청서(아카이브시스템유지보수).hwp",
+      "security_level": "L1",
+      "chunks": 20
+    },
+    {
+      "document_id": "L1-R26BK01491524-000-ff03c8c704d3384a",
+      "bid_key": "R26BK01491524-000",
+      "filename": "공고서_섬유생산기업정보시스템 통합유지보수 수행기관 선정 입찰공고.pdf",
+      "security_level": "L1",
+      "chunks": 2
+    },
+    {
+      "document_id": "L1-R26BK01491524-000-40cbdf94b865b078",
+      "bid_key": "R26BK01491524-000",
+      "filename": "제안요청서_섬유생산기업정보시스템 통합유지보수 수행기관 선정.pdf",
+      "security_level": "L1",
+      "chunks": 26
+    },
+    {
+      "document_id": "L1-R26BK01497114-000-9ca63114555010ba",
+      "bid_key": "R26BK01497114-000",
+      "filename": "입찰유의서(상업용청소로봇).hwp",
+      "security_level": "L1",
+      "chunks": 1
+    },
+    {
+      "document_id": "L1-R26BK01497114-000-47a6b78a6f45214b",
+      "bid_key": "R26BK01497114-000",
+      "filename": "제안요청서(상업용청소로봇).hwp",
+      "security_level": "L1",
+      "chunks": 10
+    },
+    {
+      "document_id": "L1-R26BK01497114-000-2ee9032e9ff7e9c7",
+      "bid_key": "R26BK01497114-000",
+      "filename": "청렴계약이행각서.hwp",
+      "security_level": "L1",
+      "chunks": 2
+    },
+    {
+      "document_id": "L1-R26BK01497114-000-60bf0dc2657da2ea",
+      "bid_key": "R26BK01497114-000",
+      "filename": "입찰공고서(상업용청소로봇).hwp",
+      "security_level": "L1",
+      "chunks": 1
+    },
+    {
+      "document_id": "L1-R26BK01497114-000-d9530bca303e3227",
+      "bid_key": "R26BK01497114-000",
+      "filename": "입찰참가신청서(협상에 의한 계약).hwp",
+      "security_level": "L1",
+      "chunks": 1
+    },
+    {
+      "document_id": "L1-R26BK01501352-000-e3ef23f53f8fb25d",
+      "bid_key": "R26BK01501352-000",
+      "filename": "1. 입찰공고문_하천둔치주차장 관제시스템 구축 사업).hwp",
+      "security_level": "L1",
+      "chunks": 6
+    },
+    {
+      "document_id": "L1-R26BK01501352-000-7c0e75ad396e6eec",
+      "bid_key": "R26BK01501352-000",
+      "filename": "2. 제안요청서(하천둔치주차장 관제시스템 구축 사업).hwp",
+      "security_level": "L1",
+      "chunks": 50
+    },
+    {
+      "document_id": "L1-R26BK01501715-001-845720c30ca9d5a4",
+      "bid_key": "R26BK01501715-001",
+      "filename": "입찰공고서_2026년 국제 사이버 훈련 시각화 시스템 개발.hwp",
+      "security_level": "L1",
+      "chunks": 7
+    },
+    {
+      "document_id": "L1-R26BK01501715-001-58d1ee1c2092b487",
+      "bid_key": "R26BK01501715-001",
+      "filename": "제안요청서_2026년 국제 사이버 훈련 시각화 시스템 개발.hwp",
+      "security_level": "L1",
+      "chunks": 24
+    },
+    {
+      "document_id": "L1-R26BK01504777-000-ad3af49c6dd9a1bf",
+      "bid_key": "R26BK01504777-000",
+      "filename": "공고문(제2026-31호).hwp",
+      "security_level": "L1",
+      "chunks": 4
+    },
+    {
+      "document_id": "L1-R26BK01504777-000-026f943ce67c62cc",
+      "bid_key": "R26BK01504777-000",
+      "filename": "과업지시서_2026 경기도장애인체육회 홈페이지 유지보수 및 고도화 과업내용 및 제안요청서.hwp",
+      "security_level": "L1",
+      "chunks": 33
+    },
+    {
+      "document_id": "L1-R26BK01504777-000-f71ba84b33c52cfc",
+      "bid_key": "R26BK01504777-000",
+      "filename": "제안서 평가항목 및 배점표.hwp",
+      "security_level": "L1",
+      "chunks": 1
+    },
+    {
+      "document_id": "L1-R26BK01505476-000-a4686780ddd5ee12",
+      "bid_key": "R26BK01505476-000",
+      "filename": "입찰공고문_26K0039.hwp",
+      "security_level": "L1",
+      "chunks": 8
+    },
+    {
+      "document_id": "L1-R26BK01505476-000-b81b01796f0a6bcf",
+      "bid_key": "R26BK01505476-000",
+      "filename": "제안요청서_'26년 첨단로봇 실증지원 디지털 플랫폼 유지관리 용역(최종).hwp",
+      "security_level": "L1",
+      "chunks": 37
+    },
+    {
+      "document_id": "L1-R26BK01505744-000-5a1e6c08680c26d8",
+      "bid_key": "R26BK01505744-000",
+      "filename": "붙임 1. [공고문]글로벌특구인프라구축 EMS 개발 용역.hwp",
+      "security_level": "L1",
+      "chunks": 4
+    },
+    {
+      "document_id": "L1-R26BK01505744-000-977db6b66205b1a1",
+      "bid_key": "R26BK01505744-000",
+      "filename": "붙임 2. [제안요청서]글로벌특구인프라구축 EMS 개발 용역-260424.hwp",
+      "security_level": "L1",
+      "chunks": 14
+    },
+    {
+      "document_id": "L1-R26BK01505744-000-4eff91818809e0e7",
+      "bid_key": "R26BK01505744-000",
+      "filename": "붙임 3. [과업지시서]글로벌특구인프라구축 EMS 개발 용역.hwp",
+      "security_level": "L1",
+      "chunks": 14
+    },
+    {
+      "document_id": "L1-R26BK01508724-000-9c6403d327e25b37",
+      "bid_key": "R26BK01508724-000",
+      "filename": "1. 공고문_2026년 중소기업 전략기술로드맵 시스템 유지보수 및 기능개선.pdf",
+      "security_level": "L1",
+      "chunks": 9
+    },
+    {
+      "document_id": "L1-R26BK01508724-000-7fb2ab580f811e3c",
+      "bid_key": "R26BK01508724-000",
+      "filename": "2.  제안요청서_2026년 중소기업 전략기술로드맵 시스템 유지보수 및 기능개선 용역_최최종 (1).hwpx",
+      "security_level": "L1",
+      "chunks": 70
+    },
+    {
+      "document_id": "L1-R26BK01508724-000-fc60e3934f896b90",
+      "bid_key": "R26BK01508724-000",
+      "filename": "2. 제안요청서_2026년 중소기업 전략기술로드맵 시스템 유지보수 및 기능개선.pdf",
+      "security_level": "L1",
+      "chunks": 36
+    },
+    {
+      "document_id": "L1-R26BK01508724-000-7c206b79612a600c",
+      "bid_key": "R26BK01508724-000",
+      "filename": "3._상생결제제도_안내자료_리플렛.pdf",
+      "security_level": "L1",
+      "chunks": 1
+    },
+    {
+      "document_id": "L1-R26BK01511309-000-ef7b9f23f204b4de",
+      "bid_key": "R26BK01511309-000",
+      "filename": "공고문_2026년 TOMS 기능개선 및 유지관리 용역(한국농어촌공사 제2026-95호).hwp",
+      "security_level": "L1",
+      "chunks": 11
+    },
+    {
+      "document_id": "L1-R26BK01511309-000-1c63cb1a647da4b8",
+      "bid_key": "R26BK01511309-000",
+      "filename": "붙임 1. 2026 TOMS 기능개선 및 유지관리 용역 사업계획서.hwpx",
+      "security_level": "L1",
+      "chunks": 9
+    },
+    {
+      "document_id": "L1-R26BK01511309-000-cca1a47bbf50e96e",
+      "bid_key": "R26BK01511309-000",
+      "filename": "붙임 2. 2026 TOMS 기능개선 및 유지관리 용역 제안요청서_(최종).hwpx",
+      "security_level": "L1",
+      "chunks": 95
+    },
+    {
+      "document_id": "L1-R26BK01518315-000-feda0c95706b748c",
+      "bid_key": "R26BK01518315-000",
+      "filename": "별첨. 과업심의위원회.pdf",
+      "security_level": "L1",
+      "chunks": 1
+    },
+    {
+      "document_id": "L1-R26BK01518315-000-e6f876c2fe7daba0",
+      "bid_key": "R26BK01518315-000",
+      "filename": "붙임 일반공고문(원본).pdf",
+      "security_level": "L1",
+      "chunks": 6
+    },
+    {
+      "document_id": "L1-R26BK01518315-000-c702c9afd9d9567d",
+      "bid_key": "R26BK01518315-000",
+      "filename": "붙임 제안요청서(게시).hwpx",
+      "security_level": "L1",
+      "chunks": 102
+    },
+    {
+      "document_id": "L1-R26BK01518315-000-2269f907dad7358c",
+      "bid_key": "R26BK01518315-000",
+      "filename": "별첨 긴급입찰사유서.hwp",
+      "security_level": "L1",
+      "chunks": 1
+    },
+    {
+      "document_id": "L1-R26BK01518323-000-852886bfdf89f1a1",
+      "bid_key": "R26BK01518323-000",
+      "filename": "공고서(2026년 부산광역정신건강복지센터 홈페이지 재구축).pdf",
+      "security_level": "L1",
+      "chunks": 5
+    },
+    {
+      "document_id": "L1-R26BK01518323-000-c3cdf55e774fda9d",
+      "bid_key": "R26BK01518323-000",
+      "filename": "제안요청서(2026년 부산광역정신건강복지센터 홈페이지 재구축).hwp",
+      "security_level": "L1",
+      "chunks": 64
+    },
+    {
+      "document_id": "L1-R26BK01520501-000-4727be7a2594d403",
+      "bid_key": "R26BK01520501-000",
+      "filename": "(2026-29) 공고서(용역-2026년도 국립기상과학원 고성능 컴퓨팅(GPU) 서버 유지관리 용역)_적격심사.pdf",
+      "security_level": "L1",
+      "chunks": 10
+    },
+    {
+      "document_id": "L1-R26BK01520501-000-e5173c68f650bfad",
+      "bid_key": "R26BK01520501-000",
+      "filename": "과업내용서(2026년 국립기상과학원 GPU 유지관리 용역)_변경_수정.hwpx",
+      "security_level": "L1",
+      "chunks": 14
+    },
+    {
+      "document_id": "L1-R26BK01529533-000-3a24e0eca1747f86",
+      "bid_key": "R26BK01529533-000",
+      "filename": "2026년 서산시 데이터통합플랫폼 유지보수 용역 과업내용서.hwpx",
+      "security_level": "L1",
+      "chunks": 15
+    },
+    {
+      "document_id": "L1-R26BK01529533-000-b92dcff05e9bbd9f",
+      "bid_key": "R26BK01529533-000",
+      "filename": "공고문[2026년 서산시 데이터통합플랫폼 유지보수 용역].hwpx",
+      "security_level": "L1",
+      "chunks": 4
+    },
+    {
+      "document_id": "L1-R26BK01535546-000-30098fe2a1003915",
+      "bid_key": "R26BK01535546-000",
+      "filename": "★ 제안요청서.hwpx",
+      "security_level": "L1",
+      "chunks": 82
+    },
+    {
+      "document_id": "L1-R26BK01535546-000-2992ec2b2b3913e4",
+      "bid_key": "R26BK01535546-000",
+      "filename": "★공고문.hwpx",
+      "security_level": "L1",
+      "chunks": 4
+    },
+    {
+      "document_id": "L1-R26BK01538557-000-79791513d620e291",
+      "bid_key": "R26BK01538557-000",
+      "filename": "26-HS043 00. 제안요청서.hwp",
+      "security_level": "L1",
+      "chunks": 37
+    },
+    {
+      "document_id": "L1-R26BK01538557-000-281214dffc07879e",
+      "bid_key": "R26BK01538557-000",
+      "filename": "26-HS043 12. 입찰공고문(협상(SW)).pdf",
+      "security_level": "L1",
+      "chunks": 8
+    },
+    {
+      "document_id": "L1-R26BK01538557-000-1bba97ba33178149",
+      "bid_key": "R26BK01538557-000",
+      "filename": "4.KISTI 청렴계약특수조건 및 서약서.hwp",
+      "security_level": "L1",
+      "chunks": 3
+    },
+    {
+      "document_id": "L1-R26BK01538557-000-3e2a196837861d6f",
+      "bid_key": "R26BK01538557-000",
+      "filename": "공동수급 관련서류(공동이행방식).hwp",
+      "security_level": "L1",
+      "chunks": 2
+    },
+    {
+      "document_id": "L1-R26BK01538557-000-e425c8e197c93f58",
+      "bid_key": "R26BK01538557-000",
+      "filename": "5.KISTI 보안서약서.hwp",
+      "security_level": "L1",
+      "chunks": 1
+    },
+    {
+      "document_id": "L1-R26BK01538557-000-c5efbce00cc41b70",
+      "bid_key": "R26BK01538557-000",
+      "filename": "합의각서(공동수급).hwpx",
+      "security_level": "L1",
+      "chunks": 1
+    },
+    {
+      "document_id": "L1-R26BK01543875-000-726cd743214765eb",
+      "bid_key": "R26BK01543875-000",
+      "filename": "공고문(제2026-1776호)(2026년 음식점 외국어 메뉴판 제작 플랫폼 「부산올랭」 홈페이지 운영 및 유지·관리  용역).hwpx",
+      "security_level": "L1",
+      "chunks": 7
+    },
+    {
+      "document_id": "L1-R26BK01543875-000-d26254c91883adb0",
+      "bid_key": "R26BK01543875-000",
+      "filename": "공고문(제2026-1776호)(PDF).pdf",
+      "security_level": "L1",
+      "chunks": 8
+    },
+    {
+      "document_id": "L1-R26BK01543875-000-46ecd13bed8e09f5",
+      "bid_key": "R26BK01543875-000",
+      "filename": "과업지시서[2026년 음식점 외국어 메뉴판 제작 플랫폼 「부산올랭」 홈페이지 운영 및 유지·관리  용역].hwpx",
+      "security_level": "L1",
+      "chunks": 14
+    },
+    {
+      "document_id": "L1-R26BK01548452-000-d94308d00f27deb0",
+      "bid_key": "R26BK01548452-000",
+      "filename": "1. (입찰공고문) 「2026년 소망챗 고도화」.hwp",
+      "security_level": "L1",
+      "chunks": 7
+    },
+    {
+      "document_id": "L1-R26BK01548452-000-57cd356f46790fed",
+      "bid_key": "R26BK01548452-000",
+      "filename": "2. (제안요청서)「2026년 소망챗 고도화」.hwp",
+      "security_level": "L1",
+      "chunks": 44
+    },
+    {
+      "document_id": "L1-R26BK01548452-000-9b632a655c0ae6df",
+      "bid_key": "R26BK01548452-000",
+      "filename": "4. (양식) 청렴계약 당부서신 및 서약서 양식.hwp",
+      "security_level": "L1",
+      "chunks": 1
+    },
+    {
+      "document_id": "L1-R26BK01548452-000-7aa6d9d4ac63f7c6",
+      "bid_key": "R26BK01548452-000",
+      "filename": "6. (안전관리시행지침)안전관리계약특수조건 시행지침_20231019_rev.1.hwp",
+      "security_level": "L1",
+      "chunks": 11
+    },
+    {
+      "document_id": "L1-R26BK01548452-000-b091426fe2e75ae2",
+      "bid_key": "R26BK01548452-000",
+      "filename": "3. (긴급입찰사유서)「2026년 소망챗 고도화」.pdf",
+      "security_level": "L1",
+      "chunks": 1
+    },
+    {
+      "document_id": "L1-R26BK01548452-000-e88b298dbb15e992",
+      "bid_key": "R26BK01548452-000",
+      "filename": "5. (양식) 한국소비자원 퇴직자 영입 확인서 양식.hwp",
+      "security_level": "L1",
+      "chunks": 1
+    },
+    {
+      "document_id": "L1-R26BK01549747-000-127e596827fa4d9e",
+      "bid_key": "R26BK01549747-000",
+      "filename": "(공고문)강릉시 아동돌봄 통합 정보제공 플랫폼 운영 용역_최종.hwpx",
+      "security_level": "L1",
+      "chunks": 3
+    },
+    {
+      "document_id": "L1-R26BK01549747-000-f868bdca87f7fdfa",
+      "bid_key": "R26BK01549747-000",
+      "filename": "강릉시 아동 돌봄 통합정보제공 플랫폼 운영 제안요청서(운영).hwpx",
+      "security_level": "L1",
+      "chunks": 93
+    },
+    {
+      "document_id": "L1-R26BK01550466-000-18b1e631b31c81a1",
+      "bid_key": "R26BK01550466-000",
+      "filename": "1. 입찰공고문(변환본)_AI-OCR 기반 e-보고서 검수 자동화 사업.pdf",
+      "security_level": "L1",
+      "chunks": 8
+    },
+    {
+      "document_id": "L1-R26BK01550466-000-0788ee15400cf709",
+      "bid_key": "R26BK01550466-000",
+      "filename": "1. 입찰공고문(원본)_AI-OCR 기반 e-보고서 검수 자동화 사업.hwp",
+      "security_level": "L1",
+      "chunks": 8
+    },
+    {
+      "document_id": "L1-R26BK01550466-000-16b67acc6a18c5e8",
+      "bid_key": "R26BK01550466-000",
+      "filename": "2. 과업내용서(AI-OCR 기반 e-보고서 검수 자동화 사업).hwpx",
+      "security_level": "L1",
+      "chunks": 73
+    },
+    {
+      "document_id": "L1-R26BK01550466-000-f6c69c65e0f23a26",
+      "bid_key": "R26BK01550466-000",
+      "filename": "3. 제안요청서(AI-OCR 기반 e-보고서 검수 자동화 사업).hwpx",
+      "security_level": "L1",
+      "chunks": 88
+    },
+    {
+      "document_id": "L1-R26BK01550466-000-4fb6514189b5afd6",
+      "bid_key": "R26BK01550466-000",
+      "filename": "4. 청렴계약제.hwp",
+      "security_level": "L1",
+      "chunks": 5
+    },
+    {
+      "document_id": "L1-R26BK01550466-000-56a360deec28a3d6",
+      "bid_key": "R26BK01550466-000",
+      "filename": "★ 국토안전관리원 직원 사칭으로 인한 피해 주의 안내.pdf",
+      "security_level": "L1",
+      "chunks": 1
+    },
+    {
+      "document_id": "L1-R26BK01553185-000-8f73143a17bc2900",
+      "bid_key": "R26BK01553185-000",
+      "filename": "2026 혁신지원JOY사업 차세대 종합정보시스템 유지보수 용역(제안요청서)_최종_수정_20260518.hwp",
+      "security_level": "L1",
+      "chunks": 34
+    },
+    {
+      "document_id": "L1-R26BK01553185-000-79dbf51f4ebe15fa",
+      "bid_key": "R26BK01553185-000",
+      "filename": "2026-10 차세대 종합정보시스템 유지보수공고문_.pdf",
+      "security_level": "L1",
+      "chunks": 4
+    },
+    {
+      "document_id": "L1-R26BK01553217-000-97fb86912ed59b6e",
+      "bid_key": "R26BK01553217-000",
+      "filename": "2. 제안요청서(최종)(게시용).pdf",
+      "security_level": "L1",
+      "chunks": 20
+    },
+    {
+      "document_id": "L1-R26BK01553217-000-50f50d274d0558e7",
+      "bid_key": "R26BK01553217-000",
+      "filename": "3. 입찰공고문(최종)(게시용).pdf",
+      "security_level": "L1",
+      "chunks": 2
+    },
+    {
+      "document_id": "L1-R26BK01564087-000-df4355b8ff7bdf61",
+      "bid_key": "R26BK01564087-000",
+      "filename": "26-HS061 00. 제안요청서.hwpx",
+      "security_level": "L1",
+      "chunks": 66
+    },
+    {
+      "document_id": "L1-R26BK01564087-000-661cc1088ecc1f31",
+      "bid_key": "R26BK01564087-000",
+      "filename": "26-HS061 03. 입찰공고문(협상(SW)).pdf",
+      "security_level": "L1",
+      "chunks": 8
+    },
+    {
+      "document_id": "L1-R26BK01564087-000-1bba97ba33178149",
+      "bid_key": "R26BK01564087-000",
+      "filename": "4.KISTI 청렴계약특수조건 및 서약서.hwp",
+      "security_level": "L1",
+      "chunks": 3
+    },
+    {
+      "document_id": "L1-R26BK01564087-000-3e2a196837861d6f",
+      "bid_key": "R26BK01564087-000",
+      "filename": "공동수급 관련서류(공동이행방식).hwp",
+      "security_level": "L1",
+      "chunks": 2
+    },
+    {
+      "document_id": "L1-R26BK01564087-000-e425c8e197c93f58",
+      "bid_key": "R26BK01564087-000",
+      "filename": "5.KISTI 보안서약서.hwp",
+      "security_level": "L1",
+      "chunks": 1
+    },
+    {
+      "document_id": "L1-R26BK01564087-000-c5efbce00cc41b70",
+      "bid_key": "R26BK01564087-000",
+      "filename": "합의각서(공동수급).hwpx",
+      "security_level": "L1",
+      "chunks": 1
+    },
+    {
+      "document_id": "L1-R26BK01565865-000-e4e4467307918cc2",
+      "bid_key": "R26BK01565865-000",
+      "filename": "공고문_문서회계전산시스템 도입 및 기록물 DB구축.hwpx",
+      "security_level": "L1",
+      "chunks": 4
+    },
+    {
+      "document_id": "L1-R26BK01565865-000-8246c69cb409e6f6",
+      "bid_key": "R26BK01565865-000",
+      "filename": "과업지시서_문서회계전산시스템 도입 및 기록물 DB구축.hwp",
+      "security_level": "L1",
+      "chunks": 3
+    },
+    {
+      "document_id": "L1-R26BK01565865-000-cb10a032aa2b1f6b",
+      "bid_key": "R26BK01565865-000",
+      "filename": "제안요청서_문서회계전산시스템 도입 및 기록물 DB구축.hwp",
+      "security_level": "L1",
+      "chunks": 65
+    },
+    {
+      "document_id": "L1-R26BK01574547-000-451e527905f868dd",
+      "bid_key": "R26BK01574547-000",
+      "filename": "붙임1_입찰공고문_항공사 데이터 연계를 위한 클라우드컴퓨팅서비스 임대 용역.pdf",
+      "security_level": "L1",
+      "chunks": 4
+    },
+    {
+      "document_id": "L1-R26BK01574547-000-a18be783a219e51d",
+      "bid_key": "R26BK01574547-000",
+      "filename": "붙임2_제안요청서(항공사 데이터 연계를 위한 클라우드컴퓨팅서비스 임대).hwpx",
+      "security_level": "L1",
+      "chunks": 93
+    },
+    {
+      "document_id": "L1-R26BK01577397-000-6f28cb3f41f21a21",
+      "bid_key": "R26BK01577397-000",
+      "filename": "RUDAS 고도화 제안요청서 및 과업지시서_사전협의 수정.hwp",
+      "security_level": "L1",
+      "chunks": 33
+    },
+    {
+      "document_id": "L1-R26BK01577397-000-df48155ac0564d45",
+      "bid_key": "R26BK01577397-000",
+      "filename": "[입찰공고문]_KIOST 연구선 빅데이터 통합관리시스템(RUDAS) 고도화 용역.hwp",
+      "security_level": "L1",
+      "chunks": 7
+    },
+    {
+      "document_id": "L1-R26BK01579684-000-4dae6c033b172173",
+      "bid_key": "R26BK01579684-000",
+      "filename": "국립한밭대학교 학생종합경력관리시스템 기능 통합 구축 사업 입찰 공고문.hwp",
+      "security_level": "L1",
+      "chunks": 3
+    },
+    {
+      "document_id": "L1-R26BK01579684-000-70f4cc06cdf8a386",
+      "bid_key": "R26BK01579684-000",
+      "filename": "국립한밭대학교 학생종합경력관리시스템 기능 통합 구축 사업 제안요청서(사전규격공개의견반영).hwp",
+      "security_level": "L1",
+      "chunks": 39
+    },
+    {
+      "document_id": "L1-R26BK01580570-000-2f495858a3c9a1de",
+      "bid_key": "R26BK01580570-000",
+      "filename": "붙임1. 입찰공고문(긴급)_260616.pdf",
+      "security_level": "L1",
+      "chunks": 7
+    },
+    {
+      "document_id": "L1-R26BK01580570-000-2a58275e5618cf37",
+      "bid_key": "R26BK01580570-000",
+      "filename": "붙임2. 과업지시서_260616.pdf",
+      "security_level": "L1",
+      "chunks": 46
+    },
+    {
+      "document_id": "L1-R26BK01580570-000-e8d0a27ac3fb27bc",
+      "bid_key": "R26BK01580570-000",
+      "filename": "붙임3. 제안요청서_260616.hwp",
+      "security_level": "L1",
+      "chunks": 90
+    },
+    {
+      "document_id": "L1-R26BK01580570-000-07b66f39dcfbd769",
+      "bid_key": "R26BK01580570-000",
+      "filename": "제한경쟁사유서.pdf",
+      "security_level": "L1",
+      "chunks": 1
+    },
+    {
+      "document_id": "L1-R26BK01587385-000-68ee567b41f58c82",
+      "bid_key": "R26BK01587385-000",
+      "filename": "공고문(최종).hwp",
+      "security_level": "L1",
+      "chunks": 5
+    },
+    {
+      "document_id": "L1-R26BK01587385-000-86fa5eab827244f2",
+      "bid_key": "R26BK01587385-000",
+      "filename": "과업지시서.pdf",
+      "security_level": "L1",
+      "chunks": 3
+    },
+    {
+      "document_id": "L1-R26BK01587385-000-e8504aebf2462fc0",
+      "bid_key": "R26BK01587385-000",
+      "filename": "제안요청서(최종).pdf",
+      "security_level": "L1",
+      "chunks": 57
+    },
+    {
+      "document_id": "L1-R26BK01592548-000-2ba073c042c5d471",
+      "bid_key": "R26BK01592548-000",
+      "filename": "과업지시서(중요 비전자기록물 DB구축 5개년 사업-2년차).hwpx",
+      "security_level": "L1",
+      "chunks": 19
+    },
+    {
+      "document_id": "L1-R26BK01592548-000-723005033ab445b9",
+      "bid_key": "R26BK01592548-000",
+      "filename": "제안요청서(중요 비전자기록물 DB구축 5개년 사업-2년차)_수정.hwpx",
+      "security_level": "L1",
+      "chunks": 24
+    },
+    {
+      "document_id": "L1-R26BK01592548-000-398e9ccd53c3162b",
+      "bid_key": "R26BK01592548-000",
+      "filename": "중요 비전자기록물 DB구축 5개년 사업(2년차) 입찰 공고(협상의의한계약)_2026-109호.hwpx",
+      "security_level": "L1",
+      "chunks": 7
+    },
+    {
+      "document_id": "L1-R26BK01593644-000-7026fb66d76ccc3c",
+      "bid_key": "R26BK01593644-000",
+      "filename": "1.입찰공고문.pdf",
+      "security_level": "L1",
+      "chunks": 5
+    },
+    {
+      "document_id": "L1-R26BK01593644-000-9b7dbaefc2a36fe5",
+      "bid_key": "R26BK01593644-000",
+      "filename": "2.과업지시서.hwp",
+      "security_level": "L1",
+      "chunks": 19
+    },
+    {
+      "document_id": "L1-R26BK01593644-000-6f322cd0ece39ccb",
+      "bid_key": "R26BK01593644-000",
+      "filename": "3.제안요청서.hwp",
+      "security_level": "L1",
+      "chunks": 15
+    },
+    {
+      "document_id": "L1-R26BK01593644-000-a95a4d1b48cdc9ff",
+      "bid_key": "R26BK01593644-000",
+      "filename": "4.입찰참가신청양식.hwp",
+      "security_level": "L1",
+      "chunks": 8
+    },
+    {
+      "document_id": "L1-R26BK01595553-000-5d16f11ba91cf9c1",
+      "bid_key": "R26BK01595553-000",
+      "filename": "입찰공고문.hwp",
+      "security_level": "L1",
+      "chunks": 8
+    },
+    {
+      "document_id": "L1-R26BK01595553-000-4bf76d9de1692aaf",
+      "bid_key": "R26BK01595553-000",
+      "filename": "제안요청서.hwp",
+      "security_level": "L1",
+      "chunks": 38
+    },
+    {
+      "document_id": "L1-R26BK01595553-000-e105179ab5d88a92",
+      "bid_key": "R26BK01595553-000",
+      "filename": "퇴직자 근무현황 확인서.hwp",
+      "security_level": "L1",
+      "chunks": 1
+    },
+    {
+      "document_id": "L1-R26BK01599621-000-9f1cc1224ad4a15f",
+      "bid_key": "R26BK01599621-000",
+      "filename": "[붙임] 입찰유의서(드론용임무카메라).hwp",
+      "security_level": "L1",
+      "chunks": 1
+    },
+    {
+      "document_id": "L1-R26BK01599621-000-d7d271c3cafa59c3",
+      "bid_key": "R26BK01599621-000",
+      "filename": "[붙임] 제안요청서(드론용임무카메라).hwpx",
+      "security_level": "L1",
+      "chunks": 27
+    },
+    {
+      "document_id": "L1-R26BK01599621-000-2ee9032e9ff7e9c7",
+      "bid_key": "R26BK01599621-000",
+      "filename": "청렴계약이행각서.hwp",
+      "security_level": "L1",
+      "chunks": 2
+    },
+    {
+      "document_id": "L1-R26BK01599621-000-a75e37c20befd826",
+      "bid_key": "R26BK01599621-000",
+      "filename": "[붙임] 재공고입찰 공고서(드론용임무카메라).hwp",
+      "security_level": "L1",
+      "chunks": 1
+    },
+    {
+      "document_id": "L1-R26BK01599621-000-d9530bca303e3227",
+      "bid_key": "R26BK01599621-000",
+      "filename": "입찰참가신청서(협상에 의한 계약).hwp",
+      "security_level": "L1",
+      "chunks": 1
+    },
+    {
+      "document_id": "L1-R26BK01604996-000-05270afabdb2b4b1",
+      "bid_key": "R26BK01604996-000",
+      "filename": "과업지시서 충남형 계약학과 온라인 ESG 분석·평가 교육 시스템 개발 (2차).hwpx",
+      "security_level": "L1",
+      "chunks": 5
+    },
+    {
+      "document_id": "L1-R26BK01604996-000-003886877bdae87c",
+      "bid_key": "R26BK01604996-000",
+      "filename": "입찰 공고문 충남형 계약학과 온라인 ESG 분석·평가 교육 시스템 개발(2차).pdf",
+      "security_level": "L1",
+      "chunks": 4
+    },
+    {
+      "document_id": "L1-R26BK01604996-000-3c970206f616ed99",
+      "bid_key": "R26BK01604996-000",
+      "filename": "제안요청서 충남형 계약학과 온라인 ESG 분석·평가 교육 시스템 개발 (2차).hwpx",
+      "security_level": "L1",
+      "chunks": 30
+    },
+    {
+      "document_id": "L1-R26BK01605618-000-5fc0a50d45533973",
+      "bid_key": "R26BK01605618-000",
+      "filename": "2. 입찰공고문(2026년 동아보건대학교 대학 혁신을 위한 AI 스마트 캠퍼스 포털 고도화 사업_.hwp",
+      "security_level": "L1",
+      "chunks": 3
+    },
+    {
+      "document_id": "L1-R26BK01605618-000-d5a3ab742345a7d4",
+      "bid_key": "R26BK01605618-000",
+      "filename": "3. 제안요청서(2026년 동아보건대학교 대학 혁신을 위한 AI 스마트 캠퍼스 포털 고도화 사업).hwp",
+      "security_level": "L1",
+      "chunks": 40
+    },
+    {
+      "document_id": "L1-R26BK01605618-000-de3b89cb2213651c",
+      "bid_key": "R26BK01605618-000",
+      "filename": "입찰공고문(2026년 동아보건대학교 대학 혁신을 위한 AI 스마트 캠퍼스 포털 고도화 사업_.pdf",
+      "security_level": "L1",
+      "chunks": 3
+    },
+    {
+      "document_id": "L1-R26BK01607392-000-3b52f53fcf1f2e8e",
+      "bid_key": "R26BK01607392-000",
+      "filename": "붙임1-1. 자율차 주행환경 DB 및 시나리오 라이브러리 구축·고도화_입찰공고문(재공고)_260629.hwp",
+      "security_level": "L1",
+      "chunks": 2
+    },
+    {
+      "document_id": "L1-R26BK01607392-000-6ce8cbdfc1d1eb8c",
+      "bid_key": "R26BK01607392-000",
+      "filename": "붙임1-2. 자율차 주행환경 DB 및 시나리오 라이브러리 구축·고도화_과업지시서(재공고)_260629.pdf",
+      "security_level": "L1",
+      "chunks": 22
+    },
+    {
+      "document_id": "L1-R26BK01607392-000-94cd50bdbd6d5e50",
+      "bid_key": "R26BK01607392-000",
+      "filename": "붙임1-3. 자율차 주행환경 DB 및 시나리오 라이브러리 구축·고도화_제안요청서(재공고)_260629.hwp",
+      "security_level": "L1",
+      "chunks": 11
+    },
+    {
+      "document_id": "L1-R26BK01608743-000-e563093c07dfc208",
+      "bid_key": "R26BK01608743-000",
+      "filename": "1. 입찰공고문(변환본)_스마트 교량 플랫폼 구축(1차) 사업.pdf",
+      "security_level": "L1",
+      "chunks": 8
+    },
+    {
+      "document_id": "L1-R26BK01608743-000-53e98310f21c1ee3",
+      "bid_key": "R26BK01608743-000",
+      "filename": "1. 입찰공고문(원본)_스마트 교량 플랫폼 구축(1차) 사업.hwp",
+      "security_level": "L1",
+      "chunks": 8
+    },
+    {
+      "document_id": "L1-R26BK01608743-000-7b4d1936ae2b74a5",
+      "bid_key": "R26BK01608743-000",
+      "filename": "2. (수정)과업내용서.hwpx",
+      "security_level": "L1",
+      "chunks": 75
+    },
+    {
+      "document_id": "L1-R26BK01608743-000-329703be326a1821",
+      "bid_key": "R26BK01608743-000",
+      "filename": "3. (수정)제안요청서.hwpx",
+      "security_level": "L1",
+      "chunks": 96
+    },
+    {
+      "document_id": "L1-R26BK01608743-000-4fb6514189b5afd6",
+      "bid_key": "R26BK01608743-000",
+      "filename": "5. 청렴계약제.hwp",
+      "security_level": "L1",
+      "chunks": 5
+    }
+  ],
+  "cases": [
+    {
+      "id": "ASTRA-300-C01-N01-E1",
+      "bid": "R26BK01550466-000",
+      "question": "OCR 사용권을 구독료만으로 계획해도 되는가?",
+      "answer": "**판단**: OCR 사용권을 구독료만으로 계획해도 **불가**  \n**근거**: [2]에서 \"제안사는 본 사업에 소요되는 장비에서 사용할 장비 및 라이센스 등 사용권에 대한 향후 추가분에 대해 미리 예측하여 라이센스 비용 등 일체의 비용을 포함하여야 함\"에 따라, OCR 사용권은 **구독료만으로는 충분하지 않으며, 라이센스 비용을 미리 예측하고 포함해야 한다**는 규정이 명시되어 있음.  \n**유보사항**:  \n- [1]에서 \"AI-OCR 솔루션 (커스터마이징 포함) - 데이터 추출을 위한 OCR 및 AI 솔루션 각 1식 - 영구서버 라이선스 : 2cpu/16core 이상 적용\"에 따르면, OCR 솔루션은 **영구서버 라이선스**가 필요하며, 이는 **구독료만으로는 충분하지 않음**.  \n- [2]에서 \"제안사는 본 사업에 소요되는 장비에서 사용할 장비 및 라이센스 등 사용권에 대한 향후 추가분에 대해 미리 예측하여 라이센스 비용 등 일체의 비용을 포함하여야 함\"에 따라, **라이센스 비용을 미리 예측하고 포함해야 함**.  \n- **수치 및 단위**: OCR 솔루션 라이선스는 \"2cpu/16core 이상\" 적용, 단위는 \"core\"이며, 구독료만으로는 이에 해당하지 않음.  \n- **산식**: 라이선스 비용 = (2cpu/16core) × (단위: core) × (단가: 예상 금액).  \n- **근거 부족**: OCR 사용권이 구독료만으로 계획 가능한지에 대한 **구체적인 금액 또는 단가**가 제공되지 않아, **확정 불가**함.",
+      "answer_sha256": "41e83277bf5174c8cd5e96b8f6222468ecee8fc9eb4d7dee8082975b6c553d23",
+      "contexts": [
+        {
+          "chunk_id": "L1-R26BK01550466-000-f6c69c65e0f23a26-CH-00004",
+          "document_id": "L1-R26BK01550466-000-f6c69c65e0f23a26",
+          "document_version": "f6c69c65e0f23a26f852dd99f9c312ad542e3e7881feacdf261fcce057115459",
+          "filename": "3. 제안요청서(AI-OCR 기반 e-보고서 검수 자동화 사업).hwpx",
+          "text": "t)\nPMR-001\n과업수행 시 고려사항\n5\nPMR-002\n프로젝트 관리 방안\nPMR-003\n추진일정계획\nPMR-004\n작업장소 상호 협의\nPMR-005\n시스템 이관 및 인수인계\n프로젝트 지원 요구사항\n(Project Support Requirement)\nPSR-001\n교육계획 수립\n4\nPSR-002\n기술 이전\nPSR-003\n하자보수 일반\nPSR-004\n준수사항\n합계\n56 \n 3.2. 요구사항 상세\n 가. 장비 구성 요구사항\n요구사항 분류  장비 구성 요구사항 요구사항 고유번호  ECR-001 요구사항 명칭  AI-OCR 전용 인프라 구축 요구 사항 상세 설명 정의  AI-OCR 모델 학습 및 추론을 위한 최적화된 인프라 환경 구축 세부 내용  ◦ GPU서버 1EA,  AI-OCR 솔루션 1SET 도입     품목 규 격 수량 GPU 서버 GPU  서버 -  CPU 3.5GHz, 8Core, 2CPU Socket 이상  - MEM  256GB 이상, 동작속도 DDR5-6400 이상, 듀얼랭크 SSD : 480GB*2ea 이상 (속도6Gbps, 512e이상) GPU 장치(1EA), 서버 전용 제품 장착  ㆍ단정밀도 성능 : 117 TFLOPS 이상  ㆍRT 코어 성능 : 354 TFLOPS 이상  ㆍ초고속AI성능(FP4) : 3.7 PFLOPS 이상  ㆍMemory : 96GB GDDR7 with ECC 이상  ㆍMemory Interface : 512-bit 이상 Pqwer : Dual, 완전중복(1+1), 핫플러그 MHS PSU           3200W, 등급 Titanium 이상 기타 : 서버용샤시, 렉레일 포함, 서비스지원 36개월  이상. RHEL계열 LINUX(9.7버전권장) 설치 및  보안설정 지원, 장비 납품 및 설치, 보안설정 포함 1EA AI OCR 솔루션 AI-OCR 솔루션 (커스터마이징 포함) - 데이터 추출을 위한 OCR 및 AI 솔루션 각 1식 - 영구서버 라이선스 : 2cpu/16core 이상 적용 - 요구기능구현을 위한 AI 분석 및 학습 솔루션 포함 - RHEL 계열 LINUX 9.7버전 이상 호환 및 설치 지원 - 자세한 요구 조건은 기능요구사항 참조하여 지원 1SET   ◦  제안 요청한 규격 또는 용량은 기본(최소) 사양이므로 더 나은 사양 (구성) 및 수량을 제안할 수 있음  ◦  제안요청서의 구성요건과 제안사의 구성이 다를 경우 관리원의   요구사항을 충족하는 범위 내에서 다른 안을 제안할 수 있으며, 해당  구성안의 제안 사유 및 근거를 명확히 명시해야 함  ◦ 제안 제품별 선정사유(시장 점유율, 성능비교, 기능비교 등)를 제시 해야함 산출정보  제조사 정품확인 및 기술지원 보증서, 설치 및 납품 확인서, 라이선스확인서 관련요구사항  SFR 기능 요구사항 \n요구사항 분류\n 장비 구성 요구사항\n요구사항 고유번호\n ECR-001\n요구사항 명칭\n AI-OCR 전용 인프라 구축\n요구\n사항\n상세\n설명\n정의\n AI-OCR 모델 학습 및 추론을 위한 최적화된 인프라 환경 구축\n세부\n내용\n ◦ GPU서버 1EA,  AI-OCR 솔루션 1SET 도입\n",
+          "text_start": 5378,
+          "text_end": 6901,
+          "security_level": "L1",
+          "citation": 1,
+          "scope": "prompt_context"
+        },
+        {
+          "chunk_id": "L1-R26BK01550466-000-16b67acc6a18c5e8-CH-00032",
+          "document_id": "L1-R26BK01550466-000-16b67acc6a18c5e8",
+          "document_version": "16b67acc6a18c5e8100eabda06cb8496d691b1c82d3097d83f6f57a0d7117220",
+          "filename": "2. 과업내용서(AI-OCR 기반 e-보고서 검수 자동화 사업).hwpx",
+          "text": "성 지침 2.1 (과학기술정보통신부 고시)\n ◦ 개인정보보호를 위하여 개인정보보호법을 준수하여 시스템을 운영하여야 함\n  - 개인정보의 안전성 확보조치 기준 (개인정보보호위원회)\n  - 개인정보 암호화 조치 안내서 (개인정보보호위원회)\n  - 개인정보 영향평가 고시 및 해설서 (개인정보보호위원회)\n  - 개인정보 영향평가에 관한 고시 (개인정보보호위원회)\n  - 표준 개인정보보호지침 (개인정보보호위원회)\n산출정보\n관련요구사항\n요구사항 분류  제약사항 요구사항 고유번호  COR-004 요구사항 명칭  소유권 및 지식재산권 요구사항 요구 사항 상세 설명 정의  특허권 및 저작권 보호 등 정의 세부 내용  ◦ 계약목적물의 지식재산권은 관리원과 사업자가 공동으로 소유함을 원칙으로 하되 세부사항은 협의하여 결정  ◦  제안사는 사업을 수행함에 있어 제3자의 특허권 또는 저작권 등을  침해하지 않도록 철저히 관리하여야 함  ◦  제안사가 사업을 수행함에 있어 제3자의 특허권 또는 저작권 등을  침해하여 발생하는 모든 비용은 제안사의 부담으로 함  ◦  제안사는 납품한 장비의 설치 및 유지관리를 위하여 별도의 S/W를  사용할 경우 정품을 사용하여야 하고, 불법 S/W 사용으로 인한 모든 책임은 제안사가 져야 함  ◦ 제안사는 본 사업에 소요되는 장비에서 사용할 장비 및 라이센스 등 사용권에 대한 향후 추가분에 대해 미리 예측하여 라이센스 비용 등 일체의 비용을 포함하여야 함  ◦  행정기관 및 공공기관 정보시스템 구축‧운영지침 제60조 (계약목적물의  지식재산권 귀속 및 기술자료 임치)  및 계약예규 “용역계약일반조건” 제56조 (계약목적물의 지식재산권 귀속 등) 에 따라 본 사업에서 개발되어  재산권을 가지는 지식재산권은 주관기관과 상호협의 하에 결정하되,   발주기관 업무 (국가안전보장 등) 에 관련되어 개발된 소프트웨어, 시스템  등은 발주기관의 소유로 함 산출정보 관련요구사항 \n요구사항 분류\n 제약사항\n요구사항 고유번호\n COR-004\n요구사항 명칭\n 소유권 및 지식재산권 요구사항\n요구\n사항\n상세\n설명\n정의\n 특허권 및 저작권 보호 등 정의\n세부\n내용\n ◦ 계약목적물의 지식재산권은 관리원과 사업자가 공동으로 소유함을 원칙으로 하되 세부사항은 협의하여 결정\n ◦  제안사는 사업을 수행함에 있어 제3자의 특허권 또는 저작권 등을  침해하지 않도록 철저히 관리하여야 함\n ◦  제안사가 사업을 수행함에 있어 제3자의 특허권 또는 저작권 등을  침해하여 발생하는 모든 비용은 제안사의 부담으로 함\n ◦  제안사는 납품한 장비의 설치 및 유지관리를 위하여 별도의 S/W를  사용할 경우 정품을 사용하여야 하고, 불법 S/W 사용으로 인한 모든 책임은 제안사가 져야 함\n ◦ 제안사는 본 사업에 소요되는 장비에서 사용할 장비 및 라이센스 등 사용권에 대한 향후 추가분에 대해 미리 예측하여 라이센스 비용 등 일체의 비용을 포함하여야 함\n ◦  행정기관 및 공공기관 정보시스템 구축‧운영지침 제60조 (계약목적물의  지식재산권 귀속 및 기술자료 임치)  및 계약예규 “용역계약일반조건” 제56조 (계약목적물의 지식재산권 귀속 등) 에 따라 본 사업에서 개발되어  재산권을 가지는 지식재산권은 주관기관과 상호협의 하에 결정하되,   발주기관 업무 (국가안전보장 등) 에 관련되어 개발된 소프트웨어, 시스템  등은 발주기관의 소유로 함\n산출정보\n관련요구사항\n",
+          "text_start": 45350,
+          "text_end": 47013,
+          "security_level": "L1",
+          "citation": 2,
+          "scope": "prompt_context"
+        }
+      ],
+      "spans": [
+        {
+          "start": 623,
+          "end": 674,
+          "quote": "라이선스 비용 = (2cpu/16core) × (단위: core) × (단가: 예상 금액).",
+          "label": "UNSUPPORTED",
+          "reason": "사양은 가격의 비례 산식이나 단가를 정의하지 않는다."
+        }
+      ],
+      "quality_notes": [
+        "질문의 가능 여부와 단가 미제공을 혼동하는 마지막 유보는 사람 검토 필요"
+      ],
+      "human_approval": "pending",
+      "mode": "saved_replay"
+    },
+    {
+      "id": "ASTRA-300-C01-N07-E5",
+      "bid": "R26BK01587385-000",
+      "question": "장애 신고 후 방문과 복구 시간을 같은 시간으로 해석해도 되는가?",
+      "answer": "**판단**: 장애 신고 후 방문과 복구 시간을 같은 시간으로 해석할 수 없습니다.  \n**근거**: [1]에서 \"장애 발생 시 2시간 이내 방문 4시간 이내 복구를 원칙으로 한다.\"고 명시되어 있음.  \n**유보사항**: 장애 신고 후 방문과 복구 시간이 별도의 시간 기준을 가진다는 점을 고려할 필요가 있다. 방문과 복구는 분리된 시간 기준을 가진 것으로 해석되어야 한다.",
+      "answer_sha256": "35ef91b3f41266ce9cdc9632c428b6a8558a08d797436af6a7d9733e79ac08b3",
+      "contexts": [
+        {
+          "chunk_id": "L1-R26BK01587385-000-e8504aebf2462fc0-CH-00018",
+          "document_id": "L1-R26BK01587385-000-e8504aebf2462fc0",
+          "document_version": "e8504aebf2462fc0323e69c23cda8475069913526acb239eddc55a5f96798e44",
+          "filename": "제안요청서(최종).pdf",
+          "text": "용자, 관리자 등 교육대상 구분) - 교육일정, 교육장소, 교육내용, 교육교재에 관한 사항 - 시스템의 운영, 시스템 감시 및 보안, 비상복구 방법에 관한 사항◦ 교육훈련 계획에는 시스템 구축 및 운영상 필요하다고 판단되어 발주기관에서 관련 교육 요구할 수 있으며, 본 사업 수행 범위 내에서 적극 지원하여야 함산출정보◦ 교육계획서, 교육결과서요구사항 출처경상남도농업기술원 디지털농업연구센터\n[PDF page 37]\n- 37 -\n12) 유지관리 요구사항(MPR; Maintenance Project Requirement)요구사항 분류유지관리수행요구사항요구사항 고유번호MPR-001요구사항 명칭하자보수요구사항상세설명세부내용◦ 하자 보수 기간은 검수 완료 후 1년으로 한다.◦ 장애 발생 시 2시간 이내 방문 4시간 이내 복구를 원칙으로 한다.◦ 모든 납품 제품은 제조사 공급 확약서 및 기술 지원 확약서를 계약 후 10일 이내 제출하여야 한다.◦ 사업 완료 이전에 자산 물품 등록을 위한 조달청 물품 식별 번호를 제출하여야 한다산출정보◦기술지원확약서,라이센스,하자보증증서,조달청물품식별번호문서요구사항 출처경상남도농업기술원 디지털농업연구센터13) SW 사업정보 제출요구사항 분류SW 사업정보 제출요구사항 고유번호요구사항 명칭 SW 사업정보 제출\n요구사항상세설명세부내용\n◦「소프트웨어 진흥법 제46조」에 따라 해당 사업 수주자는 SW 사업정보(SW사업 수행 및 실적 정보) 데이터를 작성하여 제출하여야 함◦ SW사업정보 데이터 작성 및 제출에 관한 사항은 www.spir.kr 자료실의 ‘SW사업정보 저장소 데이터 제출 안내’ 문서를 참조토록 함◦ SW사업정보 데이터는 사업수행계획서 작성 시 단계별 산출물 리스트에 반드시 명시하도록 함◦ SW사업정보 중 기능점수 데이터의 작성을 위해 사업수행 인원 중 기능점수 측정 전문가를 포함토록 함요구사항 출처경상남도농업기술원 디지털농업연구센터\n[PDF page 38]\n- 38 -\n",
+          "text_start": 24395,
+          "text_end": 25357,
+          "security_level": "L1",
+          "citation": 1,
+          "scope": "prompt_context"
+        },
+        {
+          "chunk_id": "L1-R26BK01587385-000-e8504aebf2462fc0-CH-00003",
+          "document_id": "L1-R26BK01587385-000-e8504aebf2462fc0",
+          "document_version": "e8504aebf2462fc0323e69c23cda8475069913526acb239eddc55a5f96798e44",
+          "filename": "제안요청서(최종).pdf",
+          "text": "표서비스 구성\n ※ 상기 내용은 “계약상대자”의 제안내용에 따라 변경될 수 있으며 최적의 구성으로 제시해야 함2. 시스템 구성 현황(인프라)    ❍ 빅데이터 통합시스템 연계 및 활용 시스템 구성도(S/W, N/W, H/W 구성도 포함)는 국가정보보안 지침에 의거 조달청 나라장터 구매계약 웹페이지에 게시가 금지되어 생략하며, 시스템 구성도 및 각종 정보화 현황은 직접 방문하여 확인하여야 함\n\n[PDF page 7]\n- 7 -\n3. 상세요구사항  가. 요구사항 총괄표순서구 분 설 명 요구사항수1시스템 장비 구성요구사항(ECR; Equipment Comp -osition Requirement)목표사업수행을 위해 필요한 하드웨어 및 소프트웨어 등 도입내역에 대한 요구사항 기술12기능 요구사항(SFR; System Function Requirement)목표시스템이 반드시 수행하여야 하거나 목표시스템을 이용하여 사용자가 반드시 할 수 있어야 하는 기능(동작)에 대해 기술 113성능 요구사항(PER; Performance Requirement)목표시스템의 처리속도 및 시간, 처리량, 동적·정적용량, 가용성 등 성능에 대한 요구사항을 기술24인터페이스 요구사항(SIR; System Interface Requirement)목표시스템과 외부 세계 사이를 연결하는 시스템 인터페이스와 사용자 인터페이스에 대한 요건을 기술35데이터 요구사항(DAR; Data Requirement)목표 시스템의 서비스에 필요한 초기 자료 구축 및 데이터 변환을 위한 대상 및 DB 설계 등 데이터를 구축하기 위해 필요한 요건을 기술 46테스트 요구사항(TER; Test Requirement)구축된 시스템이 계획된 목표 대비 제대로 운영되는가를 테스트하고, 점검하기 위한 테스트 요구사항을 기술37보안요구사항(SER; Security Requirement)정보 자산의 기밀성과 무결성을 위해 목표시스템의 데이터 및 기능, 운영 접근을 통제하기 위한 요건을 기술58품질요구사항(QUR; Quality Requirement)목표사업의 원활한 수행 및 운영을 위해 관리가 필요한 품질 항목, 품질평가 대상 및 목표에 대한 요구사항 기술79 제약사항(COR; Constraint Requirement)기능, 비기능, 인터페이스, 데이터 요구사항 외에 시스템을 구축하기 위해 필요한 제약 및 요건을 기술510프로젝트 관리 요구사항(PMR; Project Mgmt. Requirement)프로젝트의 원활한 수행을 위한 관리방법 및 추진단계별 수행방안에 대한 요구사항을 기술511프로젝트 지원 요구사항(PSR; Project Support Requirement)앞서 제시한 요건 외에 프로젝트 수행 및 향후 지원을 위해 필요한 요구사항으로 표준화, 교육지원, 기술지원, 하자․유지보수, 프로젝트 팀원 요구사항 등이 해당함512유지관리 요구사항( M P R ;  M a i n t e n a n c e  P r o j e c t  R e q u i r e m e n t )유지관리 대상별로 장애관리, 변경관리, 성능관리, 백업·복구, 모니터링 등 운영·유지관리 방법을 구체적으로 명시하는 요구사항113SW 사업정보 제출발주금액 기준 1억원 이상인 경우)일 경우에 사업과 관련한 사업정보 데이터를 제출해야 한다는 내용1합      계 53※ 사업 내용의 변경은 과업변경절차에 따라 상호 협의하여 결정하며, 추가 제안 사항에 대해서는 별도 표시하여 추가 작성 가능\n[PDF page 8]\n- 8 -\n",
+          "text_start": 4632,
+          "text_end": 6346,
+          "security_level": "L1",
+          "citation": 2,
+          "scope": "prompt_context"
+        }
+      ],
+      "spans": [],
+      "quality_notes": [],
+      "human_approval": "pending",
+      "mode": "saved_replay"
+    },
+    {
+      "id": "ASTRA-300-C02-N41-E2",
+      "bid": "R26BK01553185-000",
+      "question": "경민대 본점 지역 범위에서 인천을 제외해도 되는가?",
+      "answer": "**판단**: 경민대학교 본점 지역 범위에서 인천을 제외해도 된다.  \n**근거**: [3] 공고문에서 \"본점의 소재지가 서울특별시 또는 경기도(인천광역시포함)에 소재한 업체\"가 입찰자격 조건이다. 이는 인천광역시를 포함하므로, 인천을 제외할 수는 없다.  \n**유보사항**: 공고문에서 인천광역시를 포함하는 것이 명시되어 있으므로, 인천을 제외하는 것은 자료상 불법적 조치로 간주된다. [3] \"본점의 소재지가 서울특별시 또는 경기도(인천광역시포함)에 소재한 업체\"라는 문장이 명시적으로 인천을 포함하고 있으므로, 인천을 제외하는 것은 자료상 근거가 없고, 법적·규정적 조치로 간주된다.",
+      "answer_sha256": "ae4e880e80b6dad1206adc74dbebccaf59fb761bf5659345196fd55697c8da15",
+      "contexts": [
+        {
+          "chunk_id": "L1-R26BK01553185-000-79dbf51f4ebe15fa-CH-00000",
+          "document_id": "L1-R26BK01553185-000-79dbf51f4ebe15fa",
+          "document_version": "79dbf51f4ebe15fa06c5d528dbca7f8b5c674daee6becc3f77263533833568a4",
+          "filename": "2026-10 차세대 종합정보시스템 유지보수공고문_.pdf",
+          "text": "[PDF page 1]\n제2026-10호 입찰 공고 『2026학년도 혁신지원JOY사업 차세대종합정보시스템 유지보수용역』에 대하여 국가를 당사자로 하는 계약에 관한 법률시행령 제33조의 규정에 의하여 다음과 같이 입찰 공고  합니다.1. 입찰에 부치는 사항                              가. 입찰건명 : 2026학년도 혁신지원JOY사업 차세대종합정보시스템 유지보수용역 나. 입찰방법 : 제한경쟁입찰, 총액입찰(세액포함) 다. 예가방식 : 단일예가 라. 기초금액 : 165,000,000원(세액포함) 마. 점수산출 : 가격 : 기술 = 10% : 90% (기술점수 하한선: 85% 76.5점 이상)  바. 낙찰방법 : [제안서 및 가격] 합산 최고점 업체 선정2. 입찰일정구분일시 장소입찰 공고2026. 06. 01.(월) 스타빌/나라장터/홈페이지입찰참가 신청2026. 06. 01.(월) 10:00 ~06. 16(화) 10:00스타빌입찰서 제출(투찰)2026. 06. 16.(화) 11:00 ~ 06. 16(화) 14:00스타빌제안서제출2026. 06. 05.(금) 10:00 ~06. 16(화) 10:00 효행관 2층 행정지원처 직접방문 제안서 8부. USB 1EA 개찰(입찰서 개봉)2026. 06. 16.(화) 15:00스타빌제안발표(기술평가)개별 통지 오프라인 진행 협상&계약제안발표 후 7일 이내 개별 통지스타빌 ※ 입찰참가신청, 입찰서제출, 개찰은 모두 경민대학교 전자조달시스템 스타빌에서 집행합니다.※ 입찰참가신청 기간 마감 후 서류 미비 발생 시 입찰 참여가 불가하므로, 가급적 마감 하루 전까지 신청접수를  완료하여 구비서류를  사전 검토받을 수  있도록 준비 바랍니다.  3. 입찰참가자격 가. 국가를 당사자로 하는 계약에 관한 법률 시행령 제12조 규정에 의한 자격을 갖추고 소정의      서류를 갖추어 입찰등록을 필한 자로, 동법 시행령 제76조에 의한 입찰참가자격 제한을 받지      아니한 자 나. 본점의 소재지가 서울특별시 또는 경기도(인천광역시포함)에 소재한 업체 다.“소프트웨어산업진흥법 제24조”에 의한 소프트웨어사업자(컴퓨터관련서비스 사업,       업종코드 1468)의 신고를 마친 사업자 라.「중소기업제품 구매촉진 및 판로지원에 관한 법률」 제9조제4항 본문 및 같은 법 시행규칙        제5조제3항에 따른 직접생산확인증명서*를 소지한 업체   * 중소기업자 간 경쟁제품 지정내역 분류는 정보시스템유지관리서비스(물품분류번호 8111189901)로        발행된 것으로 유효기간 내에 있어야 함.\n[PDF page 2]\n",
+          "text_start": 0,
+          "text_end": 1284,
+          "security_level": "L1",
+          "citation": 1,
+          "scope": "prompt_context"
+        },
+        {
+          "chunk_id": "L1-R26BK01553185-000-8f73143a17bc2900-CH-00009",
+          "document_id": "L1-R26BK01553185-000-8f73143a17bc2900",
+          "document_version": "8f73143a17bc2900dd572d82114a5fea94bb88549d025f98edf5405d4aa99422",
+          "filename": "2026 혁신지원JOY사업 차세대 종합정보시스템 유지보수 용역(제안요청서)_최종_수정_20260518.hwp",
+          "text": "의 학사행정․일반행정업무에 관련한 종합정보시스템 개발 실적을 보유한 사업자 \n  \n2 \n입찰시 유의사항 \n  □ 사업자로 선정된 용역업체가 보유하고 있는 특허권, 저작권, 상표권 및 기타 지적재산권 등의 침해가 발생하지 않도록 사업을 수행하며, 사업에 사용되더라도 이에 대한 권리를 사업 착수일 이후부터 경민대학교에 청구할 수 없음 \n  □ 제안서에 명시된 참여 인력은 발주기관의 승낙 없이 사업수행 중 임의로 교체할 수 없음 \n  □ 협상대상자 중 기술평가점수와 가격평가점수를 합한 점수가 1위인 제안사를 우선협상대상자로 선정하여 기타 지원조건 등을 협상함  ※ 동점인 경우 기술점수가 높은, 기술점수가 동일 한 경우 배점항목이 큰 점수가 높은자를 우선순위를 결정함 \n  □ 협상대상자와 협상이 모두 결렬되면 재공고입찰을 추진함 \n  □ 제안내용의 전부 또는 일부에 대하여 담합한 사실이 발견되거나 담합하였다고 판단되는 경우에는 관련 규정에 따라 처리함 \n  □ 제안요청서 및 제안서의 내용에 대한 해석상의 문제가 있거나, 기타 규정되지 않은 사항은 상호협의하여 결정함 \n  \n3 \n평가방법 및 협상 \n  □ 평가방법 \n○『행정기관 및 공공기관 정보시스템 구축·운영 지침 제18조』에 의거 기술평가(90)과 가격평가(10점)를 종합적으로 평가함 \n○ 종합평가점수(100) = 기술평가점수(90) + 가격평가점수(10) 기술평가(90점), 가격평가(10점) 점수 합산 후 고득점순으로 협상에 의한 계약 우선순위 결정(단, 품질보장을 위해 기술평가분야 배점 한도의 85%(76.5)미만 업체는 협상대상에서 제외) \n○ 동점처리 방침 \n- 종합평가 점수가 동일 업체일 경우 기술평가 점수가 높은 업체를 선정한다. \n- 기술평가 점수도 동일 업체일 경우 평가항목의 배점점수가 높은 점수를 획득한 업체를 선정한다. \n- 평가점수는 소수점 이하 셋째 자리에서 반올림한다. \n  □ 우선 협상대상자 선정 및 협상 순서 \n  ○ 기술평가 점수가 기술평가분야 배점한도의 85%(76.5점)점 이상인 업체를 협상적격자로 선정 하되 협상적격자가 없는 경우 재공고 입찰에 부칠 수 있다. \n  ○ 협상순서는 종합평가 점수가 고득점순에 의하여 결정한다. \n  ○ 종합평가 점수가 동점일 경우 동점처리 방침에 따라 협상 순서 결정한다. \n  ○ 모든 협상적격자와 협상 결렬 시 재공고 입찰에 부칠 수 있다. \n  ○ 협상방법 및 기준 - 협상대상자가 제안한 사업내용, 이행방법, 이행일정, 제안가격 등 제안서의 내용을 대상으로 협상을 시행하여 필요한 경우 그 내용의 일부를 조정 가능하다. - 가격협상에서는 본 사업의 예산 이하로 협상 대상자가 제안한 가격이 기준가격이 된다. - 협상 대상자가 제안한 내용을 가감하는 경우에는 가감내용에 상당하는 금액을 사업예산 범위 내에서 조정 가능. 다만, 제안요청 시 포함되지 않았으나 우리대학의 협상요구에 따라 증가하는 사업범위에 대해서는 사업예산의 범위 내에서 이에 해당하는 원가반영이 가능하다. - 기술 평가기준 및 평가방법, 배점은 소프트웨어기술성평가기준 [과학기술정보통신부 고시 제2018-83호(2018.11.21. 일부 개정)]을 준용하되 우리 대학의 여건에 따라 조정 적용할 수 있다. - 제안서 평가결과의 세부내용은 공개하지 않는다. - 제안서 평가 세부기준(평가배점 포함) 및 결과는 비공개로 하며, 종합평가결과 동점자 발생 시 기술평가점수의 순서에 따라 우선 협상대상자를 정하고 기술평가 점수가 같은 경우 기술평가 배점이 큰 평가 항목에서 높은 점수를 얻은 자로 한다. - 평가위원 명단은 공개하지 않으며 제안업체는 평가결과에 대하여 이의를 제기할 수 없다. \n  \n4 \n",
+          "text_start": 13847,
+          "text_end": 15643,
+          "security_level": "L1",
+          "citation": 2,
+          "scope": "prompt_context"
+        }
+      ],
+      "spans": [
+        {
+          "start": 25,
+          "end": 37,
+          "quote": "인천을 제외해도 된다.",
+          "label": "CONTRADICTION",
+          "reason": "입력은 서울·경기(인천 포함)를 명시한다."
+        },
+        {
+          "start": 48,
+          "end": 51,
+          "quote": "[3]",
+          "label": "CITATION_ERROR",
+          "reason": "실제 프롬프트의 인용 번호는 1, 2뿐이다."
+        },
+        {
+          "start": 187,
+          "end": 216,
+          "quote": "인천을 제외하는 것은 자료상 불법적 조치로 간주된다.",
+          "label": "UNSUPPORTED",
+          "reason": "공고의 참가조건과 법적 위법성 확정은 다르다."
+        },
+        {
+          "start": 217,
+          "end": 220,
+          "quote": "[3]",
+          "label": "CITATION_ERROR",
+          "reason": "실제 프롬프트의 인용 번호는 1, 2뿐이다."
+        },
+        {
+          "start": 313,
+          "end": 329,
+          "quote": "법적·규정적 조치로 간주된다.",
+          "label": "UNSUPPORTED",
+          "reason": "해당 효과를 설명하는 근거가 없다."
+        }
+      ],
+      "quality_notes": [
+        "존재하지 않는 인용번호 [3]"
+      ],
+      "human_approval": "pending",
+      "mode": "saved_replay"
+    },
+    {
+      "id": "ASTRA-300-C03-N48-E1",
+      "bid": "R26BK01605618-000",
+      "question": "동아보건대의 공고 마감을 메타데이터만 보고 고정해도 되는가?",
+      "answer": "**판단**: 동아보건대의 공고 마감을 메타데이터만 보고 고정해도 **사전에 고정할 수는 없습니다**.  \n**근거**: 공고문에 명시된 공고기간은 **2026. 06. 29.(월) ~ 08. 10.(월) 10:00**이며, 이는 **입찰참가등록 및 제안서 제출**의 마감일로 명시되어 있습니다. [1]  \n**유보사항**:  \n- 공고문에 명시된 **마감일**은 **2026년 8월 10일 10:00**이며, 이는 **메타데이터**로만 판단할 수 있는 **실제 일시**로 고정되어야 합니다.  \n- **공고기간**은 **2026년 6월 29일부터 8월 10일 10:00까지**로 명시되어 있으며, 이는 **입찰참가 등록 및 제안서 제출**의 **최종 마감일**로 명시되어 있습니다.  \n- **공고문에 명시된 일시**는 **실제 일정**이며, **메타데이터**로만 판단할 수 있습니다.  \n- **입찰참가 등록 및 제안서 제출**의 **마감일**은 **2026년 8월 10일 10:00**이며, 이는 **입찰참가가 불가능한 일시**로 고정되어야 합니다.  \n- **공고기간**은 **2026년 6월 29일부터 8월 10일 10:00까지**로 명시되어 있으며, 이는 **입찰참가가 가능하다는 의미**로 고정되어 있습니다.  \n- **입찰참가가 불가능한 일시**는 **2026년 8월 10일 10:00**이며, 이는 **메타데이터**로만 판단할 수 있습니다.  \n- **입찰참가 등록 및 제안서 제출**의 **마감일**은 **2026년 8월 10일 10:00**이며, 이는 **입찰참가가 불가능한 일시**로 고정되어 있습니다.  \n- **공고기간**은 **2026년 6월 29일부터 8월 10일 10:00까지**로 명시되어 있으며, 이는 **입찰참가가 가능하다는 의미**로 고정되어 있습니다.  \n- **입찰참가가 불가능한 일시**는 **2026년 8월 10일 10:00**이며, 이는 **메타데이터**로만 판단할 수 있습니다.  \n- **공고기간**은 **2026년 6월 29일부터 8월 10일 10:00까지**로 명시되어 있으며, 이는 **입찰참가가 가능하다는 의미**로 고정되어 있습니다.  \n- **입찰참가가 불가능한 일시**는 **2026년 8월 10일 10:00**이며, 이는 **메타데이터**",
+      "answer_sha256": "2fde01508c19785503c3c7b726c5a7081b499e4e2505e7e19e0e1389df6895d5",
+      "contexts": [
+        {
+          "chunk_id": "L1-R26BK01605618-000-d5a3ab742345a7d4-CH-00024",
+          "document_id": "L1-R26BK01605618-000-d5a3ab742345a7d4",
+          "document_version": "d5a3ab742345a7d49c508b289223139250008af2002c0bb89591920454b66e9f",
+          "filename": "3. 제안요청서(2026년 동아보건대학교 대학 혁신을 위한 AI 스마트 캠퍼스 포털 고도화 사업).hwp",
+          "text": "6. 08. 10.(월) 10:00 \n입찰 참가자 등록 \n조달청 나라장터(G2B) 전자입찰 \n제안발표회 \n  2026. 08. 12.(수) 15:00 \n장소 : 온라인(MS Teams) 미팅 \n발표 순서 : 제안서 접수 순서 \n협상대상자  \n선정 및 통보 \n심사 이후 별도 통보 \n협상 대상자 선정 후 개별 통보 \n※ 위 일정은 대학의 사정에 따라 변경될 수 있으며 변경 시 개별 통지합니다. \n□ 입찰참가등록 및 제안서 제출 \n  ㅇ 공고기간 : 2026. 06. 29.(월) ~ 08. 10.(월) 10:00 까지 \n  ㅇ 입찰 또는 개찰의 일시와 장소 \n    - 전자입찰(가격입찰, 제안발표회 자료) 제출기간 \n                 : 2026. 06. 29.(월) ~ 08. 10.(월) 10:00 까지 \n    - 개찰일시 및 장소 : 제안발표회 후 대학혁신지원사업 담당자 PC \n    ※ 본 입찰의 가격입찰 및 제안발표회 자료는 나라장터에 의한 전자입찰로만 가능하며 가격입찰과 제안발표회 자료를 모두 제출한 입찰만 유효합니다. \n  ㅇ 제안서 평가위원회 개최 \n    - 일시/장소 : 2026. 08. 12.(수) 15:00 온라인(MS Teams) 미팅 \n    - 발표순서 : 제안서 접수순 \n    - 참 가 자 : 각 업체별 2명 이내로 제한 \n    - 방    법 : 프리젠테이션 발표(총 15분) \n     \n· 제출마감일까지 제출한 PT용 파일 사용    ※제출 후 수정 불가 \n· 제안설명은 발표 10분, 질의응답 5분 내외로 함 \n· 제안 발표회에 미참여 시 정성 평가항목 ‘0’점 처리 \n· 발표자 및 참여자 인정사항   \n· 발표자 및 참여자는 공고일 기준 제안사 임‧직원이어야 하며, 발표 당일까지 증빙서류 제출 필수 \n  ※ 발표자의 경우 제안서 제출 시 표기된 사업책임자가 설명하여야 함 \n  ※ 증빙서류: 재직증명서 및 4대보험 가입내역서 등 재직을 확인할 수 있는 서류 \n  ㅇ 유의사항 \n    - 가격입찰은 나라장터에 의한 전자입찰로만 가능 \n    - 입찰자가 면세사업자인 경우 입찰금액은 반드시 부가가치세를 포함해 투찰해야 하며, 입찰 결과 낙찰자가 면세사업자인 경우 낙찰금액에서 부가가치세 상당액을 차감한 금액을 계약금액으로 함 \n2. 제안발표회 평가 관련 사항 \n□ 제안발표회 평가 \n  ㅇ 종합평가점수(100%) = 기술능력평가(90%) + 입찰가격평가(10%) \n    - 제안서 평가는 기술능력(90%)과 입찰가격(10%)을 종합적으로 평가 \n    - 기술능력평가(90점)와 가격평가(10점) 및 신인도(가점)을 합산하여 고득점 순으로 우선 협상 대상자 선정 \n      * 기술능력평가점수가 배점한도의 85%미만인 응찰자는 협상대상에서 제외 \n      ** 기획재정부(계약예규) ｢협상에 의한 계약체결기준｣ 입찰가격 평점산식에 따름 \n□ 제안발표회 평가방법 \n  ㅇ 정성 평가(50점)는 제안 평가위원들이 평가하며, 최상위 점수와 최하위 점수를 제외한 후 산술평균하여 산정함 \n    ※ 최상위/최하위 점수가 2개 이상인 경우 1개만 제외, 소수점 다섯째 자리에서 반올림 \n  ㅇ 제안발표회 평가결과 기술능력 평가 점수가 기술능력 평가분야  배점한도의 85% 이상인 자를 협상적격자로 선정하되, 협상순위는 고득점 순에 따라 정함 \n  ㅇ 합산점수가 동일한 제안자가 2인 이상일 경우에는 기술능력 평가점수가 높은 제안자를 선순위자로 하고, 기술능력 평가 점수도 동일한 경우에는 추첨으로 정한다. \n  ㅇ 협상적격자 중 기술평가점수와 가격평가접수를 합한 점수가 1위인 제안사를 우선협상대상자로 선정하여 기타 지원조건 등을 협상함 \n",
+          "text_start": 36820,
+          "text_end": 38614,
+          "security_level": "L1",
+          "citation": 1,
+          "scope": "prompt_context"
+        },
+        {
+          "chunk_id": "L1-R26BK01605618-000-d5a3ab742345a7d4-CH-00004",
+          "document_id": "L1-R26BK01605618-000-d5a3ab742345a7d4",
+          "document_version": "d5a3ab742345a7d49c508b289223139250008af2002c0bb89591920454b66e9f",
+          "filename": "3. 제안요청서(2026년 동아보건대학교 대학 혁신을 위한 AI 스마트 캠퍼스 포털 고도화 사업).hwp",
+          "text": " 편의를 위하여 브라우저의 앞, 뒤 및 페이지의 이동 기능을 고려하여 구축 \n   - 모든 원본 이미지를 관리자 편집 없이 모바일 단말기에서 효과적으로 리사이징(resizing)하여 표현 \n   - 모바일 서비스를 통해 제공되는 콘텐츠는 PC기반의 웹사이트를 통해서도 현행화 된 정보가 동일하게 서비스 되어야 함 \n   - 홈페이지 콘텐츠가 스마트폰 등 휴대용 무선인터넷 기기 등에서 운영될 수 있도록 모바일 서비스 기능 제공 \n   - 모바일 기기의 OS 및 브라우저에 제약이 없는 홈페이지 구축 \n   - 웹 표준(국제표준인 W3C)을 준수하고 웹 접근성을 준수하여 구축 \n   - IT 기기 성능, 화면 등의 제약사항을 고려하여 이용자 친화적 화면 UI 구성 \n   - 반응형 웹 구축 시, 모바일 전자정부 서비스 관리 지침(행정안전부예규 제243호, 2023. 5. 8.)을 준수하여 구축 \n산출정보 \n  \n요구사항 번호 \nSFR-003 \n요구사항 명 \n대표 홈페이지 고도화 \n요구사항 분류 \n기능 요구사항 \n상세 \n설명 \n정의 \n대표 홈페이지 고도화 \n세부 \n내용 \n○ 사용자의 정보접근성을 강화할 수 있도록 정보구조를 재설계 \n○ 사용자 이용현황을 분석하여 운영목적 및 선호도 높은 메뉴를 고려하여 정보구조(메뉴구조) 개편  \n○ CMS 관리 기능 구축을 통해 편리한 웹사이트 관리환경 제공  \n○ 디자인 시안 구성 시 대학의 특성 및 대표 홈페이지 정보를 고려한 효율적인 UI(UX)환경이 될 수 있도록 제시 \n   - 통합 스타일 가이드 반영, 홈페이지 디자인 개선을 추진하며 홈페이지 및 연계 사이트의 일관성 유지 \n   - 사용자가 자주 찾는 주요 정보를 분석하여 메인 도출항목 선정 및 디자인 설계 \n   - 디자인은 동아보건대의 아이덴티티, 최신 트렌드, 사용성을 고려하여 재구성 \n   - 콘텐츠 접근성 향상을 위한 효율적인 내비게이션 및 UI요소 개발 \n   - 디자인 요소와 콘텐츠 요소를 분리하여 디자인 변경 및 유지관리가 용이하도록 구현 \n   - 시안 2종 제시 및 수요기관에서 선택한 1종을 대상으로 최종 구현  \n○ 현행화된 대학 정보를 반영하여 기존 제공 중인 콘텐츠 리뉴얼 \n산출정보 \n  \n요구사항 번호 \nSFR-004 \n요구사항 명 \n입학 홈페이지 고도화 \n요구사항 분류 \n기능 요구사항 \n상세 \n설명 \n정의 \n입학 홈페이지 고도화 \n세부 \n내용 \n○ 입학 및 학사정보 등 접근성 향상을 위한 정보구조 재설계 \n○ 입학 홈페이지의 역할 및 제공 정보를 효율적으로 안내할 수 있도록 디자인 시안 구성  \n   - 기존 입학 시스템 UI/UX 통합 \n     .www.duh.ac.kr/iphak/main.htm \n     .apply.duh.ac.kr .webapply.duh.ac.kr \n   - 디자인은 동아보건대학교의 아이덴티티, 최신 트렌드, 사용성을 고려하여 재구성 \n   - 콘텐츠는 입학지원자 통합시스템(webapply.duh.ac.kr)과 통일성을 유지하여 구성한다. \n   - 현행 동아보건대학교 입학홈페이지 제공 콘텐츠를 분석하여 사용자가 자주 찾는 주요 정보를 중심으로 메인 도출항목 선정 및 디자인 설계 \n   - 콘텐츠 접근성 향상을 위한 효율적인 내비게이션 및 UI요소 개발 \n   - 디자인 요소와 콘텐츠 요소를 분리하여 디자인 변경 및 유지관리가 용이하도록 구현 \n   - 시안 2종 제시 및 수요기관에서 선택한 1종을 대상으로 최종 구현  \n산출정보 \n  \n요구사항 번호 \nSFR-005 \n요구사항 명 \n학과 홈페이지 고도화 \n요구사항 분류 \n기능 요구사항 \n상세 \n설명 \n정의 \n학과 홈페이지 고도화 \n세부 \n내용 \n",
+          "text_start": 6167,
+          "text_end": 7953,
+          "security_level": "L1",
+          "citation": 2,
+          "scope": "prompt_context"
+        },
+        {
+          "chunk_id": "L1-R26BK01605618-000-5fc0a50d45533973-CH-00000",
+          "document_id": "L1-R26BK01605618-000-5fc0a50d45533973",
+          "document_version": "5fc0a50d45533973e143c866aaa89062d92c513159fda72f5fb634f092ee98f7",
+          "filename": "2. 입찰공고문(2026년 동아보건대학교 대학 혁신을 위한 AI 스마트 캠퍼스 포털 고도화 사업_.hwp",
+          "text": " 사업 \n공고일 \n • 2026.06.29. (월) *사전규격공개 2026.06.22.~2026.06.26. \n입찰서, 제안발표자료 \n제출 일시 \n • 2026.08.10 (월) 11:00까지  \n제안서(PT) 발표 \n및 평가 \n • 일시 : 2026.08.12.(수) 15:00 \n • 장소 : 온라인(MS Teams) 미팅 \n※ 사업설명회 : 생략(과업지시서로 갈음하며), 평가 일정 및 장소는 변경될 수 있음. \n2. 사업예산 : 금200,000,000원(VAT포함) \n3. 사업기간 : 계약체결일부터 6개월 이내 \n *해당 일정은 입찰 및",
+          "text_start": 115,
+          "text_end": 420,
+          "citation": null,
+          "scope": "reference_only_not_in_prompt",
+          "security_level": "L1"
+        }
+      ],
+      "spans": [
+        {
+          "start": 230,
+          "end": 275,
+          "quote": "이는 **메타데이터**로만 판단할 수 있는 **실제 일시**로 고정되어야 합니다.",
+          "label": "UNSUPPORTED",
+          "reason": "제공 입력은 RFP 일정이며 변경 가능성도 명시한다."
+        },
+        {
+          "start": 360,
+          "end": 382,
+          "quote": "**최종 마감일**로 명시되어 있습니다.",
+          "label": "UNSUPPORTED",
+          "reason": "변경 가능성을 무시한 최종 확정 표현이다."
+        },
+        {
+          "start": 417,
+          "end": 440,
+          "quote": "**메타데이터**로만 판단할 수 있습니다.",
+          "label": "UNSUPPORTED",
+          "reason": "입력 문서에 메타데이터만으로 판단해도 된다는 규칙은 없다."
+        },
+        {
+          "start": 505,
+          "end": 534,
+          "quote": "**입찰참가가 불가능한 일시**로 고정되어야 합니다.",
+          "label": "UNSUPPORTED",
+          "reason": "시각 기재를 최종 참가 불가 확정으로 확대했다."
+        },
+        {
+          "start": 597,
+          "end": 627,
+          "quote": "**입찰참가가 가능하다는 의미**로 고정되어 있습니다.",
+          "label": "UNSUPPORTED",
+          "reason": "공고기간만으로 실제 참가 가능 여부를 확정할 수 없다."
+        },
+        {
+          "start": 680,
+          "end": 703,
+          "quote": "**메타데이터**로만 판단할 수 있습니다.",
+          "label": "UNSUPPORTED",
+          "reason": "입력 문서에 메타데이터만으로 판단해도 된다는 규칙은 없다."
+        },
+        {
+          "start": 768,
+          "end": 797,
+          "quote": "**입찰참가가 불가능한 일시**로 고정되어 있습니다.",
+          "label": "UNSUPPORTED",
+          "reason": "시각 기재를 최종 참가 불가 확정으로 확대했다."
+        },
+        {
+          "start": 860,
+          "end": 890,
+          "quote": "**입찰참가가 가능하다는 의미**로 고정되어 있습니다.",
+          "label": "UNSUPPORTED",
+          "reason": "공고기간만으로 실제 참가 가능 여부를 확정할 수 없다."
+        },
+        {
+          "start": 943,
+          "end": 966,
+          "quote": "**메타데이터**로만 판단할 수 있습니다.",
+          "label": "UNSUPPORTED",
+          "reason": "입력 문서에 메타데이터만으로 판단해도 된다는 규칙은 없다."
+        },
+        {
+          "start": 1029,
+          "end": 1059,
+          "quote": "**입찰참가가 가능하다는 의미**로 고정되어 있습니다.",
+          "label": "UNSUPPORTED",
+          "reason": "공고기간만으로 실제 참가 가능 여부를 확정할 수 없다."
+        }
+      ],
+      "quality_notes": [
+        "출력 잘림",
+        "입력에 공고문 11:00 구간 누락: 검색 누락과 생성 오류를 분리",
+        "RFP를 공고문으로 지칭한 출처 혼동"
+      ],
+      "human_approval": "pending",
+      "mode": "saved_replay"
+    }
+  ],
+  "source_revision": "772bfd5",
+  "human_approval": "pending"
+}

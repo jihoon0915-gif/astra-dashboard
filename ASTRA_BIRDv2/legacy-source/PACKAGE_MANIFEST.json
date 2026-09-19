@@ -1,0 +1,383 @@
+{
+  "base_commit": "73f8997289785095fe927132a4a12efbef0ff0a5",
+  "files": [
+    {
+      "path": ".env.example",
+      "bytes": 622,
+      "sha256": "b945a63fda9a529f22f2053ac799cc45445a9b6e50ed709b9184fadf65a70f6d"
+    },
+    {
+      "path": "checkpoints.json",
+      "bytes": 1479,
+      "sha256": "34f5e9ea49c48988f398ec3259ab8537df4567d1e1acc07f77e5874ff514a969"
+    },
+    {
+      "path": "config.py",
+      "bytes": 2795,
+      "sha256": "1f8cacf3a89f92f203d4cb463b53e88ff920d380d805b6d19f14d487ec4cb22d"
+    },
+    {
+      "path": "demo-ui/spatial-poc/detector_bridge.py",
+      "bytes": 5364,
+      "sha256": "789853614a18962a8d8a353f5ee2c6baf1c1653e5a014bf08518af74e1a10996"
+    },
+    {
+      "path": "demo-ui/spatial-poc/dist/app.js",
+      "bytes": 17728,
+      "sha256": "fd3a480cae43a9f66974022138bc131d2710657e02eda1bfb6351a4e18a19f5a"
+    },
+    {
+      "path": "demo-ui/spatial-poc/dist/astra.css",
+      "bytes": 5570,
+      "sha256": "a923ae377fd2768a93203a0984738f1a21fa8600a7fa720484ea67d7cfc4c99c"
+    },
+    {
+      "path": "demo-ui/spatial-poc/dist/bids.js",
+      "bytes": 4095,
+      "sha256": "59bebbb07448306ab4fc4332ff6d89361107217797cae51d0e2de9f41f91f0c6"
+    },
+    {
+      "path": "demo-ui/spatial-poc/dist/hologram.js",
+      "bytes": 4185,
+      "sha256": "65963807d5bcad80b8fe952c5bff9ffd78be11bc6566983a3efe9c37241ed154"
+    },
+    {
+      "path": "demo-ui/spatial-poc/dist/index.html",
+      "bytes": 7709,
+      "sha256": "e34513870a800bbdcf019f67c276b08b604bf5e9f7775ffd1af8d1e0b243e16c"
+    },
+    {
+      "path": "demo-ui/spatial-poc/dist/public-notices-core.js",
+      "bytes": 2296,
+      "sha256": "ef70069bf6037a24acfc956164ce3e1c2da980ca8a05c6b3f1e130f38359c8de"
+    },
+    {
+      "path": "demo-ui/spatial-poc/dist/public-notices.css",
+      "bytes": 6483,
+      "sha256": "5817a4098d3c85bbd2747962ace835eab40cbf290c786c4e079b222aa514e17a"
+    },
+    {
+      "path": "demo-ui/spatial-poc/dist/public-notices.html",
+      "bytes": 3564,
+      "sha256": "7f2263901a532fbb2cabd96acbf394f119961dfcdbd98290b4e960e2c197a4a1"
+    },
+    {
+      "path": "demo-ui/spatial-poc/dist/public-notices.js",
+      "bytes": 8272,
+      "sha256": "47917b85a93d5e4f3b84d2fbe08a829f37bf827b037e0a77203185376813b061"
+    },
+    {
+      "path": "demo-ui/spatial-poc/dist/public-notices.json",
+      "bytes": 426873,
+      "sha256": "915ae3450b79a5c28912498c5b96800d4265ee888589ed2a47b0e7c5263174a2"
+    },
+    {
+      "path": "demo-ui/spatial-poc/dist/rag-graph.js",
+      "bytes": 5780,
+      "sha256": "3b68e6fdea94c1307f9a0bb6ad62b1447934903adec394a41a40747f62f16305"
+    },
+    {
+      "path": "demo-ui/spatial-poc/dist/rag-http.mjs",
+      "bytes": 7390,
+      "sha256": "4a254d22040431a17735bee658df61ca4a858cef4d97dd54bc10fdb263fb9e43"
+    },
+    {
+      "path": "demo-ui/spatial-poc/dist/rag-observatory.css",
+      "bytes": 7984,
+      "sha256": "00781033cfd5f79c833c074c2b37ecb124bd58a029c47b1b1976dd0f07538fcb"
+    },
+    {
+      "path": "demo-ui/spatial-poc/dist/rag-observatory.html",
+      "bytes": 4898,
+      "sha256": "db0b1852b02ee920de1f5049d31a4765201df1fca395311914abf3826b1d6b85"
+    },
+    {
+      "path": "demo-ui/spatial-poc/dist/rag-observatory.js",
+      "bytes": 18414,
+      "sha256": "fa29a0a330c6de8f7cb165185eed1570460706cc35a718c500fb27d744e3221d"
+    },
+    {
+      "path": "demo-ui/spatial-poc/dist/rag-observatory.json",
+      "bytes": 87771,
+      "sha256": "07e27f1b6c37b57a3bb358745444d8459594b015fe26e6b7dafe130397c03ee4"
+    },
+    {
+      "path": "demo-ui/spatial-poc/dist/rag-pipeline.svg",
+      "bytes": 2846,
+      "sha256": "f1bad85d1b390a0fbbb29027c479a13f7ce4698975dd728aa40c79ed6e9ce179"
+    },
+    {
+      "path": "demo-ui/spatial-poc/dist/rag-render.mjs",
+      "bytes": 1871,
+      "sha256": "0cce9ec697e2051ed7c01ad8949c7b24b9d7b8a1fbc4eb38b00bea5776ab988d"
+    },
+    {
+      "path": "demo-ui/spatial-poc/dist/rag-source.mjs",
+      "bytes": 1663,
+      "sha256": "4c15158e1457c4b3e8743df3d4f0a0f425915912443f6886530560eac53dd2dd"
+    },
+    {
+      "path": "demo-ui/spatial-poc/dist/reality-style.js",
+      "bytes": 3772,
+      "sha256": "7d3ea439ca87861123ed898270f2c97fbf4a0694740ac64608011ff615a96612"
+    },
+    {
+      "path": "demo-ui/spatial-poc/dist/style.css",
+      "bytes": 11045,
+      "sha256": "4bf962f889c6a4c91b7f998369763f9c4198e59cadf021caaed29532e9c541da"
+    },
+    {
+      "path": "demo-ui/spatial-poc/dist/twin-data.js",
+      "bytes": 3914,
+      "sha256": "02d02e667132fe9f777b5e6f40d8b0216b721c77210ba6ff208e148ddd87afea"
+    },
+    {
+      "path": "demo-ui/spatial-poc/dist/twin-shell.js",
+      "bytes": 1104,
+      "sha256": "e938636370161245985298b4958c32a9b91e1c8a4be6c75a33f6e90af0d50bae"
+    },
+    {
+      "path": "demo-ui/spatial-poc/dist/twin.css",
+      "bytes": 3484,
+      "sha256": "b98070839cc755ebcd5b35c32cf4263d5f21cd05331e4e7b7cb96f46e1b4eaa6"
+    },
+    {
+      "path": "demo-ui/spatial-poc/dist/twin.js",
+      "bytes": 14444,
+      "sha256": "f6f8f3d2eb9d7c0554a56d28b938e5bdf7ca64d7c4e4e33269d6a8573e3ae2b3"
+    },
+    {
+      "path": "demo-ui/spatial-poc/integrated_server.py",
+      "bytes": 6131,
+      "sha256": "4ef6fc5f9cbac8958cc6af58bec262bafb9924ed447f27499206f31e1d2fcbb8"
+    },
+    {
+      "path": "demo-ui/spatial-poc/internal-review/index.html",
+      "bytes": 1413,
+      "sha256": "51df5fe4f7ad2fac1d1cbd2860fcb33fdd580d8fc75a3cbbf0ff3eef8e011e29"
+    },
+    {
+      "path": "demo-ui/spatial-poc/internal-review/review.css",
+      "bytes": 1406,
+      "sha256": "4566d88727cca01b149e33c16d8afa96d8e7fb219888be8da08e2a1a490e6b37"
+    },
+    {
+      "path": "demo-ui/spatial-poc/internal-review/review.js",
+      "bytes": 4248,
+      "sha256": "4ad73c2b28c7fb25977afc3c37e9b6f9b6396b19e226d20916c8e381c00cfe96"
+    },
+    {
+      "path": "demo-ui/spatial-poc/l1_server.py",
+      "bytes": 26059,
+      "sha256": "d260a154c322a9eb5a36e2ddf161ee4495c80cdd09ac74ae184a0c2b9c20fbd5"
+    },
+    {
+      "path": "demo-ui/spatial-poc/live-design/Live_RAG_전환설계.md",
+      "bytes": 20232,
+      "sha256": "6b45542a02565e35324db3bdef4ef9e1878054c19746480b9ea3f4a4363fb863"
+    },
+    {
+      "path": "demo-ui/spatial-poc/live-design/api.mjs",
+      "bytes": 1548,
+      "sha256": "c99b1be60e41c8ebaaf849910ae98ce3947a1fd3e441941f8b3067c82966f1ec"
+    },
+    {
+      "path": "demo-ui/spatial-poc/live-design/check.mjs",
+      "bytes": 1388,
+      "sha256": "456f837781bf894486f7c5f5c2629e6326e74b1cddf8de1d56f7034ded81b835"
+    },
+    {
+      "path": "demo-ui/spatial-poc/live-design/contracts.ts",
+      "bytes": 2713,
+      "sha256": "d180f8741c112d464fc544ac87ba28c2712b02adabc8d4e844c6c0f9a2582937"
+    },
+    {
+      "path": "demo-ui/spatial-poc/live-design/controller.mjs",
+      "bytes": 4010,
+      "sha256": "c349ee474ae0ee4d2a35ca9bb9f74fcde69762f99ee68ac39cac2f44c3e357c9"
+    },
+    {
+      "path": "demo-ui/spatial-poc/live-design/l1-contract.ts",
+      "bytes": 1529,
+      "sha256": "e2164eae2dc6c08f641fa192a2a48adf6a0489a52ea8b9c3c66e0e47f37cc9d3"
+    },
+    {
+      "path": "demo-ui/spatial-poc/smoke_detector.py",
+      "bytes": 1408,
+      "sha256": "9518d4ba62dcf8079a9b68634f3450cb9b2eb369bc5adb6f062e167b4aeb23d0"
+    },
+    {
+      "path": "demo-ui/spatial-poc/smoke_live_integration.py",
+      "bytes": 1928,
+      "sha256": "b20c9f8a6d2848c5da0da362d096f5d544274b83895bf2636ec8fbeaff0737eb"
+    },
+    {
+      "path": "demo-ui/spatial-poc/start_integrated.ps1",
+      "bytes": 1467,
+      "sha256": "39bb8b18d9e39df3628215ad14f720eeb8f7010924ad9457bc6d93fba8f09239"
+    },
+    {
+      "path": "demo-ui/spatial-poc/test-detection-http.mjs",
+      "bytes": 1799,
+      "sha256": "9b0798dd81cc93098749b3030b616218c7be64cf957e08c55cda7e6c51d01b0d"
+    },
+    {
+      "path": "demo-ui/spatial-poc/test-rag-http.mjs",
+      "bytes": 3851,
+      "sha256": "c47a6fff7523787981e8f56c84b53f53807d032873e552d04162bed0af779131"
+    },
+    {
+      "path": "demo-ui/spatial-poc/test-rag-ux.mjs",
+      "bytes": 2261,
+      "sha256": "49455405eb5d30cc7620d6ae94feba2312806abd40c38f23ed66c68baf0055e1"
+    },
+    {
+      "path": "demo-ui/spatial-poc/test_integration.py",
+      "bytes": 4436,
+      "sha256": "6848fdf87034811cc4364d41b0088132374436b27dcdea11fefa63fa0ecf339a"
+    },
+    {
+      "path": "demo-ui/spatial-poc/test_l1_server.py",
+      "bytes": 12085,
+      "sha256": "5ed8d51bf495e9d8b05fe3ca9b6dc3cddcd2b7c750224a644548040ffbaf700a"
+    },
+    {
+      "path": "demo/detector.py",
+      "bytes": 8085,
+      "sha256": "adb40d8bd870881b85f318f4ad8d5d9ba1b5e3ed8a3da492eea35bf56327bc12"
+    },
+    {
+      "path": "detector-smoke.json",
+      "bytes": 4453,
+      "sha256": "5875037235a29653a38cc4d128ccb12c75d88615852e78e0b13f3b8ddf1e1770"
+    },
+    {
+      "path": "live-integration-smoke.json",
+      "bytes": 1892,
+      "sha256": "c27ad11e4f841c71bc9316c6451f9c93e39a2b034a85cbb5c11c5abca1681ff3"
+    },
+    {
+      "path": "procurement-pipeline/context_qa300.py",
+      "bytes": 2399,
+      "sha256": "4ff612a84e4cfd933808783fa1c59273837f342f04fd4e355384f0d23fb650d8"
+    },
+    {
+      "path": "procurement-pipeline/rag_pilot.py",
+      "bytes": 37325,
+      "sha256": "71563e1797eca9a03ee83544fdc48c43b2363298c552ff6b87a95cca944dbf2f"
+    },
+    {
+      "path": "procurement-pipeline/rag_pilot_calculation.py",
+      "bytes": 3074,
+      "sha256": "efe43ed103a1da2b9dc52586b223afa354f58312a0a0c123a5dd555bb6d58d84"
+    },
+    {
+      "path": "procurement-pipeline/rag_pilot_routing.py",
+      "bytes": 4242,
+      "sha256": "8dada417ceb9d02d652c69c697dcc7031dceaef90856139eb67fd149eb10f8b4"
+    },
+    {
+      "path": "procurement-pipeline/start_rag_pilot_server.ps1",
+      "bytes": 2548,
+      "sha256": "0467f8ad37540cd32d2c2fa0227ff3b189e995c8942aa1712866b8d189575ab0"
+    },
+    {
+      "path": "procurement-pipeline/validate_company_master.py",
+      "bytes": 28830,
+      "sha256": "70701082c01ea6301e73d421067dcf75a9fc4f5b493722df471f0a0e4d108acd"
+    },
+    {
+      "path": "project-docs/RAG파일럿/v1/SOURCE_TRANSFER.md",
+      "bytes": 4378,
+      "sha256": "b73d44811d0016d83a04470d1875022ee0a391daee1b704134adf01c619dfbf3"
+    },
+    {
+      "path": "project-docs/RAG파일럿/v1/index_manifest.json",
+      "bytes": 218339,
+      "sha256": "506f660ffe9ba0978bc5d36078d98c5ba66689de1824f3b831622780afeb5120"
+    },
+    {
+      "path": "project-docs/RAG파일럿/v1/runtime/generation_profiles.json",
+      "bytes": 1761,
+      "sha256": "df65bccc729783686b779f9b0f003bf06ecdd5ec5c7927d66fff35c2b0f77796"
+    },
+    {
+      "path": "project-docs/환각라벨링/pilot-25-human-review-v1/README.md",
+      "bytes": 6315,
+      "sha256": "a0d42a95dc155adb56341e4ffe0c51e0dada5ae3b5a36165e4e5f020185ce935"
+    },
+    {
+      "path": "project-docs/환각라벨링/pilot-25-human-review-v1/adjudication_proposals.jsonl",
+      "bytes": 331008,
+      "sha256": "22255ab7204c141b1cf7a39f8c30984ba50d98f49f10e99873d993591482f4ea"
+    },
+    {
+      "path": "project-docs/환각라벨링/pilot-25-human-review-v1/intake_manifest.json",
+      "bytes": 8602,
+      "sha256": "ec4290b083bf41b44397230194dc5d2e1a064922c5ddbeac6d787e95481e1982"
+    },
+    {
+      "path": "project-docs/환각라벨링/pilot-25-human-review-v1/received/T01.xlsx",
+      "bytes": 33831,
+      "sha256": "9efcafb7cb7a39feb0464a4c15fc6efc7afac29dc81fd1ab28789063cb45bf85"
+    },
+    {
+      "path": "project-docs/환각라벨링/pilot-25-human-review-v1/received/T02.xlsx",
+      "bytes": 30806,
+      "sha256": "0044c02cfffc6671b92b1a3f5c8ecf23d731c1ad4c09be524d62da4719a41744"
+    },
+    {
+      "path": "project-docs/환각라벨링/pilot-25-human-review-v1/received/T03.xlsx",
+      "bytes": 33892,
+      "sha256": "552454674102f3f1948a9913cf7d20d38d412d49c6838e299a7ff7081cedfe70"
+    },
+    {
+      "path": "project-docs/환각라벨링/pilot-25-human-review-v1/received/T04.xlsx",
+      "bytes": 31612,
+      "sha256": "3e219b7d20fe6601117858945158b1d1fceb7cc176099759c6474cc42dd82427"
+    },
+    {
+      "path": "project-docs/환각라벨링/pilot-25-human-review-v1/submitted_reviews.jsonl",
+      "bytes": 67550,
+      "sha256": "50cf16aaf94d31470c24febccac392b0649ac18e49c260f275f2d5a26eba9718"
+    },
+    {
+      "path": "project-docs/환각라벨링/pilot-25-human-review-v1/구절조정목록.tsv",
+      "bytes": 24436,
+      "sha256": "fb4b89129ebb7413dd60ddfdbdb40871def29b9ee414a7ee89ba84c52fdcc475"
+    },
+    {
+      "path": "project-docs/환각라벨링/pilot-25-human-review-v1/조정사항.md",
+      "bytes": 4388,
+      "sha256": "f119ca43a90d3dd90c60c7aacd0e3d863fdbfc38506bfb43bc9423c3f90a8771"
+    },
+    {
+      "path": "project-docs/환각라벨링/pilot-25-human-review-v1/통합검수목록.tsv",
+      "bytes": 25738,
+      "sha256": "0c6aefdd6e08c7db9faf5c455980dcc516580f45dbbd471934443b1b49149f84"
+    },
+    {
+      "path": "requirements-detector.txt",
+      "bytes": 228,
+      "sha256": "7ea675a46519c9febc4c6adf90b02a893a96a1cce7b328b73f094a27e14a5cda"
+    },
+    {
+      "path": "먼저읽기.md",
+      "bytes": 5782,
+      "sha256": "c1c601c1aae1cdc1621c37c8c582b79b6c75aad54781ab7b93d9cd05c8f90192"
+    },
+    {
+      "path": "실행.cmd",
+      "bytes": 256,
+      "sha256": "6006fe3a5851884992bc08d5dae5ac02909e7d226e8e57cbb73ae3807f95355c"
+    }
+  ],
+  "excludes": [
+    "weights",
+    "index DB",
+    "raw originals",
+    "keys",
+    "virtualenv"
+  ],
+  "members": 3
+}

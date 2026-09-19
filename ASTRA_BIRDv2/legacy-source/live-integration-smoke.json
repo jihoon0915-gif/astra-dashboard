@@ -1,0 +1,77 @@
+{
+  "purpose": "live_connection_not_accuracy",
+  "elapsed_seconds": 57.51,
+  "bid": "R26BK01550466-000",
+  "question": "AI-OCR 솔루션의 라이선스 조건을 근거에서 찾아 한 문장으로 답하세요.",
+  "model": "qwen2.5-1.5b-local",
+  "events": [
+    "retrieval",
+    "delta",
+    "delta",
+    "delta",
+    "delta",
+    "delta",
+    "delta",
+    "delta",
+    "delta",
+    "delta",
+    "delta",
+    "delta",
+    "delta",
+    "delta",
+    "delta",
+    "delta",
+    "delta",
+    "delta",
+    "delta",
+    "delta",
+    "delta",
+    "delta",
+    "delta",
+    "delta",
+    "delta",
+    "delta",
+    "delta",
+    "delta",
+    "delta",
+    "delta",
+    "detecting",
+    "done"
+  ],
+  "answer": "AI-OCR 솔루션 각 1식의 영구서버 라이선스 : 2cpu/16core 이상 적용",
+  "complete": true,
+  "detection": {
+    "status": "completed",
+    "spans": [],
+    "checked_ranges": [
+      [
+        0,
+        46
+      ]
+    ],
+    "unchecked_ranges": [],
+    "window_count": 10,
+    "threshold": 0.5,
+    "aggregation": "min",
+    "threshold_status": "configured_not_calibrated_on_procurement",
+    "offset_unit": "unicode_codepoint_end_exclusive",
+    "timing": "after_generation",
+    "segmentation": "nonoverlapping_answer_192_tokens_with_context_sliding_windows",
+    "model": {
+      "model_type": "roberta",
+      "checkpoint_name": "klue",
+      "weights_sha256": "74523acd66c826c32d9d34954b99e41667286dec3f1e027d708266a7591dd782",
+      "labels": {
+        "0": "SUPPORTED",
+        "1": "HALLUCINATED"
+      },
+      "input_format": "CLS + 질문/문서 + SEP + answer + SEP"
+    }
+  },
+  "context_ids": [
+    "L1-R26BK01550466-000-16b67acc6a18c5e8-CH-00002",
+    "L1-R26BK01550466-000-f6c69c65e0f23a26-CH-00005",
+    "L1-R26BK01550466-000-16b67acc6a18c5e8-CH-00001"
+  ],
+  "offset_valid": true
+}

@@ -1,0 +1,71 @@
+# ASTRA · 팀원 3명 자율 작업용 ZIP
+
+## 바로 실행
+
+1. ZIP을 OneDrive 밖의 개인 PC 폴더에 완전히 압축 해제합니다.
+2. Python 3.10 이상이 설치되어 있어야 합니다. Git·모델·색인은 기본 UI 실행에 필요 없습니다.
+3. 압축 해제된 ASTRA-dashboard 폴더의 실행.cmd를 더블클릭합니다.
+4. 브라우저에서 http://127.0.0.1:8769/rag-observatory.html 을 엽니다.
+5. 종료는 서버 터미널에서 Ctrl+C입니다. 포트 사용 중이면 기존 서버를 확인하거나 아래 명령의 포트를 바꿉니다.
+
+Windows/Linux 공통 명령 (압축 해제 폴더 안에서):
+
+```text
+python demo-ui/spatial-poc/integrated_server.py --generator disconnected --port 8769
+```
+
+저장 결과 데모로 51공고 탐색·질문 예시·저장 답변·근거 UI를 수정할 수 있습니다. 자유 질문의 신규 생성은 모델 설정 전에는 불가능합니다. 지도와 외부 웹 폰트/CDN은 인터넷 연결이 필요하며, 지도 실패 시 공고 목록을 사용할 수 있습니다.
+
+## 세 명이 자율적으로 나누기
+
+고정된 팀원 번호별 배정은 없습니다. 시작 전 각자 수정할 화면과 파일을 단체 대화에 짧게 공유하고 겹치지 않게 정합니다.
+
+| 선택 가능한 작업 | 주요 파일 |
+|---|---|
+| 지도·공고 목록·필터 | demo-ui/spatial-poc/dist/public-notices.js, public-notices.css, public-notices-core.js |
+| 질문·답변·근거·탐지 표시 | demo-ui/spatial-poc/dist/rag-observatory.js, rag-observatory.html, rag-observatory.css |
+| 내부 검수 화면 | demo-ui/spatial-poc/internal-review/index.html, review.js, review.css |
+| 가독성·모바일·키보드·오류 상태 | 위 담당자와 파일 범위를 합의해 함께 점검 |
+
+모든 사람이 공용 CSS나 HTML을 동시에 수정하지 않습니다. API·서버 권한·모델 입력·정본 offset 계약은 통합 담당자와 논의 후 변경합니다. 이 ZIP에는 예전 4명 고정 배정 지시서를 넣지 않았습니다.
+
+## 제출 방법 (Git 없이도 가능)
+
+수정한 파일을 원래 하위 폴더 구조 그대로 묶어 이름_수정본.zip으로 보냅니다. 작업메모.md에 변경 파일·이유·실행 방법·테스트·미완성 항목을 적고 전후 스크린샷을 함께 보냅니다. 전체 폴더를 다시 보내도 되지만 가중치·work·가상환경·키를 넣지 않습니다. 통합 담당자가 기준 해시와 비교해 병합합니다.
+Git 사용자는 feature/sample-expansion-demo에서 각자 브랜치를 만들어 같은 브랜치 대상으로 PR을 제출할 수 있습니다. main에 직접 합치지 않습니다.
+
+## 내부 검수
+
+기존 검수자 4명의 원본 XLSX(received/T01~T04.xlsx), 제출 의견(submitted_reviews.jsonl), 25문항 통합 조정안과 조정 기록을 포함했습니다. project-docs/환각라벨링/pilot-25-human-review-v1 아래에 있으며 공개 정적 폴더와 분리되어 있습니다. 이번 UI 작업자 3명과 기존 검수자 4명은 구분합니다. 최종 사람 승인 pending이며 원본을 고치지 않습니다. 내부 검수 화면은 개발용 키로 열립니다. Windows에서 PowerShell 7이 있으면:
+
+```text
+pwsh -File demo-ui/spatial-poc/start_integrated.ps1 -Mode disconnected -Review
+```
+
+work/internal-review.key를 자기 PC에서 읽어 /internal-review/ 화면에 입력합니다. 이 키는 실제 회사별 로그인/RBAC가 아니며 다른 사람에게 보내지 않습니다. 승인·판정·근거 데이터는 화면 개선 대상으로 수정하지 않습니다.
+
+## 실제 생성·환각 탐지 모델
+
+현재 통합 담당 PC는 Qwen2.5-1.5B + KLUE 연결 검증을 마쳤습니다. KLUE·XLM-R·BGE-M3 세 체크포인트 모두 CPU 추론 성공 기록이 있습니다. 이 ZIP에는 가중치·색인·GGUF·모델 실행파일·원천 캐시·비밀키가 없습니다. 파일이 없는 팀원이 설치만으로 실제 생성까지 할 수 있는 패키지가 아닙니다.
+
+필요한 팀원만 별도 전달로 모델과 색인을 받아 배치합니다. 체크포인트는 config.json, tokenizer.json, tokenizer_config.json, model.safetensors를 함께 받고 checkpoints.json의 SHA-256과 대조합니다. 탐지 의존성은 requirements-detector.txt를 참고해 별도 환경에 설치합니다. 기존 GPU 환경을 덮어쓰지 않습니다.
+
+모델 실행 절차는 project-docs/RAG파일럿/v1/SOURCE_TRANSFER.md와 동봉 runtime/generation_profiles.json을 참고합니다. 기존 모델 서버를 먼저 실행한 뒤 .env.example을 work/astra.env에 복사하여 자기 PC 설정을 넣습니다. 값에 따옴표를 붙이지 않으며 쉘 확장은 없습니다.
+
+```text
+python demo-ui/spatial-poc/integrated_server.py --env-file work/astra.env --generator model --index <기존_index.sqlite_경로> --port 8769
+```
+
+실제 모델은 서버가 선택하며, 자유 질의는 공개 L1·선택 공고로 제한됩니다. 답변 완료 후 환각 의심 구절을 검사합니다. 검출 0건을 정확성 보증으로 표현하지 않습니다. L2/L3 자유 질문은 연결되지 않았습니다.
+
+## 테스트
+
+```text
+python demo-ui/spatial-poc/test_integration.py
+node demo-ui/spatial-poc/test-rag-http.mjs
+node demo-ui/spatial-poc/test-rag-ux.mjs
+node demo-ui/spatial-poc/test-detection-http.mjs
+```
+
+Node는 JS 자동 테스트를 할 때만 필요합니다. 모델 없는 화면 실행에는 필요 없습니다.
+PACKAGE_MANIFEST.json에 각 파일 SHA-256과 기준 커밋이 있습니다. 코드·설정·공개 데모 및 내부 검수용 자료만 선별한 개발 패키지이며 전체 학습 저장소가 아닙니다.

@@ -20,5 +20,12 @@
     "video_codec": "h264",
     "audio_codec": "aac"
   },
-  "live_inference": "Not rerun; model weights remain in the original distribution ZIP. Model integration unit tests use mocks."
+  "live_inference": "Not rerun; model weights remain in the original distribution ZIP. Model integration unit tests use mocks.",
+  "package_restore_checks": [
+    "successful reconstruction",
+    "existing correct archive retained",
+    "corruption rejected and partial file cleaned",
+    "missing part rejected",
+    "unsafe path rejected"
+  ]
 }

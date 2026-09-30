@@ -47,7 +47,7 @@ Windows에서는 `START_ASTRA_V3.cmd`, macOS/Linux에서는 `sh start_astra_v3.s
 
 예시 질문 버튼은 저장 답변을 재생합니다. 직접 입력한 질문은 **Qwen3 8B / 4B / 1.7B Q4_K_M** 중 선택한 모델로 생성하고 **BGE-M3 토큰 분류 모델**로 검사합니다.
 
-AI 모델 가중치 약 11GB는 일반 Git 파일 크기 제한 때문에 소스 커밋에서 제외합니다. 원본 모델 포함 ZIP을 가진 경우 다음과 같이 준비하세요.
+AI 모델 가중치 약 11GB는 일반 Git 파일 크기 제한 때문에 소스 커밋에서 제외하고 [최종 배포 Release](https://github.com/jihoon0915-gif/astra-dashboard/releases/tag/bluejay-final-20260923)에 모델 포함 원본 ZIP을 6개 조각으로 제공합니다. 다운로드와 복원 방법은 [모델 다운로드 안내](docs/MODEL_DOWNLOAD.md)를 참고하세요. 원본 ZIP이 준비되면 다음과 같이 실행 환경을 설정합니다.
 
 1. `Blue_Jay_최종배포_수정반영_모델포함_20260923.zip`의 `ASTRA-Weevolve/runtime/` 폴더를 이 저장소의 `runtime/`에 복사합니다.
 2. Python 3.11과 Ollama를 설치합니다. Python·Ollama 실행 파일은 원본 ZIP에도 포함되지 않습니다.

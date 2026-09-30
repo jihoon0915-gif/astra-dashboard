@@ -1,5 +1,7 @@
 # 로컬 모델 설정 · 최종 배포 2026-09-23
 
+모델 포함 ZIP은 [최종 배포 Release](https://github.com/jihoon0915-gif/astra-dashboard/releases/tag/bluejay-final-20260923)의 분할 파일로 제공합니다. [다운로드·검증·복원 안내](docs/MODEL_DOWNLOAD.md)를 참고하세요.
+
 ## 실행
 
 GitHub 소스에는 대용량 모델 가중치가 포함되지 않습니다. 원본 `Blue_Jay_최종배포_수정반영_모델포함_20260923.zip`의 `ASTRA-Weevolve/runtime/`을 저장소의 `runtime/`에 복사하세요. 모델 포함 ZIP을 직접 풀어 실행하는 경우에는 이 복사가 필요 없습니다.

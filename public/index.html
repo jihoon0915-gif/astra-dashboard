@@ -1,5 +1,19 @@
-<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ASTRA — 귀사의 다음 가능성</title><link rel="stylesheet" href="/app.css"></head>
-<body><div id="watermark" aria-hidden="true"></div><header><div class="brand-group"><button class="brand" data-go="home" aria-label="ASTRA 홈"><svg viewBox="0 0 36 36"><path d="M18 3 33 31H3Z" fill="none" stroke="currentColor" stroke-width="3"/><path d="m5 24 25-13M14 24h12" stroke="currentColor" stroke-width="3"/></svg>ASTRA<span class="version">WORKSPACE</span></button><button class="nav-pill" id="db-button">◉ 공고 DB</button></div><nav><button id="settings-button" aria-label="설정">⚙ <span>설정</span></button><button id="finder-button">공고 찾기 ↗</button><span id="auth-nav"></span></nav></header>
-<main id="app" tabindex="-1"></main><footer><span id="identity">Guest mode · 공개 L1</span><span>ASTRA DEMO <i></i> 저장 답변 재생 · 생성 모델 미연결</span><span>공개 공고와 근거를 한곳에서</span></footer>
-<dialog id="modal"><div id="modal-body"></div></dialog><div id="toast" role="status" aria-live="polite"></div><div id="transition" aria-hidden="true"></div>
-<script type="module" src="/app.js"></script></body></html>
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blue Jay — 공고 탐색과 근거 검증</title>
+<meta name="description" content="Blue Jay: 공공 입찰 공고를 찾고, 비교하고, 근거로 확인하는 RAG 시연 대시보드">
+<script>/* 새로 열거나 새로고침해도 항상 맨 위에서 시작 */if('scrollRestoration' in history)history.scrollRestoration='manual';</script>
+<link rel="preload" href="/assets/fonts/PretendardVariable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/css/astra.css">
+<link rel="stylesheet" href="/css/bluebird-loading.css">
+</head>
+<body>
+<div id="app" aria-live="polite"></div>
+<div id="curtain" aria-hidden="true"></div>
+<noscript><p style="padding:24px">Blue Jay를 사용하려면 JavaScript가 필요합니다.</p></noscript>
+<script type="module" src="/js/main.js"></script>
+</body>
+</html>

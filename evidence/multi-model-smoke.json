@@ -1,0 +1,16 @@
+[
+  {
+    "model": "astra-qwen3:1.7b",
+    "answer": " 예산은 7000만원이다.",
+    "seconds": 5.5,
+    "done_reason": "stop",
+    "context_tokens": 8192
+  },
+  {
+    "model": "astra-qwen3:4b",
+    "answer": "예산은 7000만원입니다.",
+    "seconds": 9.87,
+    "done_reason": "stop",
+    "context_tokens": 8192
+  }
+]

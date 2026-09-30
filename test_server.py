@@ -51,9 +51,13 @@ class AccessTests(unittest.TestCase):
   for c in s.curated['items']:
    derived=s.cases[c['id']];self.assertEqual(derived['answer'],c['answer'])
    if derived['source']=='curated_replay':self.assertNotIn('reference',derived);self.assertNotIn('outcome',derived)
-  self.assertEqual(self.request('/api/research',headers={'Authorization':'Bearer '+s.review_key})[0],200)
+  self.assertEqual(self.request('/api/research',headers={'Authorization':'Bearer '+s.review_key})[0],403)
+  self.login('C01','L3')
+  code,data=self.request('/api/research',headers={'Authorization':'Bearer '+s.review_key})
+  self.assertEqual(code,200)
+  self.assertTrue(all(c['company_id']=='C01' for c in data['curated']['items']))
  def test_original_files_preserved(self):
-  expected=json.loads((ROOT/'evidence/original-sha256.json').read_text(encoding='utf-8'))
+  expected=json.loads((ROOT/'evidence/reused-source-sha256.json').read_text(encoding='utf-8'))
   for path,digest in expected.items():self.assertEqual(hashlib.sha256((ROOT/'legacy-source'/path).read_bytes()).hexdigest(),digest)
 
 if __name__=='__main__':unittest.main(verbosity=2)

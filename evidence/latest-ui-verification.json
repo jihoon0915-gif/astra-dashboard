@@ -1,0 +1,11 @@
+{
+  "home_copy": true,
+  "cloud_image": true,
+  "signup_button": true,
+  "may11": true,
+  "sidebar_timeout": true,
+  "document_formatting": true,
+  "/": 200,
+  "/js/document-view.mjs": 200,
+  "/assets/img/blue-jay-clouds.png": 200
+}

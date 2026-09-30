@@ -1,0 +1,4 @@
+Tool: built-in image_gen
+Asset: public/assets/img/blue-jay-clouds-transparent.png
+Prompt: Use case: background-extraction. Input image is the edit target. Remove ONLY the blue sky background, making it genuinely transparent with an alpha channel. Preserve the fluffy white cloud letters spelling exactly BLUE JAY, their shapes, texture and soft wispy edges. One horizontal line with BLUE on the left, JAY on the right and a clear empty gap between words. No added objects, no blue rectangle, no solid backdrop, no checkerboard baked into pixels. Output a transparent PNG asset for a website, tightly framed around the letters with a small transparent margin. Keep all seven letters fully visible.
+Validation: RGBA alpha confirmed; live browser checked.

@@ -1,0 +1,26 @@
+[
+  {
+    "command": "C:\\Users\\pjihu\\AppData\\Local\\Programs\\Python\\Python311\\python.exe -m unittest test_server.AccessTests test_v2.V2Tests test_discovery.DiscoveryTests -v",
+    "exit_code": 0,
+    "seconds": 24.043,
+    "output": "test_all_accounts_tenant_and_level_enforcement (test_server.AccessTests.test_all_accounts_tenant_and_level_enforcement) ... ok\ntest_bad_login_and_origin (test_server.AccessTests.test_bad_login_and_origin) ... ok\ntest_canonical_integrity_and_l2_l3_notice_mapping (test_server.AccessTests.test_canonical_integrity_and_l2_l3_notice_mapping) ... ok\ntest_guest_and_static_boundary (test_server.AccessTests.test_guest_and_static_boundary) ... ok\ntest_original_files_preserved (test_server.AccessTests.test_original_files_preserved) ... ok\ntest_all_accounts_tenant_and_level_enforcement (test_v2.V2Tests.test_all_accounts_tenant_and_level_enforcement) ... ok\ntest_bad_login_and_origin (test_v2.V2Tests.test_bad_login_and_origin) ... ok\ntest_canonical_integrity_and_l2_l3_notice_mapping (test_v2.V2Tests.test_canonical_integrity_and_l2_l3_notice_mapping) ... ok\ntest_guest_and_static_boundary (test_v2.V2Tests.test_guest_and_static_boundary) ... ok\ntest_l1_and_compare_boundaries (test_v2.V2Tests.test_l1_and_compare_boundaries) ... ok\ntest_original_files_preserved (test_v2.V2Tests.test_original_files_preserved) ... ok\ntest_personal_scope_and_revalidation (test_v2.V2Tests.test_personal_scope_and_revalidation) ... ok\ntest_all_accounts_tenant_and_level_enforcement (test_discovery.DiscoveryTests.test_all_accounts_tenant_and_level_enforcement) ... ok\ntest_bad_login_and_origin (test_discovery.DiscoveryTests.test_bad_login_and_origin) ... ok\ntest_budget_validation_and_boundaries (test_discovery.DiscoveryTests.test_budget_validation_and_boundaries) ... ok\ntest_canonical_integrity_and_l2_l3_notice_mapping (test_discovery.DiscoveryTests.test_canonical_integrity_and_l2_l3_notice_mapping) ... ok\ntest_guest_and_static_boundary (test_discovery.DiscoveryTests.test_guest_and_static_boundary) ... ok\ntest_original_files_preserved (test_discovery.DiscoveryTests.test_original_files_preserved) ... ok\ntest_public_scope_and_forged_identity (test_discovery.DiscoveryTests.test_public_scope_and_forged_identity) ... ok\ntest_research_requires_session_and_key (test_discovery.DiscoveryTests.test_research_requires_session_and_key) ... ok\ntest_tenant_and_l1 (test_discovery.DiscoveryTests.test_tenant_and_l1) ... ok\ntest_zero_and_date (test_discovery.DiscoveryTests.test_zero_and_date) ... ok\n\n----------------------------------------------------------------------\nRan 22 tests in 23.230s\n\nOK\n"
+  },
+  {
+    "command": "node test_dates.mjs",
+    "exit_code": 0,
+    "seconds": 0.099,
+    "output": "6 deadline boundary checks passed\n"
+  },
+  {
+    "command": "node test_ui.mjs",
+    "exit_code": 0,
+    "seconds": 0.116,
+    "output": "8 rendering, escaping, Unicode and date assertions passed\n"
+  },
+  {
+    "command": "node --check public/app.js",
+    "exit_code": 0,
+    "seconds": 0.082,
+    "output": ""
+  }
+]

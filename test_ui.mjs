@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {renderAnswer,escapeHTML} from './public/rag-render.mjs';
+import {deadline} from './public/v2-core.mjs';
+assert.equal(escapeHTML('<script>"&'), '&lt;script&gt;&quot;&amp;');
+const answer='😀 한글 [1] <img onerror=x>';
+const html=renderAnswer(answer,[{citation:1}],[{start:2,end:4,label:'REVIEW',reason:'확인'}],true);
+assert.ok(html.includes('data-citation="1"'));
+assert.ok(html.includes('data-start="2"'));
+assert.ok(!html.includes('<img'));
+assert.ok(renderAnswer('[99]',[],[]).includes('invalid-citation'));
+assert.equal(deadline('2026-04-02 24:99:00').label,'마감일 확인 필요');
+assert.equal(deadline('2026-04-02',Date.parse('2026-04-02T23:59:58+09:00')).open,true);
+console.log('8 rendering, escaping, Unicode and date assertions passed');

@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';
+import {deadline} from './public/v2-core.mjs';
+const at=s=>Date.parse(s+'+09:00');
+assert.equal(deadline(null).label,'마감일 확인 필요');
+assert.equal(deadline('2026-02-30').label,'마감일 확인 필요');
+assert.equal(deadline('2026-04-02 10:00:00',at('2026-04-01T23:59:59')).label,'D-1');
+assert.equal(deadline('2026-04-02 10:00:00',at('2026-04-02T00:00:00')).label,'D-DAY');
+assert.equal(deadline('2026-04-02 10:00:00',at('2026-04-02T10:00:00')).label,'마감');
+assert.equal(deadline('2026-04-02',at('2026-04-02T12:00:00')).countdown,'');
+console.log('6 deadline boundary checks passed');

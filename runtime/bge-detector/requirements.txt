@@ -1,0 +1,4 @@
+# Install a CUDA-compatible torch build for the target PC first: https://pytorch.org/get-started/locally/
+transformers>=4.57,<6
+numpy>=1.26,<3
+safetensors>=0.4,<1

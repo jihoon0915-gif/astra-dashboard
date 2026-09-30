@@ -1,0 +1,46 @@
+[
+  {
+    "checkpoint": "bgem3",
+    "elapsed_seconds": 15.89,
+    "answer": "이 사업의 예산은 9억원이며 제출 마감은 7월 30일입니다.",
+    "result": {
+      "status": "completed",
+      "spans": [
+        {
+          "start": 24,
+          "end": 32,
+          "quote": "월 30일입니다",
+          "probability": 0.7205649614334106,
+          "label": "MODEL_SUSPECT",
+          "reason": "학습된 탐지기의 근거 불일치 의심 예측 · 확정 판정 아님"
+        }
+      ],
+      "checked_ranges": [
+        [
+          0,
+          33
+        ]
+      ],
+      "unchecked_ranges": [],
+      "window_count": 1,
+      "threshold": 0.5,
+      "aggregation": "min",
+      "threshold_status": "configured_not_calibrated_on_procurement",
+      "offset_unit": "unicode_codepoint_end_exclusive",
+      "timing": "after_generation",
+      "segmentation": "nonoverlapping_answer_192_tokens_with_context_sliding_windows",
+      "model": {
+        "model_type": "xlm-roberta",
+        "checkpoint_name": "bgem3",
+        "weights_sha256": "8ac451a22ffbcbc25d121d9f4f3a4caac18f780692cb966fd2860c7d68314217",
+        "labels": {
+          "0": "SUPPORTED",
+          "1": "HALLUCINATED"
+        },
+        "input_format": "CLS + 질문/문서 + SEP + answer + SEP"
+      }
+    },
+    "offset_valid": true,
+    "purpose": "synthetic_connection_fixture_not_accuracy"
+  }
+]

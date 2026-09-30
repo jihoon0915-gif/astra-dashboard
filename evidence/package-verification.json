@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "checks": [
+    "zip CRC",
+    "no private keys/personal DB",
+    "all manifest SHA-256",
+    "first-run dataset installation",
+    "51 notices",
+    "fresh guest session",
+    "C02 L1 authentication",
+    "L1 documents empty",
+    "discovery public scope",
+    "logout",
+    "all static assets",
+    "font MIME"
+  ],
+  "files": 73,
+  "startup": [
+    "Verified dataset v1 installed. Start with: python launch.py",
+    "ASTRA dashboard: http://127.0.0.1:8783"
+  ],
+  "static": [
+    {
+      "path": "/",
+      "bytes": 1006,
+      "mime": "text/html"
+    },
+    {
+      "path": "/app.js",
+      "bytes": 67641,
+      "mime": "application/javascript"
+    },
+    {
+      "path": "/app.css",
+      "bytes": 14954,
+      "mime": "text/css"
+    },
+    {
+      "path": "/fonts/GeistMono.woff2",
+      "bytes": 52092,
+      "mime": "font/woff2"
+    },
+    {
+      "path": "/fonts/Pretendard.woff2",
+      "bytes": 2057688,
+      "mime": "font/woff2"
+    },
+    {
+      "path": "/korea.geojson",
+      "bytes": 146826,
+      "mime": "application/json"
+    }
+  ],
+  "python": "3.11.9",
+  "source_archive_sha256": "c1238b9a8d718d2cbb35498fd3a50e95f0ab26e2320320c4d4b1356fdd1aace1"
+}

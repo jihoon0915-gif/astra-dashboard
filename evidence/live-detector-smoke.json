@@ -1,0 +1,35 @@
+{
+  "status": "completed",
+  "spans": [
+    {
+      "start": 24,
+      "end": 29,
+      "quote": "월 30일",
+      "probability": 0.7156089544296265,
+      "label": "MODEL_SUSPECT",
+      "reason": "BGE-M3 근거 불일치 의심 예측 · 확정 판정 아님"
+    }
+  ],
+  "checked_ranges": [
+    [
+      0,
+      33
+    ]
+  ],
+  "unchecked_ranges": [],
+  "window_count": 1,
+  "threshold": 0.5,
+  "aggregation": "min",
+  "threshold_status": "configured_not_calibrated_on_procurement",
+  "offset_unit": "unicode_codepoint_end_exclusive",
+  "model": {
+    "name": "ASTRA BGE-M3 hallucination token classifier",
+    "architecture": "XLMRobertaForTokenClassification",
+    "weights_sha256": "8ac451a22ffbcbc25d121d9f4f3a4caac18f780692cb966fd2860c7d68314217",
+    "labels": {
+      "0": "SUPPORTED",
+      "1": "HALLUCINATED"
+    }
+  },
+  "elapsed_seconds": 8.66
+}

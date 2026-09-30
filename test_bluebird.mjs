@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+globalThis.location = {search:''};
+globalThis.sessionStorage = {getItem:()=>null};
+const {dday,asOf,DEMO_ASOF} = await import('./public/js/core.js');
+assert.equal(asOf(),'2026-05-11');
+assert.equal(DEMO_ASOF,'2026-05-11');
+assert.equal(dday('2026-04-01 10:00:00','2026-04-01').kind,'closed');
+assert.equal(dday('2026-04-01 14:00:00','2026-04-01').kind,'today');
+assert.equal(dday(null,'2026-04-01').n,null);
+assert.equal(dday('2026-02-30','2026-04-01').n,null);
+assert.equal(dday('2026-04-02','2026-04-01').n,1);
+console.log('7 Bluebird/ASTRA date adapter checks passed');

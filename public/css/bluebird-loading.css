@@ -1,0 +1,231 @@
+/* ==========================================================================
+   파랑새 로딩 화면 컴포넌트 스타일
+   - 모든 규칙을 .bluebird-loading-screen 아래로 한정(scope)해서
+     삽입될 웹사이트의 기존 스타일과 충돌하지 않도록 했습니다.
+   - 색상/폰트/문구 등은 아래 각 섹션 주석을 참고해 자유롭게 수정하세요.
+   ========================================================================== */
+
+/* 1) 색상 토큰 -------------------------------------------------------------
+   라이트 모드 기본값입니다. 브랜드 컬러에 맞게 값만 바꾸면 전체 배색이 바뀝니다. */
+.bluebird-loading-screen{
+  --bg-main:#eceef1;
+  --bg-sidebar:#ffffff;
+  --sidebar-border:#e5e7eb;
+  --text-primary:#1c1e22;
+  --text-secondary:#767b85;
+  --accent:#2f6fed;
+  --logo-dot:#2f6fed;
+  --skeleton:#eef0f3;
+}
+
+/* 시스템 다크 모드를 따르는 경우 (별도 data-theme 지정이 없을 때) */
+@media (prefers-color-scheme: dark){
+  .bluebird-loading-screen:not([data-theme="light"]){
+    --bg-main:#1b1d21;
+    --bg-sidebar:#141518;
+    --sidebar-border:#2a2c31;
+    --text-primary:#f1f2f4;
+    --text-secondary:#9198a3;
+    --accent:#6ea1ff;
+    --logo-dot:#6ea1ff;
+    --skeleton:#202226;
+  }
+}
+/* 사이트에서 명시적으로 다크 테마를 지정하는 경우: <div class="bluebird-loading-screen" data-theme="dark"> */
+.bluebird-loading-screen[data-theme="dark"]{
+  --bg-main:#1b1d21;
+  --bg-sidebar:#141518;
+  --sidebar-border:#2a2c31;
+  --text-primary:#f1f2f4;
+  --text-secondary:#9198a3;
+  --accent:#6ea1ff;
+  --logo-dot:#6ea1ff;
+  --skeleton:#202226;
+}
+
+/* 2) 기본 레이아웃 --------------------------------------------------------- */
+.bluebird-loading-screen,
+.bluebird-loading-screen *{
+  box-sizing:border-box;
+}
+
+.bluebird-loading-screen{
+  display:flex;
+  min-height:100dvh; /* 페이지 전체를 덮는 로딩 화면으로 쓸 경우. 섹션 안에 넣는다면 원하는 높이(px/%)로 바꾸세요 */
+  width:100%;
+  background:var(--bg-main);
+  color:var(--text-primary);
+  font-family:'Noto Sans KR','Pretendard',-apple-system,BlinkMacSystemFont,'Malgun Gothic',sans-serif;
+}
+
+/* 페이지 전체 오버레이로 쓰고 싶다면 이 클래스를 추가로 붙여서 화면 위에 고정할 수 있습니다.
+   예) <div class="bluebird-loading-screen bluebird-loading-screen--overlay"> */
+.bluebird-loading-screen--overlay{
+  position:fixed;
+  inset:0;
+  z-index:9999;
+}
+
+/* 3) 사이드바 ---------------------------------------------------------------
+   가로 폭을 넓게(300px) 잡아 추후 메뉴/텍스트가 들어갈 공간을 확보해 두었습니다.
+   지금은 로고 자리 + 스켈레톤 placeholder만 있고, 실제 메뉴 항목은 비워둔 상태입니다. */
+.bluebird-loading-screen .sidebar{
+  flex:0 0 300px;
+  width:300px;
+  background:var(--bg-sidebar);
+  border-right:1px solid var(--sidebar-border);
+  padding:28px 24px;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+.bluebird-loading-screen .brand{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  margin-bottom:8px;
+}
+.bluebird-loading-screen .brand-mark{
+  width:26px;
+  height:26px;
+  border-radius:8px;
+  background:var(--logo-dot);
+  flex:0 0 auto;
+}
+.bluebird-loading-screen .brand-name{
+  font-size:15px;
+  font-weight:700;
+  letter-spacing:-0.01em;
+}
+/* 향후 메뉴/텍스트 영역 (지금은 자리 표시용 스켈레톤) */
+.bluebird-loading-screen .sidebar-placeholder{
+  margin-top:4px;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+.bluebird-loading-screen .sidebar-placeholder .skeleton-line{
+  height:11px;
+  border-radius:6px;
+  background:var(--skeleton);
+  width:70%;
+}
+.bluebird-loading-screen .sidebar-placeholder .skeleton-line:nth-child(2){width:52%;}
+.bluebird-loading-screen .sidebar-placeholder .skeleton-line:nth-child(3){width:60%;}
+
+@media (max-width:700px){
+  .bluebird-loading-screen .sidebar{display:none;}
+}
+
+/* 4) 메인 로딩 영역 --------------------------------------------------------- */
+.bluebird-loading-screen .main{
+  flex:1 1 auto;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:32px 16px;
+  min-width:0;
+}
+.bluebird-loading-screen .loading-stage{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+  gap:22px;
+  max-width:420px;
+}
+
+/* 오브 영상 (loading-orb.mp4) — 배경과 자연스럽게 섞이도록 원형 마스크 처리 */
+.bluebird-loading-screen .orb-wrap{
+  width:min(280px,58vw);
+  aspect-ratio:4/3;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.bluebird-loading-screen .orb-wrap video{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  -webkit-mask-image:radial-gradient(circle at center, #000 54%, transparent 78%);
+  mask-image:radial-gradient(circle at center, #000 54%, transparent 78%);
+}
+
+/* 5) 텍스트 & 애니메이션 ----------------------------------------------------- */
+.bluebird-loading-screen .loading-text{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+.bluebird-loading-screen .loading-title{
+  font-size:clamp(20px,3.2vw,26px);
+  font-weight:500;
+  color:var(--text-primary);
+  letter-spacing:-0.01em;
+  text-wrap:balance;
+}
+
+/* 글자 그룹별 색상: accent = 포인트 컬러("파랑새"), plain = 검정 강조("가") */
+.bluebird-loading-screen .wave-group{
+  font-weight:500;
+  color:var(--text-primary);
+}
+.bluebird-loading-screen .wave-group.accent{
+  font-weight:700;
+  color:var(--accent);
+}
+.bluebird-loading-screen .wave-group.plain{
+  font-weight:700;
+  color:var(--text-primary);
+}
+
+/* 글자 하나하나가 순서대로 위아래로 웨이브하는 애니메이션.
+   각 글자 span의 inline style="animation-delay:...s" 값을 조절하면 물결 속도/간격을 바꿀 수 있습니다. */
+.bluebird-loading-screen .wave-char{
+  display:inline-block;
+  animation:bluebird-wave 1.8s ease-in-out infinite;
+  will-change:transform;
+}
+@keyframes bluebird-wave{
+  0%,60%,100%{transform:translateY(0);}
+  30%{transform:translateY(-7px);}
+}
+@media (prefers-reduced-motion: reduce){
+  .bluebird-loading-screen .wave-char{animation:none;}
+}
+
+.bluebird-loading-screen .loading-subtitle{
+  font-size:15px;
+  font-weight:400;
+  color:var(--text-secondary);
+}
+.bluebird-loading-screen .dot{
+  display:inline-block;
+  animation:bluebird-blink 1.4s infinite ease-in-out;
+}
+.bluebird-loading-screen .dot:nth-child(1){animation-delay:0s;}
+.bluebird-loading-screen .dot:nth-child(2){animation-delay:0.2s;}
+.bluebird-loading-screen .dot:nth-child(3){animation-delay:0.4s;}
+.bluebird-loading-screen .dot:nth-child(4){animation-delay:0.6s;}
+@keyframes bluebird-blink{
+  0%,80%,100%{opacity:0.25;}
+  40%{opacity:1;}
+}
+@media (prefers-reduced-motion: reduce){
+  .bluebird-loading-screen .dot{animation:none;opacity:0.6;}
+}
+
+.bluebird-loading-screen{position:fixed;inset:0;z-index:2;font-family:var(--f-ko),sans-serif;overflow:auto}
+.bluebird-loading-screen .brand{position:static;font-family:inherit}
+.bluebird-loading-screen .main{flex-direction:column;gap:20px}
+.bluebird-loading-screen .loader-account{font-size:14px;color:var(--text-secondary);margin:18px 0}
+.bluebird-loading-screen .loader-steps{list-style:none;padding:0;margin:0;display:grid;gap:18px;font-size:13px;color:var(--text-secondary)}
+.bluebird-loading-screen .loader-steps li{display:flex;justify-content:space-between;gap:16px}
+.bluebird-loading-screen .loader-steps li span{color:#15803d;font-weight:600}
+.bluebird-loading-screen .loader-steps .done span{color:var(--accent)}
+.bluebird-loading-screen .loader-steps .failed span{color:#b91c1c}
+.bluebird-loading-screen .loader-controls{display:flex;flex-direction:column;align-items:center;gap:14px}
+.bluebird-loading-screen #loaderStatus{margin:0;font-size:13px;color:var(--text-secondary)}
+.bluebird-loading-screen progress{width:180px;height:4px;accent-color:var(--accent)}
+.bluebird-loading-screen .loader-enter{padding:10px 18px;border-radius:20px;background:#fff;color:var(--accent);font-size:13px;box-shadow:0 3px 12px #23344b0e}
+.bluebird-loading-screen .loader-enter:disabled{opacity:.5;cursor:wait}

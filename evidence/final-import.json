@@ -1,0 +1,42 @@
+{
+  "source_archive": "Blue_Jay_최종배포_수정반영_모델포함_20260923.zip",
+  "demo_archive": "BlueJay_demo_v5_사운드.zip",
+  "skipped_large_files": [
+    {
+      "path": "runtime/ollama-models/blobs/sha256-7485fe6f11af29433bc51cab58009521f205840f5b4ae3a32fa7f92e8534fdf5",
+      "bytes": 2497280256,
+      "sha256": "7485fe6f11af29433bc51cab58009521f205840f5b4ae3a32fa7f92e8534fdf5"
+    },
+    {
+      "path": "runtime/ollama-models/blobs/sha256-d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+      "bytes": 5027783488,
+      "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785"
+    },
+    {
+      "path": "runtime/ollama-models/blobs/sha256-e851e1a92b11f41d962349dd995c2dd6a94fa01eb3facf70791c25b448bf3974",
+      "bytes": 1282438976,
+      "sha256": "e851e1a92b11f41d962349dd995c2dd6a94fa01eb3facf70791c25b448bf3974"
+    },
+    {
+      "path": "runtime/bge-detector/model/model.safetensors",
+      "bytes": 2266877336,
+      "sha256": "8ac451a22ffbcbc25d121d9f4f3a4caac18f780692cb966fd2860c7d68314217"
+    }
+  ],
+  "demo": {
+    "path": "docs/demo/BlueJay_demo_v5_사운드.mp4",
+    "bytes": 18376086,
+    "sha256": "a855a13882d392468268030b910141c2f1c0ba081f53504da233d9cd8ce505e3"
+  },
+  "extracted_small_files": 214,
+  "verified_against_manifest": 213,
+  "repository_adjustments": [
+    "README.md and MODEL_SETUP.md explain source checkout and external model weights.",
+    "CHANGELOG.md records the final distribution import.",
+    ".gitignore and .gitattributes include demo data, UI media and detector runtime while excluding generated local data and model weights.",
+    "server.py serves .webm video fallbacks and .txt font license links from the existing public-only static directory.",
+    "Original README and Git settings are preserved under docs/final-package-originals/.",
+    "server.py.bak_20260923 is an obsolete backup and was not imported.",
+    "Existing legacy-source/project-docs ignore rule is retained; setup_data.py restores these files from the bundled data archive."
+  ]
+}

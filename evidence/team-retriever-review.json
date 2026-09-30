@@ -1,0 +1,83 @@
+{
+  "attachment": "C:\\Users\\pjihu\\OneDrive\\문서\\카카오톡 받은 파일\\live_models\\live_models.py",
+  "permission_cases": 1020,
+  "permission_checks": "PASS",
+  "selected_levels": {
+    "C01_viewer": [
+      "L1"
+    ],
+    "C01_bid_analyst": [
+      "L1",
+      "L2"
+    ],
+    "C01_cost_analyst": [
+      "L1",
+      "L2"
+    ],
+    "C01_bid_approver": [
+      "L1",
+      "L2"
+    ],
+    "C02_viewer": [
+      "L1"
+    ],
+    "C02_bid_analyst": [
+      "L1",
+      "L2"
+    ],
+    "C02_cost_analyst": [
+      "L1",
+      "L2"
+    ],
+    "C02_bid_approver": [
+      "L1",
+      "L2"
+    ],
+    "C03_viewer": [
+      "L1"
+    ],
+    "C03_bid_analyst": [
+      "L1",
+      "L2"
+    ],
+    "C03_cost_analyst": [
+      "L1",
+      "L2"
+    ],
+    "C03_bid_approver": [
+      "L1",
+      "L2"
+    ],
+    "C04_viewer": [
+      "L1"
+    ],
+    "C04_bid_analyst": [
+      "L1",
+      "L2"
+    ],
+    "C04_cost_analyst": [
+      "L1",
+      "L2"
+    ],
+    "C04_bid_approver": [
+      "L1",
+      "L2"
+    ],
+    "C05_viewer": [
+      "L1"
+    ],
+    "C05_bid_analyst": [
+      "L1",
+      "L2"
+    ],
+    "C05_cost_analyst": [
+      "L1",
+      "L2"
+    ],
+    "C05_bid_approver": [
+      "L1",
+      "L2"
+    ]
+  },
+  "changed_scope": "retrieve only; original application not modified"
+}

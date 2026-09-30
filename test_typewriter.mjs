@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import {typewrite} from './public/js/typewriter.mjs';
+const frames=new Map();let seq=0;
+globalThis.requestAnimationFrame=cb=>{frames.set(++seq,cb);return seq;};
+globalThis.cancelAnimationFrame=id=>frames.delete(id);
+globalThis.NodeFilter={SHOW_TEXT:4};
+globalThis.document={createTreeWalker:el=>{let i=-1;return {nextNode(){return ++i<el.nodes.length;},get currentNode(){return el.nodes[i];}};}};
+const make=()=>({nodes:[{data:'가👩‍💻'},{data:'근거 1'}],inert:false,setAttribute(){},removeAttribute(){}});
+const step=t=>{const pending=[...frames.values()];frames.clear();pending.forEach(fn=>fn(t));};
+const el=make();const p=typewrite(el,{interval:10});
+assert.equal(el.nodes.map(x=>x.data).join(''),'');step(0);assert.equal(el.nodes[0].data,'가');step(10);assert.equal(el.nodes[0].data,'가👩‍💻');step(200);await p;
+assert.equal(el.nodes.map(x=>x.data).join(''),'가👩‍💻근거 1');assert.equal(el.inert,false);
+const other=make(),abort=new AbortController();const done=typewrite(other,{signal:abort.signal});step(0);abort.abort();await done;
+assert.equal(other.nodes.map(x=>x.data).join(''),'가👩‍💻근거 1');assert.equal(frames.size,0);
+console.log('Typing progression, grapheme boundaries, completion and cancellation passed');

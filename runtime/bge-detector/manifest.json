@@ -1,0 +1,94 @@
+{
+  "package": "ASTRA BGE-M3 hallucination detector UI package",
+  "version": "v1",
+  "created_at": "2026-09-22T13:11:00+09:00",
+  "purpose": "offline UI integration; token-level evidence inconsistency suspicion",
+  "architecture": "XLMRobertaForTokenClassification",
+  "labels": {
+    "0": "SUPPORTED",
+    "1": "HALLUCINATED"
+  },
+  "source_checkpoint": "local runs/bgem3 (absolute source path intentionally omitted from ZIP)",
+  "default_runtime": {
+    "device": "cuda",
+    "port": 18768,
+    "threshold": 0.5,
+    "max_length": 512,
+    "aggregation": "min"
+  },
+  "validation": {
+    "gpu": "NVIDIA RTX A5000",
+    "model_load": "passed",
+    "health_api": "passed",
+    "detect_api": "passed",
+    "unicode_offset": "passed",
+    "performance_claim": false
+  },
+  "files": [
+    {
+      "path": "model/config.json",
+      "bytes": 892,
+      "sha256": "e06eb49cf7b1cf6660f25c364e7ae2a4b33c611ba6ab9510e944a979703d0987"
+    },
+    {
+      "path": "model/tokenizer.json",
+      "bytes": 17098085,
+      "sha256": "5df1f55d60c9705a501ab9a75550728625740741fe4be308dac4806c16b7d51d"
+    },
+    {
+      "path": "model/tokenizer_config.json",
+      "bytes": 409,
+      "sha256": "9dc74fea52f2666f23d5f5d52d9e2983adc82c00c9a35dadc39346ecbc9aa53a"
+    },
+    {
+      "path": "model/model.safetensors",
+      "bytes": 2266877336,
+      "sha256": "8ac451a22ffbcbc25d121d9f4f3a4caac18f780692cb966fd2860c7d68314217"
+    },
+    {
+      "path": "ASTRA_기존_UI_연결.md",
+      "bytes": 1395,
+      "sha256": "c9ea1ed5b70668580bbc81bcc93e2e2765495c6949d3ccb0a2e76e3faade322e"
+    },
+    {
+      "path": "README_팀원용.md",
+      "bytes": 3053,
+      "sha256": "9662852869b275cc8a685eb54cc1563453be0dba9b40ee9cc05bdd5e65067bfe"
+    },
+    {
+      "path": "detector_runtime.py",
+      "bytes": 9846,
+      "sha256": "97e8a805ffa5a7cb551a381863c780014e69cad76841e36705e9b7808d9e21c2"
+    },
+    {
+      "path": "example.html",
+      "bytes": 1564,
+      "sha256": "82888eb4867246a52d3015c24b38a1005ccaba93a7244d66e38cecc6dde896bc"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 163,
+      "sha256": "19f779477cf7ff74b68dd7a83df6b6d6201bc437fb971ac14b8fd96ceb97c223"
+    },
+    {
+      "path": "server.py",
+      "bytes": 3782,
+      "sha256": "4d404a80097400c5c8c6df46e218b0c5b4063bf78e2d6826ef8fbaafe03a9fa4"
+    },
+    {
+      "path": "smoke_result.json",
+      "bytes": 1395,
+      "sha256": "2aa6ad1e781af69d6a903e5f0f5ecb4f1d06896bd1b87e162a91de25908746ff"
+    },
+    {
+      "path": "start_linux.sh",
+      "bytes": 103,
+      "sha256": "56531294986acf3503852faf60616d96bd67e7047c3b8f173edad2c942c0f992"
+    },
+    {
+      "path": "start_windows.ps1",
+      "bytes": 103,
+      "sha256": "935376d46538a04c4ed0d835b0174d60323cef6f8942d7f80312b15bef2e05b3"
+    }
+  ]
+}

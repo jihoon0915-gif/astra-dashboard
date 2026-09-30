@@ -1,7 +1,12 @@
 private/
 legacy-source/project-docs/
-runtime/
-downloads/
+runtime/*
+!runtime/bge-detector/
+runtime/bge-detector/model/*.safetensors
+runtime/bge-detector/model/*.bin
+runtime/bge-detector/model/*.pt
+runtime/bge-detector/model/*.pth
+downloads/*
 __pycache__/
 *.py[cod]
 *.key
@@ -9,6 +14,11 @@ __pycache__/
 .env.*
 !.env.example
 *.zip
+!downloads/ASTRA-demo-data-v1.zip
 *.webm
+!public/assets/video/*.webm
 *.log
+*.bak_*
+.venv/
+venv/
 evidence/replay-mapping.json

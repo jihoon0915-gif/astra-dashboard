@@ -1,0 +1,8 @@
+{
+  "context_tokens": 8192,
+  "generator_connected": true,
+  "retriever": "권한 필터 후 공고·회사 자료 각각 검색 · 벡터 검색 아님",
+  "unit_and_permission_tests": 12,
+  "live_inference_benchmark": "not rerun; model dispatch and shared evidence verified with test doubles",
+  "live_models_sha256": "471e26620b3cc869f2821bcb7d35bc89315565243f9b11cccef6e93c57a746ad"
+}

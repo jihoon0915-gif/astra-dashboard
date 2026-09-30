@@ -1,0 +1,612 @@
+{
+  "schema_version": "1.0.0",
+  "warning": "Synthetic local-development accounts only. The server must enforce tenant and role authorization.",
+  "password_storage": {
+    "algorithm": "PBKDF2-HMAC-SHA256",
+    "iterations": 310000,
+    "plaintext_stored": false
+  },
+  "companies": [
+    {
+      "company_id": "C01",
+      "tenant_id": "astra-c01",
+      "company_name": "가상 한빛IT",
+      "synthetic": true
+    },
+    {
+      "company_id": "C02",
+      "tenant_id": "astra-c02",
+      "company_name": "가상 해온시스템",
+      "synthetic": true
+    },
+    {
+      "company_id": "C03",
+      "tenant_id": "astra-c03",
+      "company_name": "가상 인우블록",
+      "synthetic": true
+    },
+    {
+      "company_id": "C04",
+      "tenant_id": "astra-c04",
+      "company_name": "가상 누리클라우드",
+      "synthetic": true
+    },
+    {
+      "company_id": "C05",
+      "tenant_id": "astra-c05",
+      "company_name": "가상 새온에너지SW",
+      "synthetic": true
+    }
+  ],
+  "roles": [
+    {
+      "role": "viewer",
+      "label": "공개 공고 조회자",
+      "allowed_security_levels": [
+        "L1"
+      ],
+      "allowed_document_kinds": [
+        "public_notice"
+      ],
+      "own_tenant_only": true
+    },
+    {
+      "role": "bid_analyst",
+      "label": "입찰 분석가",
+      "allowed_security_levels": [
+        "L1",
+        "L2"
+      ],
+      "allowed_document_kinds": [
+        "public_notice",
+        "company_profile",
+        "performance",
+        "personnel",
+        "certification",
+        "staffing_plan"
+      ],
+      "own_tenant_only": true
+    },
+    {
+      "role": "cost_analyst",
+      "label": "원가 분석가",
+      "allowed_security_levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "allowed_document_kinds": [
+        "public_notice",
+        "company_profile",
+        "performance",
+        "personnel",
+        "certification",
+        "staffing_plan",
+        "cost",
+        "partner_quote",
+        "estimate"
+      ],
+      "own_tenant_only": true
+    },
+    {
+      "role": "bid_approver",
+      "label": "입찰 승인자",
+      "allowed_security_levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "allowed_document_kinds": [
+        "*"
+      ],
+      "own_tenant_only": true
+    }
+  ],
+  "users": [
+    {
+      "user_id": "USR-C01-01",
+      "username": "c01_viewer",
+      "display_name": "가상 한빛IT 공개정보 열람 사용자",
+      "company_id": "C01",
+      "tenant_id": "astra-c01",
+      "role": "viewer",
+      "allowed_security_levels": [
+        "L1"
+      ],
+      "account_status": "active",
+      "membership_active": true,
+      "password_algorithm": "pbkdf2_sha256",
+      "password_iterations": 310000,
+      "password_salt": "LvC6M469GrTMWVErUtE01A==",
+      "password_hash": "q2yQGFHyx1bCxSI+hkTfDv/hGrMzS75om+FDIdakcMo=",
+      "synthetic": true,
+      "created_at": "2026-09-22T00:00:00+09:00"
+    },
+    {
+      "user_id": "USR-C01-02",
+      "username": "c01_bid_analyst",
+      "display_name": "가상 한빛IT 입찰요건 분석 사용자",
+      "company_id": "C01",
+      "tenant_id": "astra-c01",
+      "role": "bid_analyst",
+      "allowed_security_levels": [
+        "L1",
+        "L2"
+      ],
+      "account_status": "active",
+      "membership_active": true,
+      "password_algorithm": "pbkdf2_sha256",
+      "password_iterations": 310000,
+      "password_salt": "y75QNPE4i5qesvu5avMTwQ==",
+      "password_hash": "I3BkMyN1UzbLuVPWsBnxAErAxKqXo9a0DDL4GnRYJkU=",
+      "synthetic": true,
+      "created_at": "2026-09-22T00:00:00+09:00"
+    },
+    {
+      "user_id": "USR-C01-03",
+      "username": "c01_cost_analyst",
+      "display_name": "가상 한빛IT 원가 검토 사용자",
+      "company_id": "C01",
+      "tenant_id": "astra-c01",
+      "role": "cost_analyst",
+      "allowed_security_levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "account_status": "active",
+      "membership_active": true,
+      "password_algorithm": "pbkdf2_sha256",
+      "password_iterations": 310000,
+      "password_salt": "0No7+Nc0Z92K4gUGW8Rl+g==",
+      "password_hash": "hftbpIYnvpsFVscYg82dS4vK8Y+vkWwNOlrVLP8hxOc=",
+      "synthetic": true,
+      "created_at": "2026-09-22T00:00:00+09:00"
+    },
+    {
+      "user_id": "USR-C01-04",
+      "username": "c01_bid_approver",
+      "display_name": "가상 한빛IT 입찰 승인 사용자",
+      "company_id": "C01",
+      "tenant_id": "astra-c01",
+      "role": "bid_approver",
+      "allowed_security_levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "account_status": "active",
+      "membership_active": true,
+      "password_algorithm": "pbkdf2_sha256",
+      "password_iterations": 310000,
+      "password_salt": "c4EXYeZCGkg7p2b55wsijw==",
+      "password_hash": "5hb39vBx1nS1fdyLbK0sPTr7/v2v9F+xEVoj+FXed3s=",
+      "synthetic": true,
+      "created_at": "2026-09-22T00:00:00+09:00"
+    },
+    {
+      "user_id": "USR-C01-05",
+      "username": "c01_inactive",
+      "display_name": "가상 한빛IT 비활성 계정 시험 사용자",
+      "company_id": "C01",
+      "tenant_id": "astra-c01",
+      "role": "bid_analyst",
+      "allowed_security_levels": [
+        "L1",
+        "L2"
+      ],
+      "account_status": "inactive",
+      "membership_active": false,
+      "password_algorithm": "pbkdf2_sha256",
+      "password_iterations": 310000,
+      "password_salt": "9mmNukvW8Blwt5q2wrerJg==",
+      "password_hash": "+zuH5FoZEt3+8+Sbegu4F/FYx11UdzPGHMfSWMsgTYU=",
+      "synthetic": true,
+      "created_at": "2026-09-22T00:00:00+09:00"
+    },
+    {
+      "user_id": "USR-C02-01",
+      "username": "c02_viewer",
+      "display_name": "가상 해온시스템 공개정보 열람 사용자",
+      "company_id": "C02",
+      "tenant_id": "astra-c02",
+      "role": "viewer",
+      "allowed_security_levels": [
+        "L1"
+      ],
+      "account_status": "active",
+      "membership_active": true,
+      "password_algorithm": "pbkdf2_sha256",
+      "password_iterations": 310000,
+      "password_salt": "9aQcXzaT9qrvZ3x9/RG/rw==",
+      "password_hash": "6rSnu85GobaAD7SXqlFL49nLiEAXh6Woqg5kBBSyYog=",
+      "synthetic": true,
+      "created_at": "2026-09-22T00:00:00+09:00"
+    },
+    {
+      "user_id": "USR-C02-02",
+      "username": "c02_bid_analyst",
+      "display_name": "가상 해온시스템 입찰요건 분석 사용자",
+      "company_id": "C02",
+      "tenant_id": "astra-c02",
+      "role": "bid_analyst",
+      "allowed_security_levels": [
+        "L1",
+        "L2"
+      ],
+      "account_status": "active",
+      "membership_active": true,
+      "password_algorithm": "pbkdf2_sha256",
+      "password_iterations": 310000,
+      "password_salt": "sLxShFuM98u3Ep2h194AmQ==",
+      "password_hash": "ZQfGxSi0HQjiTqTmJ1dreJHLaDVMET68uERtABMLX78=",
+      "synthetic": true,
+      "created_at": "2026-09-22T00:00:00+09:00"
+    },
+    {
+      "user_id": "USR-C02-03",
+      "username": "c02_cost_analyst",
+      "display_name": "가상 해온시스템 원가 검토 사용자",
+      "company_id": "C02",
+      "tenant_id": "astra-c02",
+      "role": "cost_analyst",
+      "allowed_security_levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "account_status": "active",
+      "membership_active": true,
+      "password_algorithm": "pbkdf2_sha256",
+      "password_iterations": 310000,
+      "password_salt": "q2HETmjei74iJ7P8wfkOWw==",
+      "password_hash": "IxIww4p1Oa3iX14FJUwsNgwana0M6Z8yx7old/fJKwg=",
+      "synthetic": true,
+      "created_at": "2026-09-22T00:00:00+09:00"
+    },
+    {
+      "user_id": "USR-C02-04",
+      "username": "c02_bid_approver",
+      "display_name": "가상 해온시스템 입찰 승인 사용자",
+      "company_id": "C02",
+      "tenant_id": "astra-c02",
+      "role": "bid_approver",
+      "allowed_security_levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "account_status": "active",
+      "membership_active": true,
+      "password_algorithm": "pbkdf2_sha256",
+      "password_iterations": 310000,
+      "password_salt": "x1tbbXqVUnJfwECoyA8keQ==",
+      "password_hash": "/Nlg2CLHljuBX4GaEDQECDODzu7enFZoSzAN6qZLDyQ=",
+      "synthetic": true,
+      "created_at": "2026-09-22T00:00:00+09:00"
+    },
+    {
+      "user_id": "USR-C02-05",
+      "username": "c02_inactive",
+      "display_name": "가상 해온시스템 비활성 계정 시험 사용자",
+      "company_id": "C02",
+      "tenant_id": "astra-c02",
+      "role": "bid_analyst",
+      "allowed_security_levels": [
+        "L1",
+        "L2"
+      ],
+      "account_status": "inactive",
+      "membership_active": false,
+      "password_algorithm": "pbkdf2_sha256",
+      "password_iterations": 310000,
+      "password_salt": "0Z+vGRkLqOt53kdyoeyULQ==",
+      "password_hash": "Tus6ZkGS0NAdpRpcthSqdIivscYNJvlps7HL/icBhg0=",
+      "synthetic": true,
+      "created_at": "2026-09-22T00:00:00+09:00"
+    },
+    {
+      "user_id": "USR-C03-01",
+      "username": "c03_viewer",
+      "display_name": "가상 인우블록 공개정보 열람 사용자",
+      "company_id": "C03",
+      "tenant_id": "astra-c03",
+      "role": "viewer",
+      "allowed_security_levels": [
+        "L1"
+      ],
+      "account_status": "active",
+      "membership_active": true,
+      "password_algorithm": "pbkdf2_sha256",
+      "password_iterations": 310000,
+      "password_salt": "HSjAzz9LTV4t5HGzEooehw==",
+      "password_hash": "SbFahny6O5AhJ5XMiA2lSjp32GRCHBjcg7Xlcg2IoWU=",
+      "synthetic": true,
+      "created_at": "2026-09-22T00:00:00+09:00"
+    },
+    {
+      "user_id": "USR-C03-02",
+      "username": "c03_bid_analyst",
+      "display_name": "가상 인우블록 입찰요건 분석 사용자",
+      "company_id": "C03",
+      "tenant_id": "astra-c03",
+      "role": "bid_analyst",
+      "allowed_security_levels": [
+        "L1",
+        "L2"
+      ],
+      "account_status": "active",
+      "membership_active": true,
+      "password_algorithm": "pbkdf2_sha256",
+      "password_iterations": 310000,
+      "password_salt": "KqlneUjBDgbYmreCGN1Zzg==",
+      "password_hash": "5mfqg3r5GnN0IX1SjJpFhIi7RO87roq9dYXB5BOa7oA=",
+      "synthetic": true,
+      "created_at": "2026-09-22T00:00:00+09:00"
+    },
+    {
+      "user_id": "USR-C03-03",
+      "username": "c03_cost_analyst",
+      "display_name": "가상 인우블록 원가 검토 사용자",
+      "company_id": "C03",
+      "tenant_id": "astra-c03",
+      "role": "cost_analyst",
+      "allowed_security_levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "account_status": "active",
+      "membership_active": true,
+      "password_algorithm": "pbkdf2_sha256",
+      "password_iterations": 310000,
+      "password_salt": "t8GB0DbhW1Pf/lCV0wym7Q==",
+      "password_hash": "FRYwwLd384ve0ZRa/3WMQF6cf3iyjS6M9+E+QUXNdMo=",
+      "synthetic": true,
+      "created_at": "2026-09-22T00:00:00+09:00"
+    },
+    {
+      "user_id": "USR-C03-04",
+      "username": "c03_bid_approver",
+      "display_name": "가상 인우블록 입찰 승인 사용자",
+      "company_id": "C03",
+      "tenant_id": "astra-c03",
+      "role": "bid_approver",
+      "allowed_security_levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "account_status": "active",
+      "membership_active": true,
+      "password_algorithm": "pbkdf2_sha256",
+      "password_iterations": 310000,
+      "password_salt": "zktZP4CtS2ckdjv39xgMeA==",
+      "password_hash": "LhsyBv/Pq6hmmANnusw/kBZkgx7sYu47zsHsv030U4s=",
+      "synthetic": true,
+      "created_at": "2026-09-22T00:00:00+09:00"
+    },
+    {
+      "user_id": "USR-C03-05",
+      "username": "c03_inactive",
+      "display_name": "가상 인우블록 비활성 계정 시험 사용자",
+      "company_id": "C03",
+      "tenant_id": "astra-c03",
+      "role": "bid_analyst",
+      "allowed_security_levels": [
+        "L1",
+        "L2"
+      ],
+      "account_status": "inactive",
+      "membership_active": false,
+      "password_algorithm": "pbkdf2_sha256",
+      "password_iterations": 310000,
+      "password_salt": "Lzok61Pu7RmmSg5hvhgG3A==",
+      "password_hash": "euf7jRB3GV7Y/4stpGtKWwwItgYhAwspz5ccXPitsOA=",
+      "synthetic": true,
+      "created_at": "2026-09-22T00:00:00+09:00"
+    },
+    {
+      "user_id": "USR-C04-01",
+      "username": "c04_viewer",
+      "display_name": "가상 누리클라우드 공개정보 열람 사용자",
+      "company_id": "C04",
+      "tenant_id": "astra-c04",
+      "role": "viewer",
+      "allowed_security_levels": [
+        "L1"
+      ],
+      "account_status": "active",
+      "membership_active": true,
+      "password_algorithm": "pbkdf2_sha256",
+      "password_iterations": 310000,
+      "password_salt": "HkVFEJZTwAe3FRq1lExDEA==",
+      "password_hash": "4PsalLeDXucLUBXLqoJW8NRAnrpnchCu/PAsqBvF1/A=",
+      "synthetic": true,
+      "created_at": "2026-09-22T00:00:00+09:00"
+    },
+    {
+      "user_id": "USR-C04-02",
+      "username": "c04_bid_analyst",
+      "display_name": "가상 누리클라우드 입찰요건 분석 사용자",
+      "company_id": "C04",
+      "tenant_id": "astra-c04",
+      "role": "bid_analyst",
+      "allowed_security_levels": [
+        "L1",
+        "L2"
+      ],
+      "account_status": "active",
+      "membership_active": true,
+      "password_algorithm": "pbkdf2_sha256",
+      "password_iterations": 310000,
+      "password_salt": "TpvE9lVuYtgAL5AT+dIRXA==",
+      "password_hash": "i9Gn4+m1PVypfVfbKMdWTRBSq/Z3BXVgsfE7J/cZENw=",
+      "synthetic": true,
+      "created_at": "2026-09-22T00:00:00+09:00"
+    },
+    {
+      "user_id": "USR-C04-03",
+      "username": "c04_cost_analyst",
+      "display_name": "가상 누리클라우드 원가 검토 사용자",
+      "company_id": "C04",
+      "tenant_id": "astra-c04",
+      "role": "cost_analyst",
+      "allowed_security_levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "account_status": "active",
+      "membership_active": true,
+      "password_algorithm": "pbkdf2_sha256",
+      "password_iterations": 310000,
+      "password_salt": "rpUdI/LuBX4Xa6BwNyTTsA==",
+      "password_hash": "7L56MTVPwjPkbOXU2GFfMV/zpg8a6OtbiFXWD34WFNc=",
+      "synthetic": true,
+      "created_at": "2026-09-22T00:00:00+09:00"
+    },
+    {
+      "user_id": "USR-C04-04",
+      "username": "c04_bid_approver",
+      "display_name": "가상 누리클라우드 입찰 승인 사용자",
+      "company_id": "C04",
+      "tenant_id": "astra-c04",
+      "role": "bid_approver",
+      "allowed_security_levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "account_status": "active",
+      "membership_active": true,
+      "password_algorithm": "pbkdf2_sha256",
+      "password_iterations": 310000,
+      "password_salt": "KXjq7WY1+aLvkxQf7qea5Q==",
+      "password_hash": "G3h1CIP9BEcSGHPnkJ2+rCposd7wONexkD0Iu3wEPlQ=",
+      "synthetic": true,
+      "created_at": "2026-09-22T00:00:00+09:00"
+    },
+    {
+      "user_id": "USR-C04-05",
+      "username": "c04_inactive",
+      "display_name": "가상 누리클라우드 비활성 계정 시험 사용자",
+      "company_id": "C04",
+      "tenant_id": "astra-c04",
+      "role": "bid_analyst",
+      "allowed_security_levels": [
+        "L1",
+        "L2"
+      ],
+      "account_status": "inactive",
+      "membership_active": false,
+      "password_algorithm": "pbkdf2_sha256",
+      "password_iterations": 310000,
+      "password_salt": "B5lXjn4uNxY9o3+M4XGvlQ==",
+      "password_hash": "eleXsujpY98kHH0wW6ApPEiJ56qp9j052X1zszV/xuw=",
+      "synthetic": true,
+      "created_at": "2026-09-22T00:00:00+09:00"
+    },
+    {
+      "user_id": "USR-C05-01",
+      "username": "c05_viewer",
+      "display_name": "가상 새온에너지SW 공개정보 열람 사용자",
+      "company_id": "C05",
+      "tenant_id": "astra-c05",
+      "role": "viewer",
+      "allowed_security_levels": [
+        "L1"
+      ],
+      "account_status": "active",
+      "membership_active": true,
+      "password_algorithm": "pbkdf2_sha256",
+      "password_iterations": 310000,
+      "password_salt": "+IWxpxfeOvGYRNSUvarATA==",
+      "password_hash": "yc8aLLj8FANvuP1+IcLpNBtF49htV0SuY7W9DtRmfH4=",
+      "synthetic": true,
+      "created_at": "2026-09-22T00:00:00+09:00"
+    },
+    {
+      "user_id": "USR-C05-02",
+      "username": "c05_bid_analyst",
+      "display_name": "가상 새온에너지SW 입찰요건 분석 사용자",
+      "company_id": "C05",
+      "tenant_id": "astra-c05",
+      "role": "bid_analyst",
+      "allowed_security_levels": [
+        "L1",
+        "L2"
+      ],
+      "account_status": "active",
+      "membership_active": true,
+      "password_algorithm": "pbkdf2_sha256",
+      "password_iterations": 310000,
+      "password_salt": "h+ApaN/1BKRgTneDf/Qeww==",
+      "password_hash": "S4ZjkmkROlGGsuxY4ruwpfwc4YjNVrrcN+2kanVr5d4=",
+      "synthetic": true,
+      "created_at": "2026-09-22T00:00:00+09:00"
+    },
+    {
+      "user_id": "USR-C05-03",
+      "username": "c05_cost_analyst",
+      "display_name": "가상 새온에너지SW 원가 검토 사용자",
+      "company_id": "C05",
+      "tenant_id": "astra-c05",
+      "role": "cost_analyst",
+      "allowed_security_levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "account_status": "active",
+      "membership_active": true,
+      "password_algorithm": "pbkdf2_sha256",
+      "password_iterations": 310000,
+      "password_salt": "Pn0cptQNVOqp+ab46ZEJIQ==",
+      "password_hash": "UaCOw+IQf8fH2xi7R4UH9pAFuRvAq25ODsuc9Ez4dFI=",
+      "synthetic": true,
+      "created_at": "2026-09-22T00:00:00+09:00"
+    },
+    {
+      "user_id": "USR-C05-04",
+      "username": "c05_bid_approver",
+      "display_name": "가상 새온에너지SW 입찰 승인 사용자",
+      "company_id": "C05",
+      "tenant_id": "astra-c05",
+      "role": "bid_approver",
+      "allowed_security_levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "account_status": "active",
+      "membership_active": true,
+      "password_algorithm": "pbkdf2_sha256",
+      "password_iterations": 310000,
+      "password_salt": "REF8ocR/06JtENreTO6e7A==",
+      "password_hash": "CLSurH2QSweiHE9lcgmUgzfDvHTd6RFOwHtoQgYLLug=",
+      "synthetic": true,
+      "created_at": "2026-09-22T00:00:00+09:00"
+    },
+    {
+      "user_id": "USR-C05-05",
+      "username": "c05_inactive",
+      "display_name": "가상 새온에너지SW 비활성 계정 시험 사용자",
+      "company_id": "C05",
+      "tenant_id": "astra-c05",
+      "role": "bid_analyst",
+      "allowed_security_levels": [
+        "L1",
+        "L2"
+      ],
+      "account_status": "inactive",
+      "membership_active": false,
+      "password_algorithm": "pbkdf2_sha256",
+      "password_iterations": 310000,
+      "password_salt": "ax6bZycQ5UhoTNstxiU8TA==",
+      "password_hash": "TqAIAfid3m+8adCL09rxRbQy3ht/lSzIIqr3lw5FRdg=",
+      "synthetic": true,
+      "created_at": "2026-09-22T00:00:00+09:00"
+    }
+  ]
+}

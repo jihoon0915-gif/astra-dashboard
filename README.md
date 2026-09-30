@@ -1,93 +1,98 @@
-# ASTRA Dashboard — V1
+# Blue Jay · ASTRA Dashboard
 
-기업 담당자의 공고 탐색과 연구원의 AI 답변·근거 검토를 위한 PC 시연 대시보드입니다. **현재 제품 버전은 v1.0.0**, 구현 기준 문서는 **제작 프롬프트 1.2**입니다.
+공공 입찰 공고를 탐색하고, 회사·역할별로 허용된 근거를 바탕으로 AI 답변과 환각 의심 구절을 확인하는 로컬 시연 대시보드입니다.
 
-![ASTRA 홈](docs/home-1366.png)
+현재 기본 실행 화면은 **2026-09-23 수정 반영 최종 UI**입니다. `Blue_Jay_최종배포_수정반영_모델포함_20260923.zip`의 소스를 저장소 루트에 반영했습니다. 이전 `ASTRA_BIRDv1/`, `ASTRA_BIRDv2/`와 기존 Git 이력은 보존합니다.
 
-## 실행만 하고 싶다면
+## 시연 영상
 
-[Releases](https://github.com/jihoon0915-gif/astra-dashboard/releases)에서 **ASTRA-dashboard-v1.2-team-Windows-x64.zip**을 받으세요. 기존 배포 파일명을 그대로 보존했으며 이 파일이 제품 **V1**입니다.
+[▶ Blue Jay 최종 시연 영상 v5 · 사운드 포함](docs/demo/BlueJay_demo_v5_사운드.mp4)
 
-Windows 10/11 64비트에서 압축을 모두 풀고 **START_ASTRA.cmd**를 실행하면 됩니다. Python·Node·생성 모델을 별도로 설치할 필요가 없습니다. 실행 창을 열어두세요. 폴더의 먼저읽기.txt에 계정표가 있습니다.
+약 70초, 1920×1080, H.264 영상과 AAC 오디오입니다. GitHub에서 미리보기가 표시되지 않으면 영상 파일의 **Download raw file**을 눌러 내려받으세요.
 
-## 소스를 수정하려면
+## 빠른 실행
 
-Python 3.10 이상을 준비하고 저장소를 복제합니다. 비공개 저장소이므로 저장소 접근 권한이 필요합니다.
+Python 3.11을 권장합니다. 저장 답변 시연은 Python 표준 라이브러리만으로 실행할 수 있습니다.
 
 ```bash
 git clone https://github.com/jihoon0915-gif/astra-dashboard.git
 cd astra-dashboard
-gh release download v1.0.0 --repo jihoon0915-gif/astra-dashboard --pattern ASTRA-demo-data-v1.zip --dir downloads
 python setup_data.py
 python launch.py
 ```
 
-GitHub CLI가 없다면 Release 페이지에서 `ASTRA-demo-data-v1.zip`을 내려받아 다음처럼 지정할 수 있습니다.
+Windows에서는 `START_ASTRA_V3.cmd`, macOS/Linux에서는 `sh start_astra_v3.sh`로도 실행할 수 있습니다. macOS/Linux에서 `python`이 없다면 `python3`을 사용하세요.
+
+기본 주소는 `http://127.0.0.1:8773`이며 포트가 사용 중이면 다음 빈 포트를 선택합니다. 실행 창에 표시된 주소를 사용하고 시연 동안 창을 열어 두세요. 공고·회사 데이터 ZIP과 합성 사용자 DB가 저장소에 포함되어 있어 별도 데이터 다운로드가 필요 없습니다. 처음 실행하면 `private/`에 작업용 데이터가 준비됩니다.
+
+## 로그인과 권한
+
+- 회사: `C01`
+- 사용자명: `c01_bid_approver`
+- 공통 시연 비밀번호: `000000`
+- 전체 합성 계정표: [DEMO_LOGIN_ACCOUNTS.csv](user-db/DEMO_LOGIN_ACCOUNTS.csv)
+
+5개 회사의 25개 합성 계정 중 20개가 활성 상태입니다. 이전 사번 `C01-2001` 대신 사용자명을 선택하세요. 기본 시연 기준일은 `2026-05-11`입니다.
+
+| 역할 | 접근 범위 |
+|---|---|
+| `viewer` | 공개 L1 자료 |
+| `bid_analyst` | 공개 L1 및 자사 L2 자료 |
+| `cost_analyst` | 자사 L2 및 허용된 L3 원가·견적 자료 |
+| `bid_approver` | 자사 L1·L2·L3 자료 |
+
+문서별 허용 역할과 종류 제한도 함께 적용합니다. 서버는 요청마다 계정·소속·역할을 다시 확인하며, 비활성 계정은 로그인할 수 없습니다. 개인 기록과 생성 답변은 사용자별로 분리합니다. 모든 사용자·회사 자료는 로컬 시연용 합성 데이터입니다.
+
+## 실제 모델로 질문하기
+
+예시 질문 버튼은 저장 답변을 재생합니다. 직접 입력한 질문은 **Qwen3 8B / 4B / 1.7B Q4_K_M** 중 선택한 모델로 생성하고 **BGE-M3 토큰 분류 모델**로 검사합니다.
+
+AI 모델 가중치 약 11GB는 일반 Git 파일 크기 제한 때문에 소스 커밋에서 제외합니다. 원본 모델 포함 ZIP을 가진 경우 다음과 같이 준비하세요.
+
+1. `Blue_Jay_최종배포_수정반영_모델포함_20260923.zip`의 `ASTRA-Weevolve/runtime/` 폴더를 이 저장소의 `runtime/`에 복사합니다.
+2. Python 3.11과 Ollama를 설치합니다. Python·Ollama 실행 파일은 원본 ZIP에도 포함되지 않습니다.
+3. 해당 Python으로 의존성을 설치하고 실행합니다.
 
 ```bash
-python setup_data.py "다운로드한 ZIP의 경로"
+python -m pip install -r requirements-live.txt
+python launch.py
 ```
 
-Mac/Linux에서는 명령의 `python`을 설치 환경에 따라 `python3`으로 바꾸세요. 별도 pip 패키지는 필요 없습니다. 데이터 해시가 일치해야 설치되며 이미 다른 데이터가 있으면 덮어쓰지 않습니다.
+실행기는 `127.0.0.1:11435`의 별도 Ollama 서비스를 사용합니다. Qwen 생성 후 모델을 메모리에서 내리고 BGE 검사를 순차 실행합니다. 모델이 없는 소스 체크아웃에서는 저장 답변 시연을 사용할 수 있습니다.
 
-데이터는 최초 준비 때만 받으면 됩니다. 이후 UI 수정은 `git pull`로 공유하고, 데이터 버전 변경 시 `data-version.json`에 지정된 새 파일을 받습니다. GitHub가 자동 생성하는 **Source code.zip**에는 데이터와 Windows 런타임이 없으므로 즉시 실행용 ZIP과 구분하세요.
+설치 조건, 모델 해시, 처리 범위는 [MODEL_SETUP.md](MODEL_SETUP.md)를 참고하세요. 원본 ZIP 구성과 파일별 SHA-256은 [PACKAGE_MANIFEST.json](PACKAGE_MANIFEST.json), 이번 반영 내역은 [final-import.json](evidence/final-import.json)에 있습니다. `PACKAGE_MANIFEST.json`은 **원본 배포 ZIP 기준**이며, 저장소용으로 수정한 README·Git 설정 파일의 현재 해시를 나타내지는 않습니다.
 
-## 로그인
+## 주요 구성
 
-모든 시연 비밀번호는 **000000**입니다.
-
-| 회사 코드 | 회사 | L2 사번 | L2·L3 사번 |
-|---|---|---|---|
-| C01 | 가상 한빛IT | C01-1001 | C01-2001 |
-| C02 | 가상 해온시스템 | C02-1001 | C02-2001 |
-| C03 | 가상 인우블록 | C03-1001 | C03-2001 |
-| C04 | 가상 누리클라우드 | C04-1001 | C04-2001 |
-| C05 | 가상 새온에너지SW | C05-1001 | C05-2001 |
-
-별도 연구원 화면은 설정에서 진입합니다. 최초 실행 시 생성되는 `private/researcher.key`를 사용합니다. 이 키는 Git에 올리지 않습니다. 로컬 파일을 소유한 개발자에게 파일 자체를 숨기는 보안 모델은 아니며, 서버 API의 계정별 권한을 시연합니다.
-
-## 협업과 버전
-
-1. `main`은 검토한 기준 코드입니다.
-2. 작업 시작 전 최신 `main`을 받고 `ui/login` 같은 작업 브랜치를 만듭니다.
-3. 수정·검증 후 커밋하고 Pull Request로 변경 내용을 공유합니다.
-4. 검토 후 `main`에 합치고 팀원이 최신 변경을 받습니다.
-5. 확정 시점에는 새 태그와 Release를 만듭니다. V1의 `v1.0.0` 태그와 실행 ZIP을 덮어쓰지 않습니다.
-
-```bash
-git switch main
-git pull --ff-only
-git switch -c ui/login
-# 수정 및 검증
-git add public/app.css public/app.js
-git commit -m "Improve login layout"
-git push -u origin ui/login
-```
-
-다음 큰 검토본은 `v2.0.0`, 작은 V1 수정은 `v1.0.1`처럼 관리할 수 있습니다. 실제 배포본에는 그 버전의 소스·데이터·런타임을 함께 묶어 옛 버전도 재현 가능하게 보관합니다. GitHub Desktop을 사용해도 같은 방식으로 작업할 수 있습니다.
-
-## 구조
-
-- `public/`: HTML·CSS·JS·캐릭터·지도. UI 수정의 중심입니다.
-- `server.py`: 실제 로그인, 회사·등급별 접근 제어, 자료 및 재생 API.
-- `launch.py`: 로컬 서버·브라우저 시작. 기본 포트 8770, 사용 중이면 다음 포트 선택.
-- `setup_data.py`, `data-version.json`: Release 데이터 준비·SHA-256 확인.
-- `legacy-source/`: 이전 코드 보존. `project-docs/`의 검수 자료는 데이터 패키지로 제공됩니다.
-- `private/`: 다운로드한 데이터와 PC별 키. Git 추적에서 제외됩니다.
-- `docs/`: 화면 캡처와 기존 구현 검증 보고서. 보고서의 로컬 경로는 제작 당시 기록입니다.
+- `public/`: 최종 Blue Jay 화면, 스타일, 글꼴, 이미지, 전환 영상.
+- `server.py`, `user_auth.py`: API, 로그인, 회사·역할·문서 접근 제어.
+- `discovery.py`, `live_models.py`: 공고 탐색, 권한 내 근거 검색, 모델별 답변 생성.
+- `runtime/bge-detector/`: 탐지기 런타임과 설정. 대용량 모델 가중치는 별도 준비.
+- `downloads/ASTRA-demo-data-v1.zip`: 해시로 검증하는 합성 공고·회사 데이터.
+- `user-db/`: 시연용 사용자 DB와 계정표.
+- `docs/demo/`: 최종 시연 영상.
+- `private/`: 실행 시 생성되는 데이터·개인 기록·키. Git 추적 제외.
+- `docs/`, `evidence/`: 구현 문서와 검증 기록. 과거 기록의 로컬 경로·버전·성능 수치는 당시 환경 기준.
 
 ## 검증
 
-데이터 준비 후:
+데이터 준비 후 다음 검증을 실행합니다. JavaScript 검증에는 Node.js가 필요합니다.
 
 ```bash
-python -m unittest test_server -v
+python -m unittest test_user_db test_live_models -v
+node test_bluebird.mjs
+node test_dates.mjs
+node test_live_spans.mjs
+node test_ui.mjs
+node test_typewriter.mjs
 ```
 
-회사 10개 계정 조합, 문서별 회사·L2/L3 차단, 게스트·로그아웃, 원본 답변과 근거 대응, 소스 보존을 검사합니다. 브라우저 시연 검증 기록은 `evidence/`에 있습니다. 기존 파일 82개 중 재사용할 필요가 없는 Python 캐시 7개를 제외한 75개 원본 파일의 해시를 보관합니다.
+계정 25개의 접근 범위, 권한 변경·비활성화, 개인 기록 분리, 근거 검색, 세 모델의 생성 요청 연결, 날짜 처리, 답변 렌더링과 한글·이모지 강조 위치를 확인합니다. 생성 연결 테스트는 모델 호출을 대체하므로 실제 모델 추론 검증과 구분하세요.
 
-## 현재 범위와 출처
+`test_server.py`, `test_v2.py`, `test_discovery.py`는 이전 사번 인증을 사용하는 과거 테스트입니다. 현재 로그인 계약은 `test_user_db.py`로 검증합니다.
 
-생성 모델 없이 저장 답변을 재생합니다. 새 자유 질문 생성과 첨부파일 파싱·분석은 미연결입니다. 공개 공고 51건, 회사 문서 41개, 회사별 근거에 대응되는 L2/L3 저장 사례를 사용합니다. 선별 100건의 85%는 사후 구성 비율이며 모델 전체 정확도가 아닙니다.
+## 범위와 기록
 
-지도는 [southkorea-maps](https://github.com/southkorea/southkorea-maps)의 KOSTAT 2013 경계이며 현재 행정 경계를 보증하지 않습니다. 실행 ZIP에 포함된 Python 3.13.15의 라이선스와 출처는 해당 ZIP의 `THIRD_PARTY.md`, `runtime/LICENSE.txt`에 있습니다.
+공개 공고 51건, 회사 문서 41개, 저장 사례 111건을 유지합니다. 새 질문에는 공고와 자사 근거를 나누어 검색하고, 같은 근거를 생성과 탐지에 전달합니다. 검색은 키워드 기반이며 벡터 검색은 연결하지 않았습니다. 탐지 표시가 없다는 사실은 정답 보증이 아니고, 검사 오류는 미검증으로 표시합니다.
+
+지도·공고 DB 관계도·근거 경로·연구원 전용 화면의 전체 디자인 이식은 원본 최종 배포본에서도 남아 있는 범위입니다. 추가 설명은 [원본 배포 README](docs/final-package-originals/README.md), [변경 기록](CHANGELOG.md), [출처와 라이선스](docs/출처와-라이선스.md)를 참고하세요.

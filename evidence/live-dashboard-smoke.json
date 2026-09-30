@@ -1,0 +1,37 @@
+{
+  "question": "이 공고의 예산과 제출 마감을 근거 번호와 함께 두 문장으로 알려주세요.",
+  "answer": "[1] 예산은 70,000,000원입니다.  \n[1] 제출 마감은 2026년 6월 24일 10시 00분입니다.",
+  "generation": {
+    "model": "astra-qwen3:8b",
+    "seconds": 210.04,
+    "done_reason": "stop",
+    "total_seconds": 254.14
+  },
+  "detection": {
+    "status": "completed",
+    "spans": [],
+    "checked_ranges": [
+      [
+        0,
+        61
+      ]
+    ],
+    "unchecked_ranges": [],
+    "window_count": 9,
+    "threshold": 0.5,
+    "aggregation": "min",
+    "threshold_status": "configured_not_calibrated_on_procurement",
+    "offset_unit": "unicode_codepoint_end_exclusive",
+    "model": {
+      "name": "ASTRA BGE-M3 hallucination token classifier",
+      "architecture": "XLMRobertaForTokenClassification",
+      "weights_sha256": "8ac451a22ffbcbc25d121d9f4f3a4caac18f780692cb966fd2860c7d68314217",
+      "labels": {
+        "0": "SUPPORTED",
+        "1": "HALLUCINATED"
+      }
+    },
+    "elapsed_seconds": 23.22
+  },
+  "answer_sha256": "22d497b6d577e2d7ee26a01add42a39286aae0345a62698f9808b3cd92a0e86e"
+}

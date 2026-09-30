@@ -1,0 +1,21 @@
+{
+  "source": "ASTRA_사용자DB_UI팀_v1.zip",
+  "original_files_sha256": {
+    "DEMO_LOGIN_ACCOUNTS.csv": "644873b71156bbd1ecb33db03c96eee94f9d8fdbd5b74ab9a898596a588f073b",
+    "README_FIRST.txt": "4837be3d6306baa87fc473e7a14826ecaf85a71b807b479301e7f9224574797a",
+    "users.demo.json": "bbb49d3c98c60de5927e6d5234b0a1050d49e7d94b964adb51bc91db3394a69c",
+    "users.demo.sqlite3": "de996945909e032031fd6aac6d2cc684f70f0d24d0d2f8867a2aa1548aa98064"
+  },
+  "auth_tests": 7,
+  "accounts_checked": 25,
+  "active_accounts": 20,
+  "inactive_accounts": 5,
+  "document_http_checks": 820,
+  "ui_checked": [
+    "c01_bid_approver login",
+    "display_name in mypage",
+    "5 permitted company documents",
+    "default date 2026-05-11"
+  ],
+  "old_personal_records": "preserved, not automatically reassigned"
+}

@@ -1,0 +1,39 @@
+C:\Users\pjihu\AppData\Local\Programs\Python\Python311\python.exe -m unittest test_server.AccessTests test_v2.V2Tests test_discovery.DiscoveryTests -v
+test_all_accounts_tenant_and_level_enforcement (test_server.AccessTests.test_all_accounts_tenant_and_level_enforcement) ... ok
+test_bad_login_and_origin (test_server.AccessTests.test_bad_login_and_origin) ... ok
+test_canonical_integrity_and_l2_l3_notice_mapping (test_server.AccessTests.test_canonical_integrity_and_l2_l3_notice_mapping) ... ok
+test_guest_and_static_boundary (test_server.AccessTests.test_guest_and_static_boundary) ... ok
+test_original_files_preserved (test_server.AccessTests.test_original_files_preserved) ... ok
+test_all_accounts_tenant_and_level_enforcement (test_v2.V2Tests.test_all_accounts_tenant_and_level_enforcement) ... ok
+test_bad_login_and_origin (test_v2.V2Tests.test_bad_login_and_origin) ... ok
+test_canonical_integrity_and_l2_l3_notice_mapping (test_v2.V2Tests.test_canonical_integrity_and_l2_l3_notice_mapping) ... ok
+test_guest_and_static_boundary (test_v2.V2Tests.test_guest_and_static_boundary) ... ok
+test_l1_and_compare_boundaries (test_v2.V2Tests.test_l1_and_compare_boundaries) ... ok
+test_original_files_preserved (test_v2.V2Tests.test_original_files_preserved) ... ok
+test_personal_scope_and_revalidation (test_v2.V2Tests.test_personal_scope_and_revalidation) ... ok
+test_all_accounts_tenant_and_level_enforcement (test_discovery.DiscoveryTests.test_all_accounts_tenant_and_level_enforcement) ... ok
+test_bad_login_and_origin (test_discovery.DiscoveryTests.test_bad_login_and_origin) ... ok
+test_budget_validation_and_boundaries (test_discovery.DiscoveryTests.test_budget_validation_and_boundaries) ... ok
+test_canonical_integrity_and_l2_l3_notice_mapping (test_discovery.DiscoveryTests.test_canonical_integrity_and_l2_l3_notice_mapping) ... ok
+test_guest_and_static_boundary (test_discovery.DiscoveryTests.test_guest_and_static_boundary) ... ok
+test_original_files_preserved (test_discovery.DiscoveryTests.test_original_files_preserved) ... ok
+test_public_scope_and_forged_identity (test_discovery.DiscoveryTests.test_public_scope_and_forged_identity) ... ok
+test_research_requires_session_and_key (test_discovery.DiscoveryTests.test_research_requires_session_and_key) ... ok
+test_tenant_and_l1 (test_discovery.DiscoveryTests.test_tenant_and_l1) ... ok
+test_zero_and_date (test_discovery.DiscoveryTests.test_zero_and_date) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 23.230s
+
+OK
+
+
+node test_dates.mjs
+6 deadline boundary checks passed
+
+
+node test_ui.mjs
+8 rendering, escaping, Unicode and date assertions passed
+
+
+node --check public/app.js

@@ -1,0 +1,68 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "bytes": 1006,
+    "content_type": "text/html"
+  },
+  {
+    "path": "/app.js",
+    "status": 200,
+    "bytes": 67291,
+    "content_type": "application/javascript"
+  },
+  {
+    "path": "/app.css",
+    "status": 200,
+    "bytes": 14954,
+    "content_type": "text/css"
+  },
+  {
+    "path": "/v2-core.mjs",
+    "status": 200,
+    "bytes": 7301,
+    "content_type": "application/javascript"
+  },
+  {
+    "path": "/rag-render.mjs",
+    "status": 200,
+    "bytes": 1925,
+    "content_type": "application/javascript"
+  },
+  {
+    "path": "/korea.geojson",
+    "status": 200,
+    "bytes": 146826,
+    "content_type": "application/json"
+  },
+  {
+    "path": "/fonts/GeistMono.woff2",
+    "status": 200,
+    "bytes": 52092,
+    "content_type": "application/json"
+  },
+  {
+    "path": "/fonts/Pretendard.woff2",
+    "status": 200,
+    "bytes": 2057688,
+    "content_type": "application/json"
+  },
+  {
+    "path": "/api/bootstrap",
+    "status": 200,
+    "bytes": 401507,
+    "content_type": "application/json; charset=utf-8"
+  },
+  {
+    "path": "/api/discover",
+    "status": 200,
+    "bytes": 403579,
+    "content_type": "application/json; charset=utf-8"
+  },
+  {
+    "path": "/api/status",
+    "status": 200,
+    "bytes": 500,
+    "content_type": "application/json; charset=utf-8"
+  }
+]

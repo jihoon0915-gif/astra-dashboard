@@ -1,0 +1,15 @@
+{
+  "brand": "Blue Jay",
+  "answer_badge": "저장 원문 일치",
+  "human_review_badge_removed": true,
+  "login_password_hint_removed": true,
+  "typing": "shared by saved and live answer rendering; after generation/detection",
+  "checks": [
+    "browser: saved answer partial typing and completion",
+    "browser: highlight and source nodes preserved",
+    "browser: home logo and canvas wordmark",
+    "browser: login brand and password-fill-only helper",
+    "node: grapheme progression and cancellation",
+    "node: highlight offsets"
+  ]
+}

@@ -1,12 +1,17 @@
-import argparse,threading,webbrowser,sys
+import argparse,threading,webbrowser,sys,subprocess
+from pathlib import Path
 from server import Store,Handler,ThreadingHTTPServer
 def run():
- p=argparse.ArgumentParser();p.add_argument('--port',type=int,default=8770);p.add_argument('--no-browser',action='store_true');args=p.parse_args()
+ p=argparse.ArgumentParser();p.add_argument('--port',type=int,default=8773);p.add_argument('--no-browser',action='store_true');args=p.parse_args()
  server=None
  for port in range(args.port,args.port+20):
   try:server=ThreadingHTTPServer(('127.0.0.1',port),Handler);break
   except OSError:continue
  if server is None:raise RuntimeError('No available local port. Close a previous ASTRA window and retry.')
+ root=Path(__file__).resolve().parent
+ if not (root/'private/corpus.sqlite').exists():subprocess.run([sys.executable,str(root/'setup_data.py')],check=True)
+ from model_services import ensure_ollama
+ ensure_ollama()
  server.store=Store()
  url='http://127.0.0.1:'+str(server.server_port)
  print('ASTRA dashboard: '+url,flush=True)

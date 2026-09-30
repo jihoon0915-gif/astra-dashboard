@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-30",
+  "python_tests": {
+    "command": "python -m unittest test_user_db test_live_models -v",
+    "passed": 16
+  },
+  "javascript_test_files": [
+    "test_bluebird.mjs",
+    "test_dates.mjs",
+    "test_live_spans.mjs",
+    "test_ui.mjs",
+    "test_typewriter.mjs"
+  ],
+  "static_http_files_checked": 54,
+  "static_http_status": "passed",
+  "demo_video": {
+    "duration_seconds": 69.934,
+    "width": 1920,
+    "height": 1080,
+    "video_codec": "h264",
+    "audio_codec": "aac"
+  },
+  "live_inference": "Not rerun; model weights remain in the original distribution ZIP. Model integration unit tests use mocks."
+}
